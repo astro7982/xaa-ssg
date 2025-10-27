@@ -1,0 +1,23 @@
+{
+  "name": "ncaa-xaa-demo",
+  "version": "1.0.0",
+  "description": "NCAA Football Stats AI Chat Bot with Cross-App Access (XAA) Demo",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:agent\"",
+    "dev:server": "npm run dev --workspace=ncaa-mcp-server",
+    "dev:agent": "npm run dev --workspace=ncaa-agent",
+    "build": "npm run build --workspaces",
+    "setup": "npm install && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

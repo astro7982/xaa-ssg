@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --field-green: #2d5016;
+  --scoreboard: #1a1a1a;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+  min-height: 100vh;
+}
+
+/* NCAA Football field lines pattern */
+.field-pattern {
+  background-image:
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 60px,
+      rgba(255, 255, 255, 0.05) 60px,
+      rgba(255, 255, 255, 0.05) 62px
+    );
+}
+
+/* Scoreboard glow effect */
+.scoreboard-glow {
+  box-shadow:
+    0 0 20px rgba(255, 107, 53, 0.3),
+    0 0 40px rgba(255, 107, 53, 0.1);
+}
+
+/* Token flow animation */
+@keyframes token-pulse {
+  0%, 100% { opacity: 0.6; }
+  50% { opacity: 1; }
+}
+
+.token-pulse {
+  animation: token-pulse 2s ease-in-out infinite;
+}
+
+/* XAA Flow line animation */
+@keyframes flow-line {
+  0% { stroke-dashoffset: 1000; }
+  100% { stroke-dashoffset: 0; }
+}
+
+.flow-line {
+  stroke-dasharray: 10 5;
+  animation: flow-line 2s linear infinite;
+}

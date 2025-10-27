@@ -1,0 +1,14 @@
+# Ignore local environment files
+.env.local
+.env
+.env.development
+.env.production
+
+# Keep the example file
+!.env.local.example
+
+# Ignore build and system files
+node_modules/
+.next/
+dist/
+.DS_Store

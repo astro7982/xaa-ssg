@@ -1,0 +1,6105 @@
+{
+  "Air Force": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Bucknell",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 49-13"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "at Utah St",
+      "Opp Rank": "87",
+      "H/A/N": "Away",
+      "Score": "L 30-49"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "Boise St",
+      "Opp Rank": "48",
+      "H/A/N": "Home",
+      "Score": "L 37-49"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "Hawai'i",
+      "Opp Rank": "98",
+      "H/A/N": "Home",
+      "Score": "L 35-44"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "at Navy",
+      "Opp Rank": "71",
+      "H/A/N": "Away",
+      "Score": "L 31-34"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "at UNLV",
+      "Opp Rank": "77",
+      "H/A/N": "Away",
+      "Score": "L 48-51"
+    }
+  ],
+  "Akron": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Wyoming",
+      "Opp Rank": "105",
+      "H/A/N": "Home",
+      "Score": "L 0-10"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "at Nebraska",
+      "Opp Rank": "19",
+      "H/A/N": "Away",
+      "Score": "L 0-68"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "at UAB",
+      "Opp Rank": "127",
+      "H/A/N": "Away",
+      "Score": "L 28-31"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "Duquesne",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 51-7"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "at Toledo",
+      "Opp Rank": "60",
+      "H/A/N": "Away",
+      "Score": "L 3-45"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "C Michigan",
+      "Opp Rank": "117",
+      "H/A/N": "Home",
+      "Score": "W 28-22"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "Miami OH",
+      "Opp Rank": "93",
+      "H/A/N": "Home",
+      "Score": "L 7-20"
+    }
+  ],
+  "Alabama": [
+    {
+      "Week": "Week 1",
+      "Opponent": "at Florida St",
+      "Opp Rank": 16,
+      "H/A/N": "Away",
+      "Score": "L 17-31"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "UL Monroe",
+      "Opp Rank": 125,
+      "H/A/N": "Home",
+      "Score": "W 73-0"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "Wisconsin",
+      "Opp Rank": 67,
+      "H/A/N": "Home",
+      "Score": "W 38-14"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "at Georgia",
+      "Opp Rank": 8,
+      "H/A/N": "Away",
+      "Score": "W 24-21"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "Vanderbilt",
+      "Opp Rank": 21,
+      "H/A/N": "Home",
+      "Score": "W 30-14"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "at Missouri",
+      "Opp Rank": 20,
+      "H/A/N": "Away",
+      "Score": "W 27-24"
+    }
+  ],
+  "App State": [
+    {
+      "Week": "Week 1",
+      "Opponent": "vs Charlotte",
+      "Opp Rank": "134",
+      "H/A/N": "Neutral",
+      "Score": "W 34-11"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "Lindenwood",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 20-13"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "at Southern Miss",
+      "Opp Rank": "99",
+      "H/A/N": "Away",
+      "Score": "L 22-38"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "at Boise St",
+      "Opp Rank": "48",
+      "H/A/N": "Away",
+      "Score": "L 14-47"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "Oregon St",
+      "Opp Rank": "104",
+      "H/A/N": "Home",
+      "Score": "W 27-23"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "at Georgia St",
+      "Opp Rank": "129",
+      "H/A/N": "Away",
+      "Score": "W 41-20"
+    }
+  ],
+  "Arizona": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Hawai'i",
+      "Opp Rank": "98",
+      "H/A/N": "Home",
+      "Score": "W 40-6"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "Weber State",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 48-3"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "Kansas St",
+      "Opp Rank": "47",
+      "H/A/N": "Home",
+      "Score": "W 23-17"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "at Iowa St",
+      "Opp Rank": "34",
+      "H/A/N": "Away",
+      "Score": "L 14-39"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "Oklahoma St",
+      "Opp Rank": "116",
+      "H/A/N": "Home",
+      "Score": "W 41-13"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "BYU",
+      "Opp Rank": "28",
+      "H/A/N": "Home",
+      "Score": "L 27-33"
+    }
+  ],
+  "Arizona St": [
+    {
+      "Week": "Week 1",
+      "Opponent": "N Arizona",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 38-19"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "at Mississippi St",
+      "Opp Rank": "42",
+      "H/A/N": "Away",
+      "Score": "L 20-24"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "Texas St",
+      "Opp Rank": "80",
+      "H/A/N": "Home",
+      "Score": "W 34-15"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "at Baylor",
+      "Opp Rank": "45",
+      "H/A/N": "Away",
+      "Score": "W 27-24"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "TCU",
+      "Opp Rank": "40",
+      "H/A/N": "Home",
+      "Score": "W 27-24"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "at Utah",
+      "Opp Rank": "11",
+      "H/A/N": "Away",
+      "Score": "L 10-42"
+    }
+  ],
+  "Arkansas": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Alabama A&M",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 52-7"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "Arkansas St",
+      "Opp Rank": "113",
+      "H/A/N": "Home",
+      "Score": "W 56-14"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "at Mississippi",
+      "Opp Rank": "15",
+      "H/A/N": "Away",
+      "Score": "L 35-41"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "at Memphis",
+      "Opp Rank": "46",
+      "H/A/N": "Away",
+      "Score": "L 31-32"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "Notre Dame",
+      "Opp Rank": "3",
+      "H/A/N": "Home",
+      "Score": "L 13-56"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "at Tennessee",
+      "Opp Rank": "18",
+      "H/A/N": "Away",
+      "Score": "L 31-34"
+    }
+  ],
+  "Arkansas St": [
+    {
+      "Week": "Week 1",
+      "Opponent": "SE Missouri",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 42-24"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "at Arkansas",
+      "Opp Rank": "38",
+      "H/A/N": "Away",
+      "Score": "L 14-56"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "Iowa St",
+      "Opp Rank": "34",
+      "H/A/N": "Home",
+      "Score": "L 16-24"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "at Kennesaw St",
+      "Opp Rank": "106",
+      "H/A/N": "Away",
+      "Score": "L 21-28"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "at UL Monroe",
+      "Opp Rank": "125",
+      "H/A/N": "Away",
+      "Score": "L 16-28"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "Texas St",
+      "Opp Rank": "80",
+      "H/A/N": "Home",
+      "Score": "W 31-30"
+    },
+    {
+      "Week": "Week 8",
+      "Opponent": "at S Alabama",
+      "Opp Rank": "108",
+      "H/A/N": "Away",
+      "Score": "W 15-14"
+    }
+  ],
+  "Army": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Tarleton State",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "L 27-30"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "at Kansas St",
+      "Opp Rank": "47",
+      "H/A/N": "Away",
+      "Score": "W 24-21"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "N Texas",
+      "Opp Rank": "64",
+      "H/A/N": "Home",
+      "Score": "L 38-45"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "at E Carolina",
+      "Opp Rank": "61",
+      "H/A/N": "Away",
+      "Score": "L 6-28"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "at UAB",
+      "Opp Rank": "127",
+      "H/A/N": "Away",
+      "Score": "W 31-13"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "Charlotte",
+      "Opp Rank": "134",
+      "H/A/N": "Home",
+      "Score": "W 24-7"
+    }
+  ],
+  "Auburn": [
+    {
+      "Week": "Week 1",
+      "Opponent": "at Baylor",
+      "Opp Rank": 45,
+      "H/A/N": "Away",
+      "Score": "W 38-24"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "Ball St",
+      "Opp Rank": 131,
+      "H/A/N": "Home",
+      "Score": "W 42-3"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "S Alabama",
+      "Opp Rank": 108,
+      "H/A/N": "Home",
+      "Score": "W 31-15"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "at Oklahoma",
+      "Opp Rank": 14,
+      "H/A/N": "Away",
+      "Score": "L 17-24"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "at Texas A&M",
+      "Opp Rank": 10,
+      "H/A/N": "Away",
+      "Score": "L 10-16"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "Georgia",
+      "Opp Rank": 8,
+      "H/A/N": "Home",
+      "Score": "L 10-20"
+    }
+  ],
+  "BYU": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Portland St",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 69-0"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "Stanford",
+      "Opp Rank": "97",
+      "H/A/N": "Home",
+      "Score": "W 27-3"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "at E Carolina",
+      "Opp Rank": "61",
+      "H/A/N": "Away",
+      "Score": "W 34-13"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "at Colorado",
+      "Opp Rank": "57",
+      "H/A/N": "Away",
+      "Score": "W 24-21"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "West Virginia",
+      "Opp Rank": "73",
+      "H/A/N": "Home",
+      "Score": "W 38-24"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "at Arizona",
+      "Opp Rank": "50",
+      "H/A/N": "Away",
+      "Score": "W 33-27"
+    }
+  ],
+  "Ball St": [
+    {
+      "Week": "Week 1",
+      "Opponent": "at Purdue",
+      "Opp Rank": "76",
+      "H/A/N": "Away",
+      "Score": "L 0-31"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "at Auburn",
+      "Opp Rank": "26",
+      "H/A/N": "Away",
+      "Score": "L 3-42"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "N Hampshire",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 34-29"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "at UConn",
+      "Opp Rank": "74",
+      "H/A/N": "Away",
+      "Score": "L 25-31"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "Ohio",
+      "Opp Rank": "79",
+      "H/A/N": "Home",
+      "Score": "W 20-14"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "at W Michigan",
+      "Opp Rank": "91",
+      "H/A/N": "Away",
+      "Score": "L 0-42"
+    }
+  ],
+  "Baylor": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Auburn",
+      "Opp Rank": "26",
+      "H/A/N": "Home",
+      "Score": "L 24-38"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "at SMU",
+      "Opp Rank": "43",
+      "H/A/N": "Away",
+      "Score": "W 48-45"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "Samford",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 42-7"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "Arizona St",
+      "Opp Rank": "44",
+      "H/A/N": "Home",
+      "Score": "L 24-27"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "at Oklahoma St",
+      "Opp Rank": "116",
+      "H/A/N": "Away",
+      "Score": "W 45-27"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "Kansas St",
+      "Opp Rank": "47",
+      "H/A/N": "Home",
+      "Score": "W 35-34"
+    }
+  ],
+  "Boise St": [
+    {
+      "Week": "Week 1",
+      "Opponent": "at S Florida",
+      "Opp Rank": "39",
+      "H/A/N": "Away",
+      "Score": "L 7-34"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "E Washingtn",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 51-14"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "at Air Force",
+      "Opp Rank": "95",
+      "H/A/N": "Away",
+      "Score": "W 49-37"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "App State",
+      "Opp Rank": "111",
+      "H/A/N": "Home",
+      "Score": "W 47-14"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "at Notre Dame",
+      "Opp Rank": "3",
+      "H/A/N": "Away",
+      "Score": "L 7-28"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "New Mexico",
+      "Opp Rank": "88",
+      "H/A/N": "Home",
+      "Score": "W 41-25"
+    }
+  ],
+  "Boston College": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Fordham",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 66-10"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "at Michigan St",
+      "Opp Rank": "68",
+      "H/A/N": "Away",
+      "Score": "L 40-42"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "at Stanford",
+      "Opp Rank": "97",
+      "H/A/N": "Away",
+      "Score": "L 20-30"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "California",
+      "Opp Rank": "78",
+      "H/A/N": "Home",
+      "Score": "L 24-28"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "at Pittsburgh",
+      "Opp Rank": "33",
+      "H/A/N": "Away",
+      "Score": "L 7-48"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "Clemson",
+      "Opp Rank": "29",
+      "H/A/N": "Home",
+      "Score": "L 10-41"
+    }
+  ],
+  "Bowling Green": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Lafayette",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 26-7"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "at Cincinnati",
+      "Opp Rank": "30",
+      "H/A/N": "Away",
+      "Score": "L 20-34"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "Liberty",
+      "Opp Rank": "101",
+      "H/A/N": "Home",
+      "Score": "W 23-13"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "at Louisville",
+      "Opp Rank": "31",
+      "H/A/N": "Away",
+      "Score": "L 17-40"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "at Ohio",
+      "Opp Rank": "79",
+      "H/A/N": "Away",
+      "Score": "L 20-35"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "Toledo",
+      "Opp Rank": "60",
+      "H/A/N": "Home",
+      "Score": "W 28-23"
+    }
+  ],
+  "Buffalo": [
+    {
+      "Week": "Week 1",
+      "Opponent": "at Minnesota",
+      "Opp Rank": "52",
+      "H/A/N": "Away",
+      "Score": "L 10-23"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "St. Francis",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 45-6"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "at Kent St",
+      "Opp Rank": "133",
+      "H/A/N": "Away",
+      "Score": "W 31-28"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "Troy",
+      "Opp Rank": "85",
+      "H/A/N": "Home",
+      "Score": "L 17-21"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "UConn",
+      "Opp Rank": "74",
+      "H/A/N": "Home",
+      "Score": "L 17-20"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "E Michigan",
+      "Opp Rank": "126",
+      "H/A/N": "Home",
+      "Score": "W 31-30"
+    }
+  ],
+  "C Michigan": [
+    {
+      "Week": "Week 1",
+      "Opponent": "at San Jose St",
+      "Opp Rank": "102",
+      "H/A/N": "Away",
+      "Score": "W 16-14"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "at Pittsburgh",
+      "Opp Rank": "33",
+      "H/A/N": "Away",
+      "Score": "L 17-45"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "at Michigan",
+      "Opp Rank": "17",
+      "H/A/N": "Away",
+      "Score": "L 3-63"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "Wagner",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 49-10"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "E Michigan",
+      "Opp Rank": "126",
+      "H/A/N": "Home",
+      "Score": "W 24-13"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "at Akron",
+      "Opp Rank": "132",
+      "H/A/N": "Away",
+      "Score": "L 22-28"
+    }
+  ],
+  "California": [
+    {
+      "Week": "Week 1",
+      "Opponent": "at Oregon St",
+      "Opp Rank": "104",
+      "H/A/N": "Away",
+      "Score": "W 34-15"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "Texas Southern",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 35-3"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "Minnesota",
+      "Opp Rank": "52",
+      "H/A/N": "Home",
+      "Score": "W 27-14"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "at San Diego St",
+      "Opp Rank": "72",
+      "H/A/N": "Away",
+      "Score": "L 0-34"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "at Boston College",
+      "Opp Rank": "81",
+      "H/A/N": "Away",
+      "Score": "W 28-24"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "Duke",
+      "Opp Rank": "41",
+      "H/A/N": "Home",
+      "Score": "L 21-45"
+    }
+  ],
+  "Charlotte": [
+    {
+      "Week": "Week 1",
+      "Opponent": "vs App State",
+      "Opp Rank": "111",
+      "H/A/N": "Neutral",
+      "Score": "L 11-34"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "North Carolina",
+      "Opp Rank": "92",
+      "H/A/N": "Home",
+      "Score": "L 3-20"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "Monmouth",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 42-35"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "Rice",
+      "Opp Rank": "124",
+      "H/A/N": "Home",
+      "Score": "L 17-28"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "at S Florida",
+      "Opp Rank": "39",
+      "H/A/N": "Away",
+      "Score": "L 26-54"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "at Army",
+      "Opp Rank": "82",
+      "H/A/N": "Away",
+      "Score": "L 7-24"
+    }
+  ],
+  "Cincinnati": [
+    {
+      "Week": "Week 1",
+      "Opponent": "vs Nebraska",
+      "Opp Rank": "19",
+      "H/A/N": "Neutral",
+      "Score": "L 17-20"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "Bowling Green",
+      "Opp Rank": "96",
+      "H/A/N": "Home",
+      "Score": "W 34-20"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "NW State",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 70-0"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "at Kansas",
+      "Opp Rank": "37",
+      "H/A/N": "Away",
+      "Score": "W 37-34"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "Iowa St",
+      "Opp Rank": "34",
+      "H/A/N": "Home",
+      "Score": "W 38-30"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "UCF",
+      "Opp Rank": "55",
+      "H/A/N": "Home",
+      "Score": "W 20-11"
+    }
+  ],
+  "Clemson": [
+    {
+      "Week": "Week 1",
+      "Opponent": "LSU",
+      "Opp Rank": 13,
+      "H/A/N": "Home",
+      "Score": "L 10-17"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "Troy",
+      "Opp Rank": 85,
+      "H/A/N": "Home",
+      "Score": "W 27-16"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "at Georgia Tech",
+      "Opp Rank": 32,
+      "H/A/N": "Away",
+      "Score": "L 21-24"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "Syracuse",
+      "Opp Rank": 63,
+      "H/A/N": "Home",
+      "Score": "L 21-34"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "at North Carolina",
+      "Opp Rank": 92,
+      "H/A/N": "Away",
+      "Score": "W 38-10"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "at Boston College",
+      "Opp Rank": 81,
+      "H/A/N": "Away",
+      "Score": "W 41-10"
+    }
+  ],
+  "Coastal Car": [
+    {
+      "Week": "Week 1",
+      "Opponent": "at Virginia",
+      "Opp Rank": "36",
+      "H/A/N": "Away",
+      "Score": "L 7-48"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "Charl South",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 13-0"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "E Carolina",
+      "Opp Rank": "61",
+      "H/A/N": "Home",
+      "Score": "L 0-38"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "at S Alabama",
+      "Opp Rank": "108",
+      "H/A/N": "Away",
+      "Score": "W 38-20"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "at Old Dominion",
+      "Opp Rank": "59",
+      "H/A/N": "Away",
+      "Score": "L 7-47"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "UL Monroe",
+      "Opp Rank": "125",
+      "H/A/N": "Home",
+      "Score": "W 23-8"
+    }
+  ],
+  "Colorado": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Georgia Tech",
+      "Opp Rank": 32,
+      "H/A/N": "Home",
+      "Score": "L 20-27"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "Delaware",
+      "Opp Rank": 109,
+      "H/A/N": "Home",
+      "Score": "W 31-7"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "at Houston",
+      "Opp Rank": 51,
+      "H/A/N": "Away",
+      "Score": "L 20-36"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "Wyoming",
+      "Opp Rank": 105,
+      "H/A/N": "Home",
+      "Score": "W 37-20"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "BYU",
+      "Opp Rank": 28,
+      "H/A/N": "Home",
+      "Score": "L 21-24"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "at TCU",
+      "Opp Rank": 40,
+      "H/A/N": "Away",
+      "Score": "L 21-35"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "Iowa St",
+      "Opp Rank": 34,
+      "H/A/N": "Home",
+      "Score": "W 24-17"
+    }
+  ],
+  "Colorado St": [
+    {
+      "Week": "Week 1",
+      "Opponent": "at Washington",
+      "Opp Rank": "24",
+      "H/A/N": "Away",
+      "Score": "L 21-38"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "N Colorado",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 21-17"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "UTSA",
+      "Opp Rank": "69",
+      "H/A/N": "Home",
+      "Score": "L 16-17"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "Washington St",
+      "Opp Rank": "89",
+      "H/A/N": "Home",
+      "Score": "L 3-20"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "at San Diego St",
+      "Opp Rank": "72",
+      "H/A/N": "Away",
+      "Score": "L 24-45"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "Fresno St",
+      "Opp Rank": "84",
+      "H/A/N": "Home",
+      "Score": "W 49-21"
+    }
+  ],
+  "Delaware": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Delaware State",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 35-17"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "at Colorado",
+      "Opp Rank": "57",
+      "H/A/N": "Away",
+      "Score": "L 7-31"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "UConn",
+      "Opp Rank": "74",
+      "H/A/N": "Home",
+      "Score": "W 44-41"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "at Florida Intl",
+      "Opp Rank": "115",
+      "H/A/N": "Away",
+      "Score": "W 38-16"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "W Kentucky",
+      "Opp Rank": "107",
+      "H/A/N": "Home",
+      "Score": "L 24-27"
+    },
+    {
+      "Week": "Week 8",
+      "Opponent": "at Jacksonville St",
+      "Opp Rank": "103",
+      "H/A/N": "Away",
+      "Score": "L 25-38"
+    }
+  ],
+  "Duke": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Elon",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 45-17"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "Illinois",
+      "Opp Rank": "27",
+      "H/A/N": "Home",
+      "Score": "L 19-45"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "at Tulane",
+      "Opp Rank": "58",
+      "H/A/N": "Away",
+      "Score": "L 27-34"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "NC State",
+      "Opp Rank": "54",
+      "H/A/N": "Home",
+      "Score": "W 45-33"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "at Syracuse",
+      "Opp Rank": "63",
+      "H/A/N": "Away",
+      "Score": "W 38-3"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "at California",
+      "Opp Rank": "78",
+      "H/A/N": "Away",
+      "Score": "W 45-21"
+    }
+  ],
+  "E Carolina": [
+    {
+      "Week": "Week 1",
+      "Opponent": "at NC State",
+      "Opp Rank": "54",
+      "H/A/N": "Away",
+      "Score": "L 17-24"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "Campbell",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 56-3"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "at Coastal Car",
+      "Opp Rank": "120",
+      "H/A/N": "Away",
+      "Score": "W 38-0"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "BYU",
+      "Opp Rank": "28",
+      "H/A/N": "Home",
+      "Score": "L 13-34"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "Army",
+      "Opp Rank": "82",
+      "H/A/N": "Home",
+      "Score": "W 28-6"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "at Tulane",
+      "Opp Rank": "58",
+      "H/A/N": "Away",
+      "Score": "L 19-26"
+    }
+  ],
+  "E Michigan": [
+    {
+      "Week": "Week 1",
+      "Opponent": "at Texas St",
+      "Opp Rank": "80",
+      "H/A/N": "Away",
+      "Score": "L 27-52"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "LIU",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "L 23-28"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "at Kentucky",
+      "Opp Rank": "56",
+      "H/A/N": "Away",
+      "Score": "L 23-48"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "Louisiana",
+      "Opp Rank": "110",
+      "H/A/N": "Home",
+      "Score": "W 34-31"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "at C Michigan",
+      "Opp Rank": "117",
+      "H/A/N": "Away",
+      "Score": "L 13-24"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "at Buffalo",
+      "Opp Rank": "100",
+      "H/A/N": "Away",
+      "Score": "L 30-31"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "N Illinois",
+      "Opp Rank": "119",
+      "H/A/N": "Home",
+      "Score": "W 16-10"
+    }
+  ],
+  "Florida": [
+    {
+      "Week": "Week 1",
+      "Opponent": "LIU",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 55-0"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "S Florida",
+      "Opp Rank": "39",
+      "H/A/N": "Home",
+      "Score": "L 16-18"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "at LSU",
+      "Opp Rank": "13",
+      "H/A/N": "Away",
+      "Score": "L 10-20"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "at Miami",
+      "Opp Rank": "7",
+      "H/A/N": "Away",
+      "Score": "L 7-26"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "Texas",
+      "Opp Rank": "9",
+      "H/A/N": "Home",
+      "Score": "W 29-21"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "at Texas A&M",
+      "Opp Rank": "10",
+      "H/A/N": "Away",
+      "Score": "L 17-34"
+    }
+  ],
+  "Florida Atlantic": [
+    {
+      "Week": "Week 1",
+      "Opponent": "at Maryland",
+      "Opp Rank": "53",
+      "H/A/N": "Away",
+      "Score": "L 7-39"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "Florida A&M",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 56-14"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "at Florida Intl",
+      "Opp Rank": "115",
+      "H/A/N": "Away",
+      "Score": "L 28-38"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "Memphis",
+      "Opp Rank": "46",
+      "H/A/N": "Home",
+      "Score": "L 26-55"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "at Rice",
+      "Opp Rank": "124",
+      "H/A/N": "Away",
+      "Score": "W 27-21"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "UAB",
+      "Opp Rank": "127",
+      "H/A/N": "Home",
+      "Score": "W 53-33"
+    }
+  ],
+  "Florida Intl": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Beth-Cook",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 42-9"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "at Penn St",
+      "Opp Rank": "25",
+      "H/A/N": "Away",
+      "Score": "L 0-34"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "Florida Atlantic",
+      "Opp Rank": "114",
+      "H/A/N": "Home",
+      "Score": "W 38-28"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "Delaware",
+      "Opp Rank": "109",
+      "H/A/N": "Home",
+      "Score": "L 16-38"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "at UConn",
+      "Opp Rank": "74",
+      "H/A/N": "Away",
+      "Score": "L 10-51"
+    },
+    {
+      "Week": "Week 8",
+      "Opponent": "at W Kentucky",
+      "Opp Rank": "107",
+      "H/A/N": "Away",
+      "Score": "W 25-6"
+    }
+  ],
+  "Florida St": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Alabama",
+      "Opp Rank": "4",
+      "H/A/N": "Home",
+      "Score": "W 31-17"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "Texas A&M-Commerce",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 77-3"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "Kent St",
+      "Opp Rank": "133",
+      "H/A/N": "Home",
+      "Score": "W 66-10"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "at Virginia",
+      "Opp Rank": "36",
+      "H/A/N": "Away",
+      "Score": "L 38-46"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "Miami",
+      "Opp Rank": "7",
+      "H/A/N": "Home",
+      "Score": "L 22-28"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "Pittsburgh",
+      "Opp Rank": "33",
+      "H/A/N": "Home",
+      "Score": "L 31-34"
+    }
+  ],
+  "Fresno St": [
+    {
+      "Week": "Week 1",
+      "Opponent": "at Kansas",
+      "Opp Rank": "37",
+      "H/A/N": "Away",
+      "Score": "L 7-31"
+    },
+    {
+      "Week": "Week 1",
+      "Opponent": "Georgia So",
+      "Opp Rank": "112",
+      "H/A/N": "Home",
+      "Score": "W 42-14"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "at Oregon St",
+      "Opp Rank": "104",
+      "H/A/N": "Away",
+      "Score": "W 36-27"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "Southern",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 56-7"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "at Hawai'i",
+      "Opp Rank": "98",
+      "H/A/N": "Away",
+      "Score": "W 23-21"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "Nevada",
+      "Opp Rank": "128",
+      "H/A/N": "Home",
+      "Score": "W 20-17"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "at Colorado St",
+      "Opp Rank": "94",
+      "H/A/N": "Away",
+      "Score": "L 21-49"
+    }
+  ],
+  "Georgia": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Marshall",
+      "Opp Rank": "86",
+      "H/A/N": "Home",
+      "Score": "W 45-7"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "Austin Peay",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 28-6"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "at Tennessee",
+      "Opp Rank": "18",
+      "H/A/N": "Away",
+      "Score": "W 44-41"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "Alabama",
+      "Opp Rank": "4",
+      "H/A/N": "Home",
+      "Score": "L 21-24"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "Kentucky",
+      "Opp Rank": "56",
+      "H/A/N": "Home",
+      "Score": "W 35-14"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "at Auburn",
+      "Opp Rank": "26",
+      "H/A/N": "Away",
+      "Score": "W 20-10"
+    }
+  ],
+  "Georgia So": [
+    {
+      "Week": "Week 1",
+      "Opponent": "at Fresno St",
+      "Opp Rank": "84",
+      "H/A/N": "Away",
+      "Score": "L 14-42"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "at USC",
+      "Opp Rank": "12",
+      "H/A/N": "Away",
+      "Score": "L 20-59"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "Jacksonville St",
+      "Opp Rank": "103",
+      "H/A/N": "Home",
+      "Score": "W 41-34"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "Maine",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 45-17"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "at J Madison",
+      "Opp Rank": "66",
+      "H/A/N": "Away",
+      "Score": "L 10-35"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "Southern Miss",
+      "Opp Rank": "99",
+      "H/A/N": "Home",
+      "Score": "L 35-38"
+    }
+  ],
+  "Georgia St": [
+    {
+      "Week": "Week 1",
+      "Opponent": "at Mississippi",
+      "Opp Rank": "15",
+      "H/A/N": "Away",
+      "Score": "L 7-63"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "Memphis",
+      "Opp Rank": "46",
+      "H/A/N": "Home",
+      "Score": "L 16-38"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "Murray St",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 37-21"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "at Vanderbilt",
+      "Opp Rank": "21",
+      "H/A/N": "Away",
+      "Score": "L 21-70"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "J Madison",
+      "Opp Rank": "66",
+      "H/A/N": "Home",
+      "Score": "L 7-14"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "App State",
+      "Opp Rank": "111",
+      "H/A/N": "Home",
+      "Score": "L 20-41"
+    }
+  ],
+  "Georgia Tech": [
+    {
+      "Week": "Week 1",
+      "Opponent": "at Colorado",
+      "Opp Rank": "57",
+      "H/A/N": "Away",
+      "Score": "W 27-20"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "Gard-Webb",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 59-12"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "Clemson",
+      "Opp Rank": "29",
+      "H/A/N": "Home",
+      "Score": "W 24-21"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "Temple",
+      "Opp Rank": "90",
+      "H/A/N": "Home",
+      "Score": "W 45-24"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "at Wake Forest",
+      "Opp Rank": "70",
+      "H/A/N": "Away",
+      "Score": "W 30-29"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "Virginia Tech",
+      "Opp Rank": "75",
+      "H/A/N": "Home",
+      "Score": "W 35-20"
+    }
+  ],
+  "Hawai'i": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Stanford",
+      "Opp Rank": "97",
+      "H/A/N": "Home",
+      "Score": "W 23-20"
+    },
+    {
+      "Week": "Week 1",
+      "Opponent": "at Arizona",
+      "Opp Rank": "50",
+      "H/A/N": "Away",
+      "Score": "L 6-40"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "Sam Houston",
+      "Opp Rank": "135",
+      "H/A/N": "Home",
+      "Score": "W 37-20"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "Portland St",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 23-3"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "Fresno St",
+      "Opp Rank": "84",
+      "H/A/N": "Home",
+      "Score": "L 21-23"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "at Air Force",
+      "Opp Rank": "95",
+      "H/A/N": "Away",
+      "Score": "W 44-35"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "Utah St",
+      "Opp Rank": "87",
+      "H/A/N": "Home",
+      "Score": "W 44-26"
+    }
+  ],
+  "Houston": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Ste F Austin",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 27-0"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "at Rice",
+      "Opp Rank": "124",
+      "H/A/N": "Away",
+      "Score": "W 35-9"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "Colorado",
+      "Opp Rank": "57",
+      "H/A/N": "Home",
+      "Score": "W 36-20"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "at Oregon St",
+      "Opp Rank": "104",
+      "H/A/N": "Away",
+      "Score": "W 27-24"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "Texas Tech",
+      "Opp Rank": "5",
+      "H/A/N": "Home",
+      "Score": "L 11-35"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "at Oklahoma St",
+      "Opp Rank": "116",
+      "H/A/N": "Away",
+      "Score": "W 39-17"
+    }
+  ],
+  "Illinois": [
+    {
+      "Week": "Week 1",
+      "Opponent": "W Illinois",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 52-3"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "at Duke",
+      "Opp Rank": "41",
+      "H/A/N": "Away",
+      "Score": "W 45-19"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "W Michigan",
+      "Opp Rank": "91",
+      "H/A/N": "Home",
+      "Score": "W 38-0"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "at Indiana",
+      "Opp Rank": "2",
+      "H/A/N": "Away",
+      "Score": "L 10-63"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "USC",
+      "Opp Rank": "12",
+      "H/A/N": "Home",
+      "Score": "W 34-32"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "at Purdue",
+      "Opp Rank": "76",
+      "H/A/N": "Away",
+      "Score": "W 43-27"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "Ohio St",
+      "Opp Rank": "1",
+      "H/A/N": "Home",
+      "Score": "L 16-34"
+    }
+  ],
+  "Indiana": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Old Dominion",
+      "Opp Rank": "59",
+      "H/A/N": "Home",
+      "Score": "W 27-14"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "Kennesaw St",
+      "Opp Rank": "106",
+      "H/A/N": "Home",
+      "Score": "W 56-9"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "Indiana St",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 73-0"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "Illinois",
+      "Opp Rank": "27",
+      "H/A/N": "Home",
+      "Score": "W 63-10"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "at Iowa",
+      "Opp Rank": "22",
+      "H/A/N": "Away",
+      "Score": "W 20-15"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "at Oregon",
+      "Opp Rank": "6",
+      "H/A/N": "Away",
+      "Score": "W 30-20"
+    }
+  ],
+  "Iowa": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Albany",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 34-7"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "at Iowa St",
+      "Opp Rank": "34",
+      "H/A/N": "Away",
+      "Score": "L 13-16"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "UMass",
+      "Opp Rank": "136",
+      "H/A/N": "Home",
+      "Score": "W 47-7"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "at Rutgers",
+      "Opp Rank": "49",
+      "H/A/N": "Away",
+      "Score": "W 38-28"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "Indiana",
+      "Opp Rank": "2",
+      "H/A/N": "Home",
+      "Score": "L 15-20"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "at Wisconsin",
+      "Opp Rank": "67",
+      "H/A/N": "Away",
+      "Score": "W 37-0"
+    }
+  ],
+  "Iowa St": [
+    {
+      "Week": "Week 1",
+      "Opponent": "vs Kansas St",
+      "Opp Rank": "47",
+      "H/A/N": "Neutral",
+      "Score": "W 24-21"
+    },
+    {
+      "Week": "Week 1",
+      "Opponent": "South Dakota",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 55-7"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "Iowa",
+      "Opp Rank": "22",
+      "H/A/N": "Home",
+      "Score": "W 16-13"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "at Arkansas St",
+      "Opp Rank": "113",
+      "H/A/N": "Away",
+      "Score": "W 24-16"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "Arizona",
+      "Opp Rank": "50",
+      "H/A/N": "Home",
+      "Score": "W 39-14"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "at Cincinnati",
+      "Opp Rank": "30",
+      "H/A/N": "Away",
+      "Score": "L 30-38"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "at Colorado",
+      "Opp Rank": "57",
+      "H/A/N": "Away",
+      "Score": "L 17-24"
+    }
+  ],
+  "J Madison": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Weber State",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 45-10"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "at Louisville",
+      "Opp Rank": "31",
+      "H/A/N": "Away",
+      "Score": "L 14-28"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "at Liberty",
+      "Opp Rank": "101",
+      "H/A/N": "Away",
+      "Score": "W 31-13"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "Georgia So",
+      "Opp Rank": "112",
+      "H/A/N": "Home",
+      "Score": "W 35-10"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "at Georgia St",
+      "Opp Rank": "129",
+      "H/A/N": "Away",
+      "Score": "W 14-7"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "Louisiana",
+      "Opp Rank": "110",
+      "H/A/N": "Home",
+      "Score": "W 24-14"
+    }
+  ],
+  "Jacksonville St": [
+    {
+      "Week": "Week 1",
+      "Opponent": "at UCF",
+      "Opp Rank": "55",
+      "H/A/N": "Away",
+      "Score": "L 10-17"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "Liberty",
+      "Opp Rank": "101",
+      "H/A/N": "Home",
+      "Score": "W 34-24"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "at Georgia So",
+      "Opp Rank": "112",
+      "H/A/N": "Away",
+      "Score": "L 34-41"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "Murray St",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 45-10"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "at Southern Miss",
+      "Opp Rank": "99",
+      "H/A/N": "Away",
+      "Score": "L 25-42"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "at Sam Houston",
+      "Opp Rank": "135",
+      "H/A/N": "Away",
+      "Score": "W 29-27"
+    },
+    {
+      "Week": "Week 8",
+      "Opponent": "Delaware",
+      "Opp Rank": "109",
+      "H/A/N": "Home",
+      "Score": "W 38-25"
+    }
+  ],
+  "Kansas": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Fresno St",
+      "Opp Rank": "84",
+      "H/A/N": "Home",
+      "Score": "W 31-7"
+    },
+    {
+      "Week": "Week 1",
+      "Opponent": "Wagner",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 46-7"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "at Missouri",
+      "Opp Rank": "20",
+      "H/A/N": "Away",
+      "Score": "L 31-42"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "West Virginia",
+      "Opp Rank": "73",
+      "H/A/N": "Home",
+      "Score": "W 41-10"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "Cincinnati",
+      "Opp Rank": "30",
+      "H/A/N": "Home",
+      "Score": "L 34-37"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "at UCF",
+      "Opp Rank": "55",
+      "H/A/N": "Away",
+      "Score": "W 27-20"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "at Texas Tech",
+      "Opp Rank": "5",
+      "H/A/N": "Away",
+      "Score": "L 17-42"
+    }
+  ],
+  "Kansas St": [
+    {
+      "Week": "Week 1",
+      "Opponent": "vs Iowa St",
+      "Opp Rank": "34",
+      "H/A/N": "Neutral",
+      "Score": "L 21-24"
+    },
+    {
+      "Week": "Week 1",
+      "Opponent": "North Dakota",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 38-35"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "Army",
+      "Opp Rank": "82",
+      "H/A/N": "Home",
+      "Score": "L 21-24"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "at Arizona",
+      "Opp Rank": "50",
+      "H/A/N": "Away",
+      "Score": "L 17-23"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "UCF",
+      "Opp Rank": "55",
+      "H/A/N": "Home",
+      "Score": "W 34-20"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "at Baylor",
+      "Opp Rank": "45",
+      "H/A/N": "Away",
+      "Score": "L 34-35"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "TCU",
+      "Opp Rank": "40",
+      "H/A/N": "Home",
+      "Score": "W 41-28"
+    }
+  ],
+  "Kennesaw St": [
+    {
+      "Week": "Week 1",
+      "Opponent": "at Wake Forest",
+      "Opp Rank": "70",
+      "H/A/N": "Away",
+      "Score": "L 9-10"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "at Indiana",
+      "Opp Rank": "2",
+      "H/A/N": "Away",
+      "Score": "L 9-56"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "Merrimack",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 27-13"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "Arkansas St",
+      "Opp Rank": "113",
+      "H/A/N": "Home",
+      "Score": "W 28-21"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "Middle Tenn",
+      "Opp Rank": "130",
+      "H/A/N": "Home",
+      "Score": "W 24-16"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "Louisiana Tech",
+      "Opp Rank": "83",
+      "H/A/N": "Home",
+      "Score": "W 35-7"
+    }
+  ],
+  "Kent St": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Merrimack",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 21-17"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "at Texas Tech",
+      "Opp Rank": "5",
+      "H/A/N": "Away",
+      "Score": "L 14-62"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "Buffalo",
+      "Opp Rank": "100",
+      "H/A/N": "Home",
+      "Score": "L 28-31"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "at Florida St",
+      "Opp Rank": "16",
+      "H/A/N": "Away",
+      "Score": "L 10-66"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "at Oklahoma",
+      "Opp Rank": "14",
+      "H/A/N": "Away",
+      "Score": "L 0-44"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "UMass",
+      "Opp Rank": "136",
+      "H/A/N": "Home",
+      "Score": "W 42-6"
+    }
+  ],
+  "Kentucky": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Toledo",
+      "Opp Rank": 60,
+      "H/A/N": "Home",
+      "Score": "W 24-16"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "Mississippi",
+      "Opp Rank": 15,
+      "H/A/N": "Home",
+      "Score": "L 23-30"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "E Michigan",
+      "Opp Rank": 126,
+      "H/A/N": "Home",
+      "Score": "W 48-23"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "at South Carolina",
+      "Opp Rank": 35,
+      "H/A/N": "Away",
+      "Score": "L 13-35"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "at Georgia",
+      "Opp Rank": 8,
+      "H/A/N": "Away",
+      "Score": "L 14-35"
+    }
+  ],
+  "LSU": [
+    {
+      "Week": "Week 1",
+      "Opponent": "at Clemson",
+      "Opp Rank": "29",
+      "H/A/N": "Away",
+      "Score": "W 17-10"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "Louisiana Tech",
+      "Opp Rank": "83",
+      "H/A/N": "Home",
+      "Score": "W 23-7"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "Florida",
+      "Opp Rank": "23",
+      "H/A/N": "Home",
+      "Score": "W 20-10"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "SE Louisiana",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 56-10"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "at Mississippi",
+      "Opp Rank": "15",
+      "H/A/N": "Away",
+      "Score": "L 19-24"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "South Carolina",
+      "Opp Rank": "35",
+      "H/A/N": "Home",
+      "Score": "W 20-10"
+    }
+  ],
+  "Liberty": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Maine",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 28-7"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "at Jacksonville St",
+      "Opp Rank": "103",
+      "H/A/N": "Away",
+      "Score": "L 24-34"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "at Bowling Green",
+      "Opp Rank": "96",
+      "H/A/N": "Away",
+      "Score": "L 13-23"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "J Madison",
+      "Opp Rank": "66",
+      "H/A/N": "Home",
+      "Score": "L 13-31"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "at Old Dominion",
+      "Opp Rank": "59",
+      "H/A/N": "Away",
+      "Score": "L 7-21"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "at UTEP",
+      "Opp Rank": "118",
+      "H/A/N": "Away",
+      "Score": "W 19-8"
+    },
+    {
+      "Week": "Week 8",
+      "Opponent": "New Mexico St",
+      "Opp Rank": "123",
+      "H/A/N": "Home",
+      "Score": "W 30-27"
+    }
+  ],
+  "Louisiana": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Rice",
+      "Opp Rank": "124",
+      "H/A/N": "Home",
+      "Score": "L 12-14"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "McNeese St",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 34-10"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "at Missouri",
+      "Opp Rank": "20",
+      "H/A/N": "Away",
+      "Score": "L 10-52"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "at E Michigan",
+      "Opp Rank": "126",
+      "H/A/N": "Away",
+      "Score": "L 31-34"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "Marshall",
+      "Opp Rank": "86",
+      "H/A/N": "Home",
+      "Score": "W 54-51"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "at J Madison",
+      "Opp Rank": "66",
+      "H/A/N": "Away",
+      "Score": "L 14-24"
+    }
+  ],
+  "Louisiana Tech": [
+    {
+      "Week": "Week 1",
+      "Opponent": "SE Louisiana",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 24-0"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "at LSU",
+      "Opp Rank": "13",
+      "H/A/N": "Away",
+      "Score": "L 7-23"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "New Mexico St",
+      "Opp Rank": "123",
+      "H/A/N": "Home",
+      "Score": "W 49-14"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "Southern Miss",
+      "Opp Rank": "99",
+      "H/A/N": "Home",
+      "Score": "W 30-20"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "at UTEP",
+      "Opp Rank": "118",
+      "H/A/N": "Away",
+      "Score": "W 30-11"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "at Kennesaw St",
+      "Opp Rank": "106",
+      "H/A/N": "Away",
+      "Score": "L 7-35"
+    }
+  ],
+  "Louisville": [
+    {
+      "Week": "Week 1",
+      "Opponent": "E Kentucky",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 51-17"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "J Madison",
+      "Opp Rank": "66",
+      "H/A/N": "Home",
+      "Score": "W 28-14"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "Bowling Green",
+      "Opp Rank": "96",
+      "H/A/N": "Home",
+      "Score": "W 40-17"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "at Pittsburgh",
+      "Opp Rank": "33",
+      "H/A/N": "Away",
+      "Score": "W 34-27"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "Virginia",
+      "Opp Rank": "36",
+      "H/A/N": "Home",
+      "Score": "L 27-30"
+    }
+  ],
+  "Marshall": [
+    {
+      "Week": "Week 1",
+      "Opponent": "at Georgia",
+      "Opp Rank": "8",
+      "H/A/N": "Away",
+      "Score": "L 7-45"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "Missouri St",
+      "Opp Rank": "121",
+      "H/A/N": "Home",
+      "Score": "L 20-21"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "E Kentucky",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 38-7"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "at Middle Tenn",
+      "Opp Rank": "130",
+      "H/A/N": "Away",
+      "Score": "W 42-28"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "at Louisiana",
+      "Opp Rank": "110",
+      "H/A/N": "Away",
+      "Score": "L 51-54"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "Old Dominion",
+      "Opp Rank": "59",
+      "H/A/N": "Home",
+      "Score": "W 48-24"
+    }
+  ],
+  "Maryland": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Florida Atlantic",
+      "Opp Rank": "114",
+      "H/A/N": "Home",
+      "Score": "W 39-7"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "N Illinois",
+      "Opp Rank": "119",
+      "H/A/N": "Home",
+      "Score": "W 20-9"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "Towson",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 44-17"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "at Wisconsin",
+      "Opp Rank": "67",
+      "H/A/N": "Away",
+      "Score": "W 27-10"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "Washington",
+      "Opp Rank": "24",
+      "H/A/N": "Home",
+      "Score": "L 20-24"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "Nebraska",
+      "Opp Rank": "19",
+      "H/A/N": "Home",
+      "Score": "L 31-34"
+    }
+  ],
+  "Memphis": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Chattanooga",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 45-10"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "at Georgia St",
+      "Opp Rank": "129",
+      "H/A/N": "Away",
+      "Score": "W 38-16"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "at Troy",
+      "Opp Rank": "85",
+      "H/A/N": "Away",
+      "Score": "W 28-7"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "Arkansas",
+      "Opp Rank": "38",
+      "H/A/N": "Home",
+      "Score": "W 32-31"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "at Florida Atlantic",
+      "Opp Rank": "114",
+      "H/A/N": "Away",
+      "Score": "W 55-26"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "Tulsa",
+      "Opp Rank": "122",
+      "H/A/N": "Home",
+      "Score": "W 45-7"
+    }
+  ],
+  "Miami": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Notre Dame",
+      "Opp Rank": "3",
+      "H/A/N": "Home",
+      "Score": "W 27-24"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "Beth-Cook",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 45-3"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "S Florida",
+      "Opp Rank": "39",
+      "H/A/N": "Home",
+      "Score": "W 49-12"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "Florida",
+      "Opp Rank": "23",
+      "H/A/N": "Home",
+      "Score": "W 26-7"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "at Florida St",
+      "Opp Rank": "16",
+      "H/A/N": "Away",
+      "Score": "W 28-22"
+    }
+  ],
+  "Miami OH": [
+    {
+      "Week": "Week 1",
+      "Opponent": "at Wisconsin",
+      "Opp Rank": "67",
+      "H/A/N": "Away",
+      "Score": "L 0-17"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "at Rutgers",
+      "Opp Rank": "49",
+      "H/A/N": "Away",
+      "Score": "L 17-45"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "UNLV",
+      "Opp Rank": "77",
+      "H/A/N": "Home",
+      "Score": "L 38-41"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "Lindenwood",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 38-0"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "at N Illinois",
+      "Opp Rank": "119",
+      "H/A/N": "Away",
+      "Score": "W 25-14"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "at Akron",
+      "Opp Rank": "132",
+      "H/A/N": "Away",
+      "Score": "W 20-7"
+    }
+  ],
+  "Michigan": [
+    {
+      "Week": "Week 1",
+      "Opponent": "New Mexico",
+      "Opp Rank": 88,
+      "H/A/N": "Home",
+      "Score": "W 34-17"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "at Oklahoma",
+      "Opp Rank": 14,
+      "H/A/N": "Away",
+      "Score": "L 13-24"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "C Michigan",
+      "Opp Rank": 117,
+      "H/A/N": "Home",
+      "Score": "W 63-3"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "at Nebraska",
+      "Opp Rank": 19,
+      "H/A/N": "Away",
+      "Score": "W 30-27"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "Wisconsin",
+      "Opp Rank": 67,
+      "H/A/N": "Home",
+      "Score": "W 24-10"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "at USC",
+      "Opp Rank": 12,
+      "H/A/N": "Away",
+      "Score": "L 13-31"
+    }
+  ],
+  "Michigan St": [
+    {
+      "Week": "Week 1",
+      "Opponent": "W Michigan",
+      "Opp Rank": "91",
+      "H/A/N": "Home",
+      "Score": "W 23-6"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "Boston College",
+      "Opp Rank": "81",
+      "H/A/N": "Home",
+      "Score": "W 42-40"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "Youngstown State",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 41-24"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "at USC",
+      "Opp Rank": "12",
+      "H/A/N": "Away",
+      "Score": "L 31-45"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "at Nebraska",
+      "Opp Rank": "19",
+      "H/A/N": "Away",
+      "Score": "L 27-38"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "UCLA",
+      "Opp Rank": "65",
+      "H/A/N": "Home",
+      "Score": "L 13-38"
+    }
+  ],
+  "Middle Tenn": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Austin Peay",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "L 14-34"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "at Wisconsin",
+      "Opp Rank": "67",
+      "H/A/N": "Away",
+      "Score": "L 10-42"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "at Nevada",
+      "Opp Rank": "128",
+      "H/A/N": "Away",
+      "Score": "W 14-13"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "Marshall",
+      "Opp Rank": "86",
+      "H/A/N": "Home",
+      "Score": "L 28-42"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "at Kennesaw St",
+      "Opp Rank": "106",
+      "H/A/N": "Away",
+      "Score": "L 16-24"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "Missouri St",
+      "Opp Rank": "121",
+      "H/A/N": "Home",
+      "Score": "L 20-22"
+    }
+  ],
+  "Minnesota": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Buffalo",
+      "Opp Rank": "100",
+      "H/A/N": "Home",
+      "Score": "W 23-10"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "NW State",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 66-0"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "at California",
+      "Opp Rank": "78",
+      "H/A/N": "Away",
+      "Score": "L 14-27"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "Rutgers",
+      "Opp Rank": "49",
+      "H/A/N": "Home",
+      "Score": "W 31-28"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "at Ohio St",
+      "Opp Rank": "1",
+      "H/A/N": "Away",
+      "Score": "L 3-42"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "Purdue",
+      "Opp Rank": "76",
+      "H/A/N": "Home",
+      "Score": "W 27-20"
+    }
+  ],
+  "Mississippi": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Georgia St",
+      "Opp Rank": 129,
+      "H/A/N": "Home",
+      "Score": "W 63-7"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "at Kentucky",
+      "Opp Rank": 56,
+      "H/A/N": "Away",
+      "Score": "W 30-23"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "Arkansas",
+      "Opp Rank": 38,
+      "H/A/N": "Home",
+      "Score": "W 41-35"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "Tulane",
+      "Opp Rank": 58,
+      "H/A/N": "Home",
+      "Score": "W 45-10"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "LSU",
+      "Opp Rank": 13,
+      "H/A/N": "Home",
+      "Score": "W 24-19"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "Washington St",
+      "Opp Rank": 89,
+      "H/A/N": "Home",
+      "Score": "W 24-21"
+    }
+  ],
+  "Mississippi St": [
+    {
+      "Week": "Week 1",
+      "Opponent": "at Southern Miss",
+      "Opp Rank": "99",
+      "H/A/N": "Away",
+      "Score": "W 34-17"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "Arizona St",
+      "Opp Rank": "44",
+      "H/A/N": "Home",
+      "Score": "W 24-20"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "Alcorn State",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 63-0"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "N Illinois",
+      "Opp Rank": "119",
+      "H/A/N": "Home",
+      "Score": "W 38-10"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "Tennessee",
+      "Opp Rank": "18",
+      "H/A/N": "Home",
+      "Score": "L 34-41"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "at Texas A&M",
+      "Opp Rank": "10",
+      "H/A/N": "Away",
+      "Score": "L 9-31"
+    }
+  ],
+  "Missouri": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Central Ark",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 61-6"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "Kansas",
+      "Opp Rank": "37",
+      "H/A/N": "Home",
+      "Score": "W 42-31"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "Louisiana",
+      "Opp Rank": "110",
+      "H/A/N": "Home",
+      "Score": "W 52-10"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "South Carolina",
+      "Opp Rank": "35",
+      "H/A/N": "Home",
+      "Score": "W 29-20"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "UMass",
+      "Opp Rank": "136",
+      "H/A/N": "Home",
+      "Score": "W 42-6"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "Alabama",
+      "Opp Rank": "4",
+      "H/A/N": "Home",
+      "Score": "L 24-27"
+    }
+  ],
+  "Missouri St": [
+    {
+      "Week": "Week 1",
+      "Opponent": "at USC",
+      "Opp Rank": "12",
+      "H/A/N": "Away",
+      "Score": "L 13-73"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "at Marshall",
+      "Opp Rank": "86",
+      "H/A/N": "Away",
+      "Score": "W 21-20"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "SMU",
+      "Opp Rank": "43",
+      "H/A/N": "Home",
+      "Score": "L 10-28"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "TN Martin",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 42-10"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "W Kentucky",
+      "Opp Rank": "107",
+      "H/A/N": "Home",
+      "Score": "L 22-27"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "at Middle Tenn",
+      "Opp Rank": "130",
+      "H/A/N": "Away",
+      "Score": "W 22-20"
+    }
+  ],
+  "N Illinois": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Holy Cross",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 19-17"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "at Maryland",
+      "Opp Rank": "53",
+      "H/A/N": "Away",
+      "Score": "L 9-20"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "at Mississippi St",
+      "Opp Rank": "42",
+      "H/A/N": "Away",
+      "Score": "L 10-38"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "San Diego St",
+      "Opp Rank": "72",
+      "H/A/N": "Home",
+      "Score": "L 3-6"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "Miami OH",
+      "Opp Rank": "93",
+      "H/A/N": "Home",
+      "Score": "L 14-25"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "at E Michigan",
+      "Opp Rank": "126",
+      "H/A/N": "Away",
+      "Score": "L 10-16"
+    }
+  ],
+  "N Texas": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Lamar",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 51-0"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "at W Michigan",
+      "Opp Rank": "91",
+      "H/A/N": "Away",
+      "Score": "W 33-30"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "Washington St",
+      "Opp Rank": "89",
+      "H/A/N": "Home",
+      "Score": "W 59-10"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "at Army",
+      "Opp Rank": "82",
+      "H/A/N": "Away",
+      "Score": "W 45-38"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "S Alabama",
+      "Opp Rank": "108",
+      "H/A/N": "Home",
+      "Score": "W 36-22"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "S Florida",
+      "Opp Rank": "39",
+      "H/A/N": "Home",
+      "Score": "L 36-63"
+    }
+  ],
+  "NC State": [
+    {
+      "Week": "Week 1",
+      "Opponent": "E Carolina",
+      "Opp Rank": "61",
+      "H/A/N": "Home",
+      "Score": "W 24-17"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "Virginia",
+      "Opp Rank": "36",
+      "H/A/N": "Home",
+      "Score": "W 35-31"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "at Wake Forest",
+      "Opp Rank": "70",
+      "H/A/N": "Away",
+      "Score": "W 34-24"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "at Duke",
+      "Opp Rank": "41",
+      "H/A/N": "Away",
+      "Score": "L 33-45"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "Virginia Tech",
+      "Opp Rank": "75",
+      "H/A/N": "Home",
+      "Score": "L 21-23"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "Campbell",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 56-10"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "at Notre Dame",
+      "Opp Rank": "3",
+      "H/A/N": "Away",
+      "Score": "L 7-36"
+    }
+  ],
+  "Navy": [
+    {
+      "Week": "Week 1",
+      "Opponent": "VA Military",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 52-7"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "UAB",
+      "Opp Rank": "127",
+      "H/A/N": "Home",
+      "Score": "W 38-24"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "at Tulsa",
+      "Opp Rank": "122",
+      "H/A/N": "Away",
+      "Score": "W 42-23"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "Rice",
+      "Opp Rank": "124",
+      "H/A/N": "Home",
+      "Score": "W 21-13"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "Air Force",
+      "Opp Rank": "95",
+      "H/A/N": "Home",
+      "Score": "W 34-31"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "at Temple",
+      "Opp Rank": "90",
+      "H/A/N": "Away",
+      "Score": "W 32-31"
+    }
+  ],
+  "Nebraska": [
+    {
+      "Week": "Week 1",
+      "Opponent": "vs Cincinnati",
+      "Opp Rank": "30",
+      "H/A/N": "Neutral",
+      "Score": "W 20-17"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "Akron",
+      "Opp Rank": "132",
+      "H/A/N": "Home",
+      "Score": "W 68-0"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "Houston Baptist",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 59-7"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "Michigan",
+      "Opp Rank": "17",
+      "H/A/N": "Home",
+      "Score": "L 27-30"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "Michigan St",
+      "Opp Rank": "68",
+      "H/A/N": "Home",
+      "Score": "W 38-27"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "at Maryland",
+      "Opp Rank": "53",
+      "H/A/N": "Away",
+      "Score": "W 34-31"
+    }
+  ],
+  "Nevada": [
+    {
+      "Week": "Week 1",
+      "Opponent": "at Penn St",
+      "Opp Rank": "25",
+      "H/A/N": "Away",
+      "Score": "L 11-46"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "Sacramento State",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 20-17"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "Middle Tenn",
+      "Opp Rank": "130",
+      "H/A/N": "Home",
+      "Score": "L 13-14"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "at W Kentucky",
+      "Opp Rank": "107",
+      "H/A/N": "Away",
+      "Score": "L 16-31"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "at Fresno St",
+      "Opp Rank": "84",
+      "H/A/N": "Away",
+      "Score": "L 17-20"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "San Diego St",
+      "Opp Rank": "72",
+      "H/A/N": "Home",
+      "Score": "L 10-44"
+    }
+  ],
+  "New Mexico": [
+    {
+      "Week": "Week 1",
+      "Opponent": "at Michigan",
+      "Opp Rank": "17",
+      "H/A/N": "Away",
+      "Score": "L 17-34"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "Idaho State",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 32-22"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "at UCLA",
+      "Opp Rank": "65",
+      "H/A/N": "Away",
+      "Score": "W 35-10"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "New Mexico St",
+      "Opp Rank": "123",
+      "H/A/N": "Home",
+      "Score": "W 38-20"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "at San Jose St",
+      "Opp Rank": "102",
+      "H/A/N": "Away",
+      "Score": "L 28-35"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "at Boise St",
+      "Opp Rank": "48",
+      "H/A/N": "Away",
+      "Score": "L 25-41"
+    }
+  ],
+  "New Mexico St": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Bryant",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 19-3"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "Tulsa",
+      "Opp Rank": "122",
+      "H/A/N": "Home",
+      "Score": "W 21-14"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "at Louisiana Tech",
+      "Opp Rank": "83",
+      "H/A/N": "Away",
+      "Score": "L 14-49"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "at New Mexico",
+      "Opp Rank": "88",
+      "H/A/N": "Away",
+      "Score": "L 20-38"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "Sam Houston",
+      "Opp Rank": "135",
+      "H/A/N": "Home",
+      "Score": "W 37-10"
+    },
+    {
+      "Week": "Week 8",
+      "Opponent": "at Liberty",
+      "Opp Rank": "101",
+      "H/A/N": "Away",
+      "Score": "L 27-30"
+    }
+  ],
+  "North Carolina": [
+    {
+      "Week": "Week 1",
+      "Opponent": "TCU",
+      "Opp Rank": "40",
+      "H/A/N": "Home",
+      "Score": "L 14-48"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "at Charlotte",
+      "Opp Rank": "134",
+      "H/A/N": "Away",
+      "Score": "W 20-3"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "Richmond",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 41-6"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "at UCF",
+      "Opp Rank": "55",
+      "H/A/N": "Away",
+      "Score": "L 9-34"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "Clemson",
+      "Opp Rank": "29",
+      "H/A/N": "Home",
+      "Score": "L 10-38"
+    }
+  ],
+  "Northwestern": [
+    {
+      "Week": "Week 1",
+      "Opponent": "at Tulane",
+      "Opp Rank": "58",
+      "H/A/N": "Away",
+      "Score": "L 3-23"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "W Illinois",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 42-7"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "Oregon",
+      "Opp Rank": "6",
+      "H/A/N": "Home",
+      "Score": "L 14-34"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "UCLA",
+      "Opp Rank": "65",
+      "H/A/N": "Home",
+      "Score": "W 17-14"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "UL Monroe",
+      "Opp Rank": "125",
+      "H/A/N": "Home",
+      "Score": "W 42-7"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "at Penn St",
+      "Opp Rank": "25",
+      "H/A/N": "Away",
+      "Score": "W 22-21"
+    }
+  ],
+  "Notre Dame": [
+    {
+      "Week": "Week 1",
+      "Opponent": "at Miami",
+      "Opp Rank": 7,
+      "H/A/N": "Away",
+      "Score": "L 24-27"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "Texas A&M",
+      "Opp Rank": 10,
+      "H/A/N": "Home",
+      "Score": "L 40-41"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "Purdue",
+      "Opp Rank": 76,
+      "H/A/N": "Home",
+      "Score": "W 56-30"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "at Arkansas",
+      "Opp Rank": 38,
+      "H/A/N": "Away",
+      "Score": "W 56-13"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "Boise St",
+      "Opp Rank": 48,
+      "H/A/N": "Home",
+      "Score": "W 28-7"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "NC State",
+      "Opp Rank": 54,
+      "H/A/N": "Home",
+      "Score": "W 36-7"
+    }
+  ],
+  "Ohio": [
+    {
+      "Week": "Week 1",
+      "Opponent": "at Rutgers",
+      "Opp Rank": "49",
+      "H/A/N": "Away",
+      "Score": "L 31-34"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "West Virginia",
+      "Opp Rank": "73",
+      "H/A/N": "Home",
+      "Score": "W 17-10"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "at Ohio St",
+      "Opp Rank": "1",
+      "H/A/N": "Away",
+      "Score": "L 9-37"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "Gard-Webb",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 52-35"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "Bowling Green",
+      "Opp Rank": "96",
+      "H/A/N": "Home",
+      "Score": "W 35-20"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "at Ball St",
+      "Opp Rank": "131",
+      "H/A/N": "Away",
+      "Score": "L 14-20"
+    }
+  ],
+  "Ohio St": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Texas",
+      "Opp Rank": "9",
+      "H/A/N": "Home",
+      "Score": "W 14-7"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "Grambling St",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 70-0"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "Ohio",
+      "Opp Rank": "79",
+      "H/A/N": "Home",
+      "Score": "W 37-9"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "at Washington",
+      "Opp Rank": "24",
+      "H/A/N": "Away",
+      "Score": "W 24-6"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "Minnesota",
+      "Opp Rank": "52",
+      "H/A/N": "Home",
+      "Score": "W 42-3"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "at Illinois",
+      "Opp Rank": "27",
+      "H/A/N": "Away",
+      "Score": "W 34-16"
+    }
+  ],
+  "Oklahoma": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Illinois State",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 35-3"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "Michigan",
+      "Opp Rank": "17",
+      "H/A/N": "Home",
+      "Score": "W 24-13"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "at Temple",
+      "Opp Rank": "90",
+      "H/A/N": "Away",
+      "Score": "W 42-3"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "Auburn",
+      "Opp Rank": "26",
+      "H/A/N": "Home",
+      "Score": "W 24-17"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "Kent St",
+      "Opp Rank": "133",
+      "H/A/N": "Home",
+      "Score": "W 44-0"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "vs Texas",
+      "Opp Rank": "9",
+      "H/A/N": "Neutral",
+      "Score": "L 6-23"
+    }
+  ],
+  "Oklahoma St": [
+    {
+      "Week": "Week 1",
+      "Opponent": "TN Martin",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 27-7"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "at Oregon",
+      "Opp Rank": "6",
+      "H/A/N": "Away",
+      "Score": "L 3-69"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "Tulsa",
+      "Opp Rank": "122",
+      "H/A/N": "Home",
+      "Score": "L 12-19"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "Baylor",
+      "Opp Rank": "45",
+      "H/A/N": "Home",
+      "Score": "L 27-45"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "at Arizona",
+      "Opp Rank": "50",
+      "H/A/N": "Away",
+      "Score": "L 13-41"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "Houston",
+      "Opp Rank": "51",
+      "H/A/N": "Home",
+      "Score": "L 17-39"
+    }
+  ],
+  "Old Dominion": [
+    {
+      "Week": "Week 1",
+      "Opponent": "at Indiana",
+      "Opp Rank": "2",
+      "H/A/N": "Away",
+      "Score": "L 14-27"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "North Carolina Central",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 54-6"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "at Virginia Tech",
+      "Opp Rank": "75",
+      "H/A/N": "Away",
+      "Score": "W 45-26"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "Liberty",
+      "Opp Rank": "101",
+      "H/A/N": "Home",
+      "Score": "W 21-7"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "Coastal Car",
+      "Opp Rank": "120",
+      "H/A/N": "Home",
+      "Score": "W 47-7"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "at Marshall",
+      "Opp Rank": "86",
+      "H/A/N": "Away",
+      "Score": "L 24-48"
+    }
+  ],
+  "Oregon": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Montana St",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 59-13"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "Oklahoma St",
+      "Opp Rank": "116",
+      "H/A/N": "Home",
+      "Score": "W 69-3"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "at Northwestern",
+      "Opp Rank": "62",
+      "H/A/N": "Away",
+      "Score": "W 34-14"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "Oregon St",
+      "Opp Rank": "104",
+      "H/A/N": "Home",
+      "Score": "W 41-7"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "at Penn St",
+      "Opp Rank": "25",
+      "H/A/N": "Away",
+      "Score": "W 30-24"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "Indiana",
+      "Opp Rank": "2",
+      "H/A/N": "Home",
+      "Score": "L 20-30"
+    }
+  ],
+  "Oregon St": [
+    {
+      "Week": "Week 1",
+      "Opponent": "California",
+      "Opp Rank": 78,
+      "H/A/N": "Home",
+      "Score": "L 15-34"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "Fresno St",
+      "Opp Rank": 84,
+      "H/A/N": "Home",
+      "Score": "L 27-36"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "at Texas Tech",
+      "Opp Rank": 5,
+      "H/A/N": "Away",
+      "Score": "L 14-45"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "at Oregon",
+      "Opp Rank": 6,
+      "H/A/N": "Away",
+      "Score": "L 7-41"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "Houston",
+      "Opp Rank": 51,
+      "H/A/N": "Home",
+      "Score": "L 24-27"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "at App State",
+      "Opp Rank": 111,
+      "H/A/N": "Away",
+      "Score": "L 23-27"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "Wake Forest",
+      "Opp Rank": 70,
+      "H/A/N": "Home",
+      "Score": "L 14-39"
+    }
+  ],
+  "Penn St": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Nevada",
+      "Opp Rank": "128",
+      "H/A/N": "Home",
+      "Score": "W 46-11"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "Florida Intl",
+      "Opp Rank": "115",
+      "H/A/N": "Home",
+      "Score": "W 34-0"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "Villanova",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 52-6"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "Oregon",
+      "Opp Rank": "6",
+      "H/A/N": "Home",
+      "Score": "L 24-30"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "at UCLA",
+      "Opp Rank": "65",
+      "H/A/N": "Away",
+      "Score": "L 37-42"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "Northwestern",
+      "Opp Rank": "62",
+      "H/A/N": "Home",
+      "Score": "L 21-22"
+    }
+  ],
+  "Pittsburgh": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Duquesne",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 61-9"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "C Michigan",
+      "Opp Rank": "117",
+      "H/A/N": "Home",
+      "Score": "W 45-17"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "at West Virginia",
+      "Opp Rank": "73",
+      "H/A/N": "Away",
+      "Score": "L 24-31"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "Louisville",
+      "Opp Rank": "31",
+      "H/A/N": "Home",
+      "Score": "L 27-34"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "Boston College",
+      "Opp Rank": "81",
+      "H/A/N": "Home",
+      "Score": "W 48-7"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "at Florida St",
+      "Opp Rank": "16",
+      "H/A/N": "Away",
+      "Score": "W 34-31"
+    }
+  ],
+  "Purdue": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Ball St",
+      "Opp Rank": "131",
+      "H/A/N": "Home",
+      "Score": "W 31-0"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "S Illinois",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 34-17"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "USC",
+      "Opp Rank": "12",
+      "H/A/N": "Home",
+      "Score": "L 17-33"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "at Notre Dame",
+      "Opp Rank": "3",
+      "H/A/N": "Away",
+      "Score": "L 30-56"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "Illinois",
+      "Opp Rank": "27",
+      "H/A/N": "Home",
+      "Score": "L 27-43"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "at Minnesota",
+      "Opp Rank": "52",
+      "H/A/N": "Away",
+      "Score": "L 20-27"
+    }
+  ],
+  "Rice": [
+    {
+      "Week": "Week 1",
+      "Opponent": "at Louisiana",
+      "Opp Rank": "110",
+      "H/A/N": "Away",
+      "Score": "W 14-12"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "Houston",
+      "Opp Rank": "51",
+      "H/A/N": "Home",
+      "Score": "L 9-35"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "Prairie View A&M",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 38-17"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "at Charlotte",
+      "Opp Rank": "134",
+      "H/A/N": "Away",
+      "Score": "W 28-17"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "at Navy",
+      "Opp Rank": "71",
+      "H/A/N": "Away",
+      "Score": "L 13-21"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "Florida Atlantic",
+      "Opp Rank": "114",
+      "H/A/N": "Home",
+      "Score": "L 21-27"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "at UTSA",
+      "Opp Rank": "69",
+      "H/A/N": "Away",
+      "Score": "L 13-61"
+    }
+  ],
+  "Rutgers": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Ohio",
+      "Opp Rank": "79",
+      "H/A/N": "Home",
+      "Score": "W 34-31"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "Miami OH",
+      "Opp Rank": "93",
+      "H/A/N": "Home",
+      "Score": "W 45-17"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "Norfolk St",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 60-10"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "Iowa",
+      "Opp Rank": "22",
+      "H/A/N": "Home",
+      "Score": "L 28-38"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "at Minnesota",
+      "Opp Rank": "52",
+      "H/A/N": "Away",
+      "Score": "L 28-31"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "at Washington",
+      "Opp Rank": "24",
+      "H/A/N": "Away",
+      "Score": "L 19-38"
+    }
+  ],
+  "S Alabama": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Morgan St",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 38-21"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "Tulane",
+      "Opp Rank": "58",
+      "H/A/N": "Home",
+      "Score": "L 31-33"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "at Auburn",
+      "Opp Rank": "26",
+      "H/A/N": "Away",
+      "Score": "L 15-31"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "Coastal Car",
+      "Opp Rank": "120",
+      "H/A/N": "Home",
+      "Score": "L 20-38"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "at N Texas",
+      "Opp Rank": "64",
+      "H/A/N": "Away",
+      "Score": "L 22-36"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "at Troy",
+      "Opp Rank": "85",
+      "H/A/N": "Away",
+      "Score": "L 24-31"
+    },
+    {
+      "Week": "Week 8",
+      "Opponent": "Arkansas St",
+      "Opp Rank": "113",
+      "H/A/N": "Home",
+      "Score": "L 14-15"
+    }
+  ],
+  "S Florida": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Boise St",
+      "Opp Rank": "48",
+      "H/A/N": "Home",
+      "Score": "W 34-7"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "at Florida",
+      "Opp Rank": "23",
+      "H/A/N": "Away",
+      "Score": "W 18-16"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "at Miami",
+      "Opp Rank": "7",
+      "H/A/N": "Away",
+      "Score": "L 12-49"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "S Car State",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 63-14"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "Charlotte",
+      "Opp Rank": "134",
+      "H/A/N": "Home",
+      "Score": "W 54-26"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "at N Texas",
+      "Opp Rank": "64",
+      "H/A/N": "Away",
+      "Score": "W 63-36"
+    }
+  ],
+  "SMU": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Texas A&M-Commerce",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 42-13"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "Baylor",
+      "Opp Rank": "45",
+      "H/A/N": "Home",
+      "Score": "L 45-48"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "at Missouri St",
+      "Opp Rank": "121",
+      "H/A/N": "Away",
+      "Score": "W 28-10"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "at TCU",
+      "Opp Rank": "40",
+      "H/A/N": "Away",
+      "Score": "L 24-35"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "Syracuse",
+      "Opp Rank": "63",
+      "H/A/N": "Home",
+      "Score": "W 31-18"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "Stanford",
+      "Opp Rank": "97",
+      "H/A/N": "Home",
+      "Score": "W 34-10"
+    }
+  ],
+  "Sam Houston": [
+    {
+      "Week": "Week 1",
+      "Opponent": "at W Kentucky",
+      "Opp Rank": 107,
+      "H/A/N": "Away",
+      "Score": "L 24-41"
+    },
+    {
+      "Week": "Week 1",
+      "Opponent": "UNLV",
+      "Opp Rank": 77,
+      "H/A/N": "Home",
+      "Score": "L 21-38"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "at Hawai'i",
+      "Opp Rank": 98,
+      "H/A/N": "Away",
+      "Score": "L 20-37"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "at Texas",
+      "Opp Rank": 9,
+      "H/A/N": "Away",
+      "Score": "L 0-55"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "at New Mexico St",
+      "Opp Rank": 123,
+      "H/A/N": "Away",
+      "Score": "L 10-37"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "Jacksonville St",
+      "Opp Rank": 103,
+      "H/A/N": "Home",
+      "Score": "L 27-29"
+    },
+    {
+      "Week": "Week 8",
+      "Opponent": "UTEP",
+      "Opp Rank": 118,
+      "H/A/N": "Home",
+      "Score": "L 17-35"
+    }
+  ],
+  "San Diego St": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Stony Brook",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 42-0"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "at Washington St",
+      "Opp Rank": "89",
+      "H/A/N": "Away",
+      "Score": "L 13-36"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "California",
+      "Opp Rank": "78",
+      "H/A/N": "Home",
+      "Score": "W 34-0"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "at N Illinois",
+      "Opp Rank": "119",
+      "H/A/N": "Away",
+      "Score": "W 6-3"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "Colorado St",
+      "Opp Rank": "94",
+      "H/A/N": "Home",
+      "Score": "W 45-24"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "at Nevada",
+      "Opp Rank": "128",
+      "H/A/N": "Away",
+      "Score": "W 44-10"
+    }
+  ],
+  "San Jose St": [
+    {
+      "Week": "Week 1",
+      "Opponent": "C Michigan",
+      "Opp Rank": "117",
+      "H/A/N": "Home",
+      "Score": "L 14-16"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "at Texas",
+      "Opp Rank": "9",
+      "H/A/N": "Away",
+      "Score": "L 7-38"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "Idaho",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 31-28"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "at Stanford",
+      "Opp Rank": "97",
+      "H/A/N": "Away",
+      "Score": "L 29-30"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "New Mexico",
+      "Opp Rank": "88",
+      "H/A/N": "Home",
+      "Score": "W 35-28"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "at Wyoming",
+      "Opp Rank": "105",
+      "H/A/N": "Away",
+      "Score": "L 28-35"
+    }
+  ],
+  "South Carolina": [
+    {
+      "Week": "Week 1",
+      "Opponent": "vs Virginia Tech",
+      "Opp Rank": "75",
+      "H/A/N": "Neutral",
+      "Score": "W 24-11"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "S Car State",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 38-10"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "Vanderbilt",
+      "Opp Rank": "21",
+      "H/A/N": "Home",
+      "Score": "L 7-31"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "at Missouri",
+      "Opp Rank": "20",
+      "H/A/N": "Away",
+      "Score": "L 20-29"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "Kentucky",
+      "Opp Rank": "56",
+      "H/A/N": "Home",
+      "Score": "W 35-13"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "at LSU",
+      "Opp Rank": "13",
+      "H/A/N": "Away",
+      "Score": "L 10-20"
+    }
+  ],
+  "Southern Miss": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Mississippi St",
+      "Opp Rank": "42",
+      "H/A/N": "Home",
+      "Score": "L 17-34"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "Jackson State",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 38-20"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "App State",
+      "Opp Rank": "111",
+      "H/A/N": "Home",
+      "Score": "W 38-22"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "at Louisiana Tech",
+      "Opp Rank": "83",
+      "H/A/N": "Away",
+      "Score": "L 20-30"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "Jacksonville St",
+      "Opp Rank": "103",
+      "H/A/N": "Home",
+      "Score": "W 42-25"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "at Georgia So",
+      "Opp Rank": "112",
+      "H/A/N": "Away",
+      "Score": "W 38-35"
+    }
+  ],
+  "Stanford": [
+    {
+      "Week": "Week 1",
+      "Opponent": "at Hawai'i",
+      "Opp Rank": 98,
+      "H/A/N": "Away",
+      "Score": "L 20-23"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "at BYU",
+      "Opp Rank": 28,
+      "H/A/N": "Away",
+      "Score": "L 3-27"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "Boston College",
+      "Opp Rank": 81,
+      "H/A/N": "Home",
+      "Score": "W 30-20"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "at Virginia",
+      "Opp Rank": 36,
+      "H/A/N": "Away",
+      "Score": "L 20-48"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "San Jose St",
+      "Opp Rank": 102,
+      "H/A/N": "Home",
+      "Score": "W 30-29"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "at SMU",
+      "Opp Rank": 43,
+      "H/A/N": "Away",
+      "Score": "L 10-34"
+    }
+  ],
+  "Syracuse": [
+    {
+      "Week": "Week 1",
+      "Opponent": "vs Tennessee",
+      "Opp Rank": "18",
+      "H/A/N": "Neutral",
+      "Score": "L 26-45"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "UConn",
+      "Opp Rank": "74",
+      "H/A/N": "Home",
+      "Score": "W 27-20"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "Colgate",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 66-24"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "at Clemson",
+      "Opp Rank": "29",
+      "H/A/N": "Away",
+      "Score": "W 34-21"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "Duke",
+      "Opp Rank": "41",
+      "H/A/N": "Home",
+      "Score": "L 3-38"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "at SMU",
+      "Opp Rank": "43",
+      "H/A/N": "Away",
+      "Score": "L 18-31"
+    }
+  ],
+  "TCU": [
+    {
+      "Week": "Week 1",
+      "Opponent": "at North Carolina",
+      "Opp Rank": "92",
+      "H/A/N": "Away",
+      "Score": "W 48-14"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "Abl Christian",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 42-21"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "SMU",
+      "Opp Rank": "43",
+      "H/A/N": "Home",
+      "Score": "W 35-24"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "at Arizona St",
+      "Opp Rank": "44",
+      "H/A/N": "Away",
+      "Score": "L 24-27"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "Colorado",
+      "Opp Rank": "57",
+      "H/A/N": "Home",
+      "Score": "W 35-21"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "at Kansas St",
+      "Opp Rank": "47",
+      "H/A/N": "Away",
+      "Score": "L 28-41"
+    }
+  ],
+  "Temple": [
+    {
+      "Week": "Week 1",
+      "Opponent": "at UMass",
+      "Opp Rank": "136",
+      "H/A/N": "Away",
+      "Score": "W 42-10"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "Howard",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 55-7"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "Oklahoma",
+      "Opp Rank": "14",
+      "H/A/N": "Home",
+      "Score": "L 3-42"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "at Georgia Tech",
+      "Opp Rank": "32",
+      "H/A/N": "Away",
+      "Score": "L 24-45"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "UTSA",
+      "Opp Rank": "69",
+      "H/A/N": "Home",
+      "Score": "W 27-21"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "Navy",
+      "Opp Rank": "71",
+      "H/A/N": "Home",
+      "Score": "L 31-32"
+    }
+  ],
+  "Tennessee": [
+    {
+      "Week": "Week 1",
+      "Opponent": "vs Syracuse",
+      "Opp Rank": "63",
+      "H/A/N": "Neutral",
+      "Score": "W 45-26"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "East Tennessee State",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 72-17"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "Georgia",
+      "Opp Rank": "8",
+      "H/A/N": "Home",
+      "Score": "L 41-44"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "UAB",
+      "Opp Rank": "127",
+      "H/A/N": "Home",
+      "Score": "W 56-24"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "at Mississippi St",
+      "Opp Rank": "42",
+      "H/A/N": "Away",
+      "Score": "W 41-34"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "Arkansas",
+      "Opp Rank": "38",
+      "H/A/N": "Home",
+      "Score": "W 34-31"
+    }
+  ],
+  "Texas": [
+    {
+      "Week": "Week 1",
+      "Opponent": "at Ohio St",
+      "Opp Rank": 1,
+      "H/A/N": "Away",
+      "Score": "L 7-14"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "San Jose St",
+      "Opp Rank": 102,
+      "H/A/N": "Home",
+      "Score": "W 38-7"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "UTEP",
+      "Opp Rank": 118,
+      "H/A/N": "Home",
+      "Score": "W 27-10"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "Sam Houston",
+      "Opp Rank": 135,
+      "H/A/N": "Home",
+      "Score": "W 55-0"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "at Florida",
+      "Opp Rank": 23,
+      "H/A/N": "Away",
+      "Score": "L 21-29"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "vs Oklahoma",
+      "Opp Rank": 14,
+      "H/A/N": "Neutral",
+      "Score": "W 23-6"
+    }
+  ],
+  "Texas A&M": [
+    {
+      "Week": "Week 1",
+      "Opponent": "UTSA",
+      "Opp Rank": 69,
+      "H/A/N": "Home",
+      "Score": "W 42-24"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "Utah St",
+      "Opp Rank": 87,
+      "H/A/N": "Home",
+      "Score": "W 44-22"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "at Notre Dame",
+      "Opp Rank": 3,
+      "H/A/N": "Away",
+      "Score": "W 41-40"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "Auburn",
+      "Opp Rank": 26,
+      "H/A/N": "Home",
+      "Score": "W 16-10"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "Mississippi St",
+      "Opp Rank": 42,
+      "H/A/N": "Home",
+      "Score": "W 31-9"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "Florida",
+      "Opp Rank": 23,
+      "H/A/N": "Home",
+      "Score": "W 34-17"
+    }
+  ],
+  "Texas St": [
+    {
+      "Week": "Week 1",
+      "Opponent": "E Michigan",
+      "Opp Rank": "126",
+      "H/A/N": "Home",
+      "Score": "W 52-27"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "at UTSA",
+      "Opp Rank": "69",
+      "H/A/N": "Away",
+      "Score": "W 43-36"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "at Arizona St",
+      "Opp Rank": "44",
+      "H/A/N": "Away",
+      "Score": "L 15-34"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "Nicholls St",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 35-3"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "at Arkansas St",
+      "Opp Rank": "113",
+      "H/A/N": "Away",
+      "Score": "L 30-31"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "Troy",
+      "Opp Rank": "85",
+      "H/A/N": "Home",
+      "Score": "L 41-48"
+    }
+  ],
+  "Texas Tech": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Arkansas-Pine Bluff",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 67-7"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "Kent St",
+      "Opp Rank": "133",
+      "H/A/N": "Home",
+      "Score": "W 62-14"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "Oregon St",
+      "Opp Rank": "104",
+      "H/A/N": "Home",
+      "Score": "W 45-14"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "at Utah",
+      "Opp Rank": "11",
+      "H/A/N": "Away",
+      "Score": "W 34-10"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "at Houston",
+      "Opp Rank": "51",
+      "H/A/N": "Away",
+      "Score": "W 35-11"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "Kansas",
+      "Opp Rank": "37",
+      "H/A/N": "Home",
+      "Score": "W 42-17"
+    }
+  ],
+  "Toledo": [
+    {
+      "Week": "Week 1",
+      "Opponent": "at Kentucky",
+      "Opp Rank": "56",
+      "H/A/N": "Away",
+      "Score": "L 16-24"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "W Kentucky",
+      "Opp Rank": "107",
+      "H/A/N": "Home",
+      "Score": "W 45-21"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "Morgan St",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 60-0"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "at W Michigan",
+      "Opp Rank": "91",
+      "H/A/N": "Away",
+      "Score": "L 13-14"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "Akron",
+      "Opp Rank": "132",
+      "H/A/N": "Home",
+      "Score": "W 45-3"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "at Bowling Green",
+      "Opp Rank": "96",
+      "H/A/N": "Away",
+      "Score": "L 23-28"
+    }
+  ],
+  "Troy": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Nicholls St",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 38-20"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "at Clemson",
+      "Opp Rank": "29",
+      "H/A/N": "Away",
+      "Score": "L 16-27"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "Memphis",
+      "Opp Rank": "46",
+      "H/A/N": "Home",
+      "Score": "L 7-28"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "at Buffalo",
+      "Opp Rank": "100",
+      "H/A/N": "Away",
+      "Score": "W 21-17"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "S Alabama",
+      "Opp Rank": "108",
+      "H/A/N": "Home",
+      "Score": "W 31-24"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "at Texas St",
+      "Opp Rank": "80",
+      "H/A/N": "Away",
+      "Score": "W 48-41"
+    }
+  ],
+  "Tulane": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Northwestern",
+      "Opp Rank": 62,
+      "H/A/N": "Home",
+      "Score": "W 23-3"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "at S Alabama",
+      "Opp Rank": 108,
+      "H/A/N": "Away",
+      "Score": "W 33-31"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "Duke",
+      "Opp Rank": 41,
+      "H/A/N": "Home",
+      "Score": "W 34-27"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "at Mississippi",
+      "Opp Rank": 15,
+      "H/A/N": "Away",
+      "Score": "L 10-45"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "at Tulsa",
+      "Opp Rank": 122,
+      "H/A/N": "Away",
+      "Score": "W 31-14"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "E Carolina",
+      "Opp Rank": 61,
+      "H/A/N": "Home",
+      "Score": "W 26-19"
+    }
+  ],
+  "Tulsa": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Abl Christian",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 35-7"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "at New Mexico St",
+      "Opp Rank": "123",
+      "H/A/N": "Away",
+      "Score": "L 14-21"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "Navy",
+      "Opp Rank": "71",
+      "H/A/N": "Home",
+      "Score": "L 23-42"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "at Oklahoma St",
+      "Opp Rank": "116",
+      "H/A/N": "Away",
+      "Score": "W 19-12"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "Tulane",
+      "Opp Rank": "58",
+      "H/A/N": "Home",
+      "Score": "L 14-31"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "at Memphis",
+      "Opp Rank": "46",
+      "H/A/N": "Away",
+      "Score": "L 7-45"
+    }
+  ],
+  "UAB": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Alabama St",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 52-42"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "at Navy",
+      "Opp Rank": "71",
+      "H/A/N": "Away",
+      "Score": "L 24-38"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "Akron",
+      "Opp Rank": "132",
+      "H/A/N": "Home",
+      "Score": "W 31-28"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "at Tennessee",
+      "Opp Rank": "18",
+      "H/A/N": "Away",
+      "Score": "L 24-56"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "Army",
+      "Opp Rank": "82",
+      "H/A/N": "Home",
+      "Score": "L 13-31"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "at Florida Atlantic",
+      "Opp Rank": "114",
+      "H/A/N": "Away",
+      "Score": "L 33-53"
+    }
+  ],
+  "UCF": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Jacksonville St",
+      "Opp Rank": "103",
+      "H/A/N": "Home",
+      "Score": "W 17-10"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "North Carolina A&T",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 68-7"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "North Carolina",
+      "Opp Rank": "92",
+      "H/A/N": "Home",
+      "Score": "W 34-9"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "at Kansas St",
+      "Opp Rank": "47",
+      "H/A/N": "Away",
+      "Score": "L 20-34"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "Kansas",
+      "Opp Rank": "37",
+      "H/A/N": "Home",
+      "Score": "L 20-27"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "at Cincinnati",
+      "Opp Rank": "30",
+      "H/A/N": "Away",
+      "Score": "L 11-20"
+    }
+  ],
+  "UCLA": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Utah",
+      "Opp Rank": 11,
+      "H/A/N": "Home",
+      "Score": "L 10-43"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "at UNLV",
+      "Opp Rank": 77,
+      "H/A/N": "Away",
+      "Score": "L 23-30"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "New Mexico",
+      "Opp Rank": 88,
+      "H/A/N": "Home",
+      "Score": "L 10-35"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "at Northwestern",
+      "Opp Rank": 62,
+      "H/A/N": "Away",
+      "Score": "L 14-17"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "Penn St",
+      "Opp Rank": 25,
+      "H/A/N": "Home",
+      "Score": "W 42-37"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "at Michigan St",
+      "Opp Rank": 68,
+      "H/A/N": "Away",
+      "Score": "W 38-13"
+    }
+  ],
+  "UConn": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Central Connecticut State",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 59-13"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "at Syracuse",
+      "Opp Rank": "63",
+      "H/A/N": "Away",
+      "Score": "L 20-27"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "at Delaware",
+      "Opp Rank": "109",
+      "H/A/N": "Away",
+      "Score": "L 41-44"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "Ball St",
+      "Opp Rank": "131",
+      "H/A/N": "Home",
+      "Score": "W 31-25"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "at Buffalo",
+      "Opp Rank": "100",
+      "H/A/N": "Away",
+      "Score": "W 20-17"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "Florida Intl",
+      "Opp Rank": "115",
+      "H/A/N": "Home",
+      "Score": "W 51-10"
+    }
+  ],
+  "UL Monroe": [
+    {
+      "Week": "Week 1",
+      "Opponent": "St. Francis",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 29-0"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "at Alabama",
+      "Opp Rank": "4",
+      "H/A/N": "Away",
+      "Score": "L 0-73"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "at UTEP",
+      "Opp Rank": "118",
+      "H/A/N": "Away",
+      "Score": "W 31-25"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "Arkansas St",
+      "Opp Rank": "113",
+      "H/A/N": "Home",
+      "Score": "W 28-16"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "at Northwestern",
+      "Opp Rank": "62",
+      "H/A/N": "Away",
+      "Score": "L 7-42"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "at Coastal Car",
+      "Opp Rank": "120",
+      "H/A/N": "Away",
+      "Score": "L 8-23"
+    }
+  ],
+  "UMass": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Temple",
+      "Opp Rank": "90",
+      "H/A/N": "Home",
+      "Score": "L 10-42"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "Bryant",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "L 26-27"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "at Iowa",
+      "Opp Rank": "22",
+      "H/A/N": "Away",
+      "Score": "L 7-47"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "at Missouri",
+      "Opp Rank": "20",
+      "H/A/N": "Away",
+      "Score": "L 6-42"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "W Michigan",
+      "Opp Rank": "91",
+      "H/A/N": "Home",
+      "Score": "L 3-21"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "at Kent St",
+      "Opp Rank": "133",
+      "H/A/N": "Away",
+      "Score": "L 6-42"
+    }
+  ],
+  "UNLV": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Idaho State",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 38-31"
+    },
+    {
+      "Week": "Week 1",
+      "Opponent": "at Sam Houston",
+      "Opp Rank": "135",
+      "H/A/N": "Away",
+      "Score": "W 38-21"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "UCLA",
+      "Opp Rank": "65",
+      "H/A/N": "Home",
+      "Score": "W 30-23"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "at Miami OH",
+      "Opp Rank": "93",
+      "H/A/N": "Away",
+      "Score": "W 41-38"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "at Wyoming",
+      "Opp Rank": "105",
+      "H/A/N": "Away",
+      "Score": "W 31-17"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "Air Force",
+      "Opp Rank": "95",
+      "H/A/N": "Home",
+      "Score": "W 51-48"
+    }
+  ],
+  "USC": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Missouri St",
+      "Opp Rank": 121,
+      "H/A/N": "Home",
+      "Score": "W 73-13"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "Georgia So",
+      "Opp Rank": 112,
+      "H/A/N": "Home",
+      "Score": "W 59-20"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "at Purdue",
+      "Opp Rank": 76,
+      "H/A/N": "Away",
+      "Score": "W 33-17"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "Michigan St",
+      "Opp Rank": 68,
+      "H/A/N": "Home",
+      "Score": "W 45-31"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "at Illinois",
+      "Opp Rank": 27,
+      "H/A/N": "Away",
+      "Score": "L 32-34"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "Michigan",
+      "Opp Rank": 17,
+      "H/A/N": "Home",
+      "Score": "W 31-13"
+    }
+  ],
+  "UTEP": [
+    {
+      "Week": "Week 1",
+      "Opponent": "at Utah St",
+      "Opp Rank": "87",
+      "H/A/N": "Away",
+      "Score": "L 16-28"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "TN Martin",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 42-17"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "at Texas",
+      "Opp Rank": "9",
+      "H/A/N": "Away",
+      "Score": "L 10-27"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "UL Monroe",
+      "Opp Rank": "125",
+      "H/A/N": "Home",
+      "Score": "L 25-31"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "Louisiana Tech",
+      "Opp Rank": "83",
+      "H/A/N": "Home",
+      "Score": "L 11-30"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "Liberty",
+      "Opp Rank": "101",
+      "H/A/N": "Home",
+      "Score": "L 8-19"
+    },
+    {
+      "Week": "Week 8",
+      "Opponent": "at Sam Houston",
+      "Opp Rank": "135",
+      "H/A/N": "Away",
+      "Score": "W 35-17"
+    }
+  ],
+  "UTSA": [
+    {
+      "Week": "Week 1",
+      "Opponent": "at Texas A&M",
+      "Opp Rank": "10",
+      "H/A/N": "Away",
+      "Score": "L 24-42"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "Texas St",
+      "Opp Rank": "80",
+      "H/A/N": "Home",
+      "Score": "L 36-43"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "Incar Word",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 48-20"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "at Colorado St",
+      "Opp Rank": "94",
+      "H/A/N": "Away",
+      "Score": "W 17-16"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "at Temple",
+      "Opp Rank": "90",
+      "H/A/N": "Away",
+      "Score": "L 21-27"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "Rice",
+      "Opp Rank": "124",
+      "H/A/N": "Home",
+      "Score": "W 61-13"
+    }
+  ],
+  "Utah": [
+    {
+      "Week": "Week 1",
+      "Opponent": "at UCLA",
+      "Opp Rank": "65",
+      "H/A/N": "Away",
+      "Score": "W 43-10"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "Cal Poly",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 63-9"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "at Wyoming",
+      "Opp Rank": "105",
+      "H/A/N": "Away",
+      "Score": "W 31-6"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "Texas Tech",
+      "Opp Rank": "5",
+      "H/A/N": "Home",
+      "Score": "L 10-34"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "at West Virginia",
+      "Opp Rank": "73",
+      "H/A/N": "Away",
+      "Score": "W 48-14"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "Arizona St",
+      "Opp Rank": "44",
+      "H/A/N": "Home",
+      "Score": "W 42-10"
+    }
+  ],
+  "Utah St": [
+    {
+      "Week": "Week 1",
+      "Opponent": "UTEP",
+      "Opp Rank": "118",
+      "H/A/N": "Home",
+      "Score": "W 28-16"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "at Texas A&M",
+      "Opp Rank": "10",
+      "H/A/N": "Away",
+      "Score": "L 22-44"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "Air Force",
+      "Opp Rank": "95",
+      "H/A/N": "Home",
+      "Score": "W 49-30"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "McNeese St",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 48-7"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "at Vanderbilt",
+      "Opp Rank": "21",
+      "H/A/N": "Away",
+      "Score": "L 35-55"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "at Hawai'i",
+      "Opp Rank": "98",
+      "H/A/N": "Away",
+      "Score": "L 26-44"
+    }
+  ],
+  "Vanderbilt": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Charl South",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 45-3"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "at Virginia Tech",
+      "Opp Rank": "75",
+      "H/A/N": "Away",
+      "Score": "W 44-20"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "at South Carolina",
+      "Opp Rank": "35",
+      "H/A/N": "Away",
+      "Score": "W 31-7"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "Georgia St",
+      "Opp Rank": "129",
+      "H/A/N": "Home",
+      "Score": "W 70-21"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "Utah St",
+      "Opp Rank": "87",
+      "H/A/N": "Home",
+      "Score": "W 55-35"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "at Alabama",
+      "Opp Rank": "4",
+      "H/A/N": "Away",
+      "Score": "L 14-30"
+    }
+  ],
+  "Virginia": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Coastal Car",
+      "Opp Rank": "120",
+      "H/A/N": "Home",
+      "Score": "W 48-7"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "at NC State",
+      "Opp Rank": "54",
+      "H/A/N": "Away",
+      "Score": "L 31-35"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "Wm & Mary",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 55-16"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "Stanford",
+      "Opp Rank": "97",
+      "H/A/N": "Home",
+      "Score": "W 48-20"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "Florida St",
+      "Opp Rank": "16",
+      "H/A/N": "Home",
+      "Score": "W 46-38"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "at Louisville",
+      "Opp Rank": "31",
+      "H/A/N": "Away",
+      "Score": "W 30-27"
+    }
+  ],
+  "Virginia Tech": [
+    {
+      "Week": "Week 1",
+      "Opponent": "vs South Carolina",
+      "Opp Rank": "35",
+      "H/A/N": "Neutral",
+      "Score": "L 11-24"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "Vanderbilt",
+      "Opp Rank": "21",
+      "H/A/N": "Home",
+      "Score": "L 20-44"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "Old Dominion",
+      "Opp Rank": "59",
+      "H/A/N": "Home",
+      "Score": "L 26-45"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "Wofford",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 38-6"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "at NC State",
+      "Opp Rank": "54",
+      "H/A/N": "Away",
+      "Score": "W 23-21"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "Wake Forest",
+      "Opp Rank": "70",
+      "H/A/N": "Home",
+      "Score": "L 23-30"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "at Georgia Tech",
+      "Opp Rank": "32",
+      "H/A/N": "Away",
+      "Score": "L 20-35"
+    }
+  ],
+  "W Kentucky": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Sam Houston",
+      "Opp Rank": "135",
+      "H/A/N": "Home",
+      "Score": "W 41-24"
+    },
+    {
+      "Week": "Week 1",
+      "Opponent": "N Alabama",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 55-6"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "at Toledo",
+      "Opp Rank": "60",
+      "H/A/N": "Away",
+      "Score": "L 21-45"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "Nevada",
+      "Opp Rank": "128",
+      "H/A/N": "Home",
+      "Score": "W 31-16"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "at Missouri St",
+      "Opp Rank": "121",
+      "H/A/N": "Away",
+      "Score": "W 27-22"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "at Delaware",
+      "Opp Rank": "109",
+      "H/A/N": "Away",
+      "Score": "W 27-24"
+    },
+    {
+      "Week": "Week 8",
+      "Opponent": "Florida Intl",
+      "Opp Rank": "115",
+      "H/A/N": "Home",
+      "Score": "L 6-25"
+    }
+  ],
+  "W Michigan": [
+    {
+      "Week": "Week 1",
+      "Opponent": "at Michigan St",
+      "Opp Rank": "68",
+      "H/A/N": "Away",
+      "Score": "L 6-23"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "N Texas",
+      "Opp Rank": "64",
+      "H/A/N": "Home",
+      "Score": "L 30-33"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "at Illinois",
+      "Opp Rank": "27",
+      "H/A/N": "Away",
+      "Score": "L 0-38"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "Toledo",
+      "Opp Rank": "60",
+      "H/A/N": "Home",
+      "Score": "W 14-13"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "Rhode Island",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 47-14"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "at UMass",
+      "Opp Rank": "136",
+      "H/A/N": "Away",
+      "Score": "W 21-3"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "Ball St",
+      "Opp Rank": "131",
+      "H/A/N": "Home",
+      "Score": "W 42-0"
+    }
+  ],
+  "Wake Forest": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Kennesaw St",
+      "Opp Rank": "106",
+      "H/A/N": "Home",
+      "Score": "W 10-9"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "W Carolina",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 42-10"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "NC State",
+      "Opp Rank": "54",
+      "H/A/N": "Home",
+      "Score": "L 24-34"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "Georgia Tech",
+      "Opp Rank": "32",
+      "H/A/N": "Home",
+      "Score": "L 29-30"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "at Virginia Tech",
+      "Opp Rank": "75",
+      "H/A/N": "Away",
+      "Score": "W 30-23"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "at Oregon St",
+      "Opp Rank": "104",
+      "H/A/N": "Away",
+      "Score": "W 39-14"
+    }
+  ],
+  "Washington": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Colorado St",
+      "Opp Rank": "94",
+      "H/A/N": "Home",
+      "Score": "W 38-21"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "UC Davis",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 70-10"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "at Washington St",
+      "Opp Rank": "89",
+      "H/A/N": "Away",
+      "Score": "W 59-24"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "Ohio St",
+      "Opp Rank": "1",
+      "H/A/N": "Home",
+      "Score": "L 6-24"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "at Maryland",
+      "Opp Rank": "53",
+      "H/A/N": "Away",
+      "Score": "W 24-20"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "Rutgers",
+      "Opp Rank": "49",
+      "H/A/N": "Home",
+      "Score": "W 38-19"
+    }
+  ],
+  "Washington St": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Idaho",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 13-10"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "San Diego St",
+      "Opp Rank": "72",
+      "H/A/N": "Home",
+      "Score": "W 36-13"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "at N Texas",
+      "Opp Rank": "64",
+      "H/A/N": "Away",
+      "Score": "L 10-59"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "Washington",
+      "Opp Rank": "24",
+      "H/A/N": "Home",
+      "Score": "L 24-59"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "at Colorado St",
+      "Opp Rank": "94",
+      "H/A/N": "Away",
+      "Score": "W 20-3"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "at Mississippi",
+      "Opp Rank": "15",
+      "H/A/N": "Away",
+      "Score": "L 21-24"
+    }
+  ],
+  "West Virginia": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Robert Morris",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 45-3"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "at Ohio",
+      "Opp Rank": "79",
+      "H/A/N": "Away",
+      "Score": "L 10-17"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "Pittsburgh",
+      "Opp Rank": "33",
+      "H/A/N": "Home",
+      "Score": "W 31-24"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "at Kansas",
+      "Opp Rank": "37",
+      "H/A/N": "Away",
+      "Score": "L 10-41"
+    },
+    {
+      "Week": "Week 5",
+      "Opponent": "Utah",
+      "Opp Rank": "11",
+      "H/A/N": "Home",
+      "Score": "L 14-48"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "at BYU",
+      "Opp Rank": "28",
+      "H/A/N": "Away",
+      "Score": "L 24-38"
+    }
+  ],
+  "Wisconsin": [
+    {
+      "Week": "Week 1",
+      "Opponent": "Miami OH",
+      "Opp Rank": 93,
+      "H/A/N": "Home",
+      "Score": "W 17-0"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "Middle Tenn",
+      "Opp Rank": 130,
+      "H/A/N": "Home",
+      "Score": "W 42-10"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "at Alabama",
+      "Opp Rank": 4,
+      "H/A/N": "Away",
+      "Score": "L 14-38"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "Maryland",
+      "Opp Rank": 53,
+      "H/A/N": "Home",
+      "Score": "L 10-27"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "at Michigan",
+      "Opp Rank": 17,
+      "H/A/N": "Away",
+      "Score": "L 10-24"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "Iowa",
+      "Opp Rank": 22,
+      "H/A/N": "Home",
+      "Score": "L 0-37"
+    }
+  ],
+  "Wyoming": [
+    {
+      "Week": "Week 1",
+      "Opponent": "at Akron",
+      "Opp Rank": "132",
+      "H/A/N": "Away",
+      "Score": "W 10-0"
+    },
+    {
+      "Week": "Week 2",
+      "Opponent": "N Iowa",
+      "Opp Rank": "--",
+      "H/A/N": "Home",
+      "Score": "W 31-7"
+    },
+    {
+      "Week": "Week 3",
+      "Opponent": "Utah",
+      "Opp Rank": "11",
+      "H/A/N": "Home",
+      "Score": "L 6-31"
+    },
+    {
+      "Week": "Week 4",
+      "Opponent": "at Colorado",
+      "Opp Rank": "57",
+      "H/A/N": "Away",
+      "Score": "L 20-37"
+    },
+    {
+      "Week": "Week 6",
+      "Opponent": "UNLV",
+      "Opp Rank": "77",
+      "H/A/N": "Home",
+      "Score": "L 17-31"
+    },
+    {
+      "Week": "Week 7",
+      "Opponent": "San Jose St",
+      "Opp Rank": "102",
+      "H/A/N": "Home",
+      "Score": "W 35-28"
+    }
+  ]
+}
