@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { signOut } from 'next-auth/react'
+import { signOut, useSession } from 'next-auth/react'
 
 interface Message {
   id: string
@@ -21,6 +21,7 @@ export default function ChatInterface({ onSendMessage, messages, isLoading = fal
   const [input, setInput] = useState('')
   const messagesContainerRef = useRef<HTMLDivElement>(null)
   const messagesEndRef = useRef<HTMLDivElement>(null)
+  const { data: session } = useSession()
 
   // Auto-scroll to bottom when messages change
   useEffect(() => {
@@ -35,6 +36,18 @@ export default function ChatInterface({ onSendMessage, messages, isLoading = fal
       onSendMessage(input.trim())
       setInput('')
     }
+  }
+
+  const handleSignOut = async () => {
+    // Clear NextAuth session first
+    await signOut({ redirect: false })
+
+    // Use Okta's simple logout endpoint that doesn't require pre-configured URIs
+    const oktaIssuer = process.env.NEXT_PUBLIC_OKTA_ISSUER || 'https://integrator-9464660.okta.com'
+    const returnTo = encodeURIComponent(`${window.location.origin}/auth/signin`)
+
+    // Okta's /login/signout accepts a fromURI parameter for redirect
+    window.location.href = `${oktaIssuer}/login/signout?fromURI=${returnTo}`
   }
 
   const exampleQuestions = [
@@ -61,7 +74,7 @@ export default function ChatInterface({ onSendMessage, messages, isLoading = fal
             </div>
           </div>
           <button
-            onClick={() => signOut({ callbackUrl: '/auth/signin' })}
+            onClick={handleSignOut}
             className="px-4 py-2 bg-red-600/20 hover:bg-red-600/30 text-red-400 hover:text-red-300
               text-sm rounded-md border border-red-600/40 hover:border-red-600/60
               transition-all font-scoreboard"

@@ -2,37 +2,61 @@
   "conferences": {
     "American Athletic": [
       {
-        "team": "S Florida",
+        "team": "Tulane",
         "current": {
-          "conf_w": 2,
+          "conf_w": 3,
           "conf_l": 0,
           "conf_t": 0,
-          "overall_w": 5,
+          "overall_w": 6,
           "overall_l": 1,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 6.9,
-          "conf_l": 1.1,
+          "conf_w": 6.6,
+          "conf_l": 1.4,
           "conf_t": 0.0,
-          "overall_w": 9.9,
-          "overall_l": 2.1,
+          "overall_w": 9.6,
+          "overall_l": 2.4,
           "overall_t": 0.0
         },
         "odds": {
           "bowl_eligible": "100.0%",
-          "win_conference": "41.5%",
+          "win_conference": "21.0%",
           "playoff": "0.0%"
         }
       },
       {
-        "team": "Memphis",
+        "team": "S Florida",
         "current": {
-          "conf_w": 2,
-          "conf_l": 0,
+          "conf_w": 3,
+          "conf_l": 1,
           "conf_t": 0,
           "overall_w": 6,
-          "overall_l": 0,
+          "overall_l": 2,
+          "overall_t": 0
+        },
+        "projection": {
+          "conf_w": 6.5,
+          "conf_l": 1.5,
+          "conf_t": 0.0,
+          "overall_w": 9.5,
+          "overall_l": 2.5,
+          "overall_t": 0.0
+        },
+        "odds": {
+          "bowl_eligible": "100.0%",
+          "win_conference": "36.6%",
+          "playoff": "0.0%"
+        }
+      },
+      {
+        "team": "N Texas",
+        "current": {
+          "conf_w": 3,
+          "conf_l": 1,
+          "conf_t": 0,
+          "overall_w": 7,
+          "overall_l": 1,
           "overall_t": 0
         },
         "projection": {
@@ -45,26 +69,50 @@
         },
         "odds": {
           "bowl_eligible": "100.0%",
-          "win_conference": "26.4%",
-          "playoff": "15.8%"
+          "win_conference": "14.5%",
+          "playoff": "0.0%"
         }
       },
       {
-        "team": "Tulane",
+        "team": "Navy",
         "current": {
-          "conf_w": 2,
+          "conf_w": 5,
           "conf_l": 0,
           "conf_t": 0,
-          "overall_w": 5,
+          "overall_w": 7,
+          "overall_l": 0,
+          "overall_t": 0
+        },
+        "projection": {
+          "conf_w": 5.8,
+          "conf_l": 2.2,
+          "conf_t": 0.0,
+          "overall_w": 8.4,
+          "overall_l": 3.6,
+          "overall_t": 0.0
+        },
+        "odds": {
+          "bowl_eligible": "100.0%",
+          "win_conference": "8.3%",
+          "playoff": "0.1%"
+        }
+      },
+      {
+        "team": "Memphis",
+        "current": {
+          "conf_w": 3,
+          "conf_l": 1,
+          "conf_t": 0,
+          "overall_w": 7,
           "overall_l": 1,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 6.3,
-          "conf_l": 1.7,
+          "conf_w": 5.8,
+          "conf_l": 2.2,
           "conf_t": 0.0,
-          "overall_w": 9.3,
-          "overall_l": 2.7,
+          "overall_w": 9.8,
+          "overall_l": 2.2,
           "overall_t": 0.0
         },
         "odds": {
@@ -74,84 +122,36 @@
         }
       },
       {
-        "team": "N Texas",
-        "current": {
-          "conf_w": 1,
-          "conf_l": 1,
-          "conf_t": 0,
-          "overall_w": 5,
-          "overall_l": 1,
-          "overall_t": 0
-        },
-        "projection": {
-          "conf_w": 5.7,
-          "conf_l": 2.3,
-          "conf_t": 0.0,
-          "overall_w": 9.7,
-          "overall_l": 2.3,
-          "overall_t": 0.0
-        },
-        "odds": {
-          "bowl_eligible": "100.0%",
-          "win_conference": "4.2%",
-          "playoff": "0.0%"
-        }
-      },
-      {
-        "team": "Navy",
-        "current": {
-          "conf_w": 4,
-          "conf_l": 0,
-          "conf_t": 0,
-          "overall_w": 6,
-          "overall_l": 0,
-          "overall_t": 0
-        },
-        "projection": {
-          "conf_w": 5.7,
-          "conf_l": 2.3,
-          "conf_t": 0.0,
-          "overall_w": 8.4,
-          "overall_l": 3.6,
-          "overall_t": 0.0
-        },
-        "odds": {
-          "bowl_eligible": "100.0%",
-          "win_conference": "7.1%",
-          "playoff": "0.1%"
-        }
-      },
-      {
         "team": "E Carolina",
         "current": {
-          "conf_w": 1,
+          "conf_w": 2,
           "conf_l": 1,
           "conf_t": 0,
-          "overall_w": 3,
+          "overall_w": 4,
           "overall_l": 3,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 5.4,
-          "conf_l": 2.6,
+          "conf_w": 5.5,
+          "conf_l": 2.5,
           "conf_t": 0.0,
-          "overall_w": 7.4,
-          "overall_l": 4.6,
+          "overall_w": 7.5,
+          "overall_l": 4.5,
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "96.2%",
+          "bowl_eligible": "97.7%",
           "win_conference": "4.4%",
           "playoff": "0.0%"
         }
       },
       {
-        "team": "UTSA",
+        "team": "Temple",
         "current": {
-          "conf_w": 1,
+          "conf_w": 3,
           "conf_l": 1,
           "conf_t": 0,
-          "overall_w": 3,
+          "overall_w": 5,
           "overall_l": 3,
           "overall_t": 0
         },
@@ -164,8 +164,8 @@
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "71.7%",
-          "win_conference": "1.7%",
+          "bowl_eligible": "74.3%",
+          "win_conference": "0.6%",
           "playoff": "0.0%"
         }
       },
@@ -173,46 +173,46 @@
         "team": "Army",
         "current": {
           "conf_w": 2,
-          "conf_l": 2,
+          "conf_l": 3,
           "conf_t": 0,
           "overall_w": 3,
-          "overall_l": 3,
+          "overall_l": 4,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 3.9,
-          "conf_l": 4.1,
+          "conf_w": 3.8,
+          "conf_l": 4.2,
           "conf_t": 0.0,
           "overall_w": 5.8,
           "overall_l": 6.2,
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "58.4%",
-          "win_conference": "0.1%",
+          "bowl_eligible": "59.4%",
+          "win_conference": "0.0%",
           "playoff": "0.0%"
         }
       },
       {
-        "team": "Temple",
+        "team": "UTSA",
         "current": {
           "conf_w": 1,
-          "conf_l": 1,
+          "conf_l": 2,
           "conf_t": 0,
           "overall_w": 3,
-          "overall_l": 3,
+          "overall_l": 4,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 3.7,
-          "conf_l": 4.3,
+          "conf_w": 3.5,
+          "conf_l": 4.5,
           "conf_t": 0.0,
-          "overall_w": 5.7,
-          "overall_l": 6.3,
+          "overall_w": 5.5,
+          "overall_l": 6.5,
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "55.2%",
+          "bowl_eligible": "48.6%",
           "win_conference": "0.2%",
           "playoff": "0.0%"
         }
@@ -221,22 +221,46 @@
         "team": "Florida Atlantic",
         "current": {
           "conf_w": 2,
-          "conf_l": 1,
+          "conf_l": 3,
           "conf_t": 0,
           "overall_w": 3,
-          "overall_l": 3,
+          "overall_l": 5,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 3.1,
-          "conf_l": 4.9,
+          "conf_w": 2.9,
+          "conf_l": 5.1,
           "conf_t": 0.0,
-          "overall_w": 4.3,
-          "overall_l": 7.7,
+          "overall_w": 4.1,
+          "overall_l": 7.9,
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "11.2%",
+          "bowl_eligible": "5.6%",
+          "win_conference": "0.0%",
+          "playoff": "0.0%"
+        }
+      },
+      {
+        "team": "UAB",
+        "current": {
+          "conf_w": 1,
+          "conf_l": 3,
+          "conf_t": 0,
+          "overall_w": 3,
+          "overall_l": 4,
+          "overall_t": 0
+        },
+        "projection": {
+          "conf_w": 2.0,
+          "conf_l": 6.0,
+          "conf_t": 0.0,
+          "overall_w": 4.2,
+          "overall_l": 7.8,
+          "overall_t": 0.0
+        },
+        "odds": {
+          "bowl_eligible": "7.6%",
           "win_conference": "0.0%",
           "playoff": "0.0%"
         }
@@ -247,20 +271,20 @@
           "conf_w": 1,
           "conf_l": 3,
           "conf_t": 0,
-          "overall_w": 3,
+          "overall_w": 4,
           "overall_l": 4,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 1.8,
-          "conf_l": 6.2,
+          "conf_w": 1.7,
+          "conf_l": 6.3,
           "conf_t": 0.0,
-          "overall_w": 4.0,
-          "overall_l": 8.0,
+          "overall_w": 4.7,
+          "overall_l": 7.3,
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "4.0%",
+          "bowl_eligible": "11.2%",
           "win_conference": "0.0%",
           "playoff": "0.0%"
         }
@@ -269,46 +293,22 @@
         "team": "Tulsa",
         "current": {
           "conf_w": 0,
-          "conf_l": 3,
+          "conf_l": 5,
           "conf_t": 0,
           "overall_w": 2,
-          "overall_l": 4,
+          "overall_l": 6,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 1.5,
-          "conf_l": 6.5,
+          "conf_w": 1.1,
+          "conf_l": 6.9,
           "conf_t": 0.0,
-          "overall_w": 3.9,
-          "overall_l": 8.1,
+          "overall_w": 3.5,
+          "overall_l": 8.5,
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "9.6%",
-          "win_conference": "0.0%",
-          "playoff": "0.0%"
-        }
-      },
-      {
-        "team": "UAB",
-        "current": {
-          "conf_w": 0,
-          "conf_l": 3,
-          "conf_t": 0,
-          "overall_w": 2,
-          "overall_l": 4,
-          "overall_t": 0
-        },
-        "projection": {
-          "conf_w": 0.9,
-          "conf_l": 7.1,
-          "conf_t": 0.0,
-          "overall_w": 3.0,
-          "overall_l": 9.0,
-          "overall_t": 0.0
-        },
-        "odds": {
-          "bowl_eligible": "0.9%",
+          "bowl_eligible": "2.2%",
           "win_conference": "0.0%",
           "playoff": "0.0%"
         }
@@ -317,18 +317,18 @@
         "team": "Charlotte",
         "current": {
           "conf_w": 0,
-          "conf_l": 3,
+          "conf_l": 5,
           "conf_t": 0,
           "overall_w": 1,
-          "overall_l": 5,
+          "overall_l": 7,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 0.3,
-          "conf_l": 7.7,
+          "conf_w": 0.1,
+          "conf_l": 7.9,
           "conf_t": 0.0,
-          "overall_w": 1.3,
-          "overall_l": 10.7,
+          "overall_w": 1.1,
+          "overall_l": 10.9,
           "overall_t": 0.0
         },
         "odds": {
@@ -340,42 +340,42 @@
     ],
     "ACC": [
       {
-        "team": "Miami",
+        "team": "Georgia Tech",
         "current": {
-          "conf_w": 1,
+          "conf_w": 5,
           "conf_l": 0,
           "conf_t": 0,
-          "overall_w": 5,
+          "overall_w": 8,
           "overall_l": 0,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 7.3,
-          "conf_l": 0.7,
+          "conf_w": 7.2,
+          "conf_l": 0.8,
           "conf_t": 0.0,
-          "overall_w": 11.3,
-          "overall_l": 0.7,
+          "overall_w": 10.4,
+          "overall_l": 1.6,
           "overall_t": 0.0
         },
         "odds": {
           "bowl_eligible": "100.0%",
-          "win_conference": "56.7%",
-          "playoff": "48.8%"
+          "win_conference": "37.3%",
+          "playoff": "9.9%"
         }
       },
       {
         "team": "Virginia",
         "current": {
-          "conf_w": 3,
+          "conf_w": 4,
           "conf_l": 0,
           "conf_t": 0,
-          "overall_w": 5,
+          "overall_w": 7,
           "overall_l": 1,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 6.8,
-          "conf_l": 1.2,
+          "conf_w": 6.7,
+          "conf_l": 1.3,
           "conf_t": 0.0,
           "overall_w": 9.7,
           "overall_l": 2.3,
@@ -383,127 +383,127 @@
         },
         "odds": {
           "bowl_eligible": "100.0%",
-          "win_conference": "14.4%",
+          "win_conference": "18.0%",
           "playoff": "0.0%"
         }
       },
       {
-        "team": "Georgia Tech",
+        "team": "Miami",
         "current": {
-          "conf_w": 3,
-          "conf_l": 0,
+          "conf_w": 2,
+          "conf_l": 1,
           "conf_t": 0,
           "overall_w": 6,
-          "overall_l": 0,
+          "overall_l": 1,
           "overall_t": 0
         },
         "projection": {
           "conf_w": 6.3,
           "conf_l": 1.7,
           "conf_t": 0.0,
-          "overall_w": 9.5,
-          "overall_l": 2.5,
+          "overall_w": 10.3,
+          "overall_l": 1.7,
           "overall_t": 0.0
         },
         "odds": {
           "bowl_eligible": "100.0%",
-          "win_conference": "11.6%",
-          "playoff": "4.1%"
-        }
-      },
-      {
-        "team": "Duke",
-        "current": {
-          "conf_w": 3,
-          "conf_l": 0,
-          "conf_t": 0,
-          "overall_w": 4,
-          "overall_l": 2,
-          "overall_t": 0
-        },
-        "projection": {
-          "conf_w": 5.9,
-          "conf_l": 2.1,
-          "conf_t": 0.0,
-          "overall_w": 7.7,
-          "overall_l": 4.3,
-          "overall_t": 0.0
-        },
-        "odds": {
-          "bowl_eligible": "95.6%",
-          "win_conference": "8.4%",
-          "playoff": "0.0%"
-        }
-      },
-      {
-        "team": "SMU",
-        "current": {
-          "conf_w": 2,
-          "conf_l": 0,
-          "conf_t": 0,
-          "overall_w": 4,
-          "overall_l": 2,
-          "overall_t": 0
-        },
-        "projection": {
-          "conf_w": 5.0,
-          "conf_l": 3.0,
-          "conf_t": 0.0,
-          "overall_w": 7.0,
-          "overall_l": 5.0,
-          "overall_t": 0.0
-        },
-        "odds": {
-          "bowl_eligible": "89.3%",
-          "win_conference": "2.9%",
-          "playoff": "0.0%"
-        }
-      },
-      {
-        "team": "Pittsburgh",
-        "current": {
-          "conf_w": 2,
-          "conf_l": 1,
-          "conf_t": 0,
-          "overall_w": 4,
-          "overall_l": 2,
-          "overall_t": 0
-        },
-        "projection": {
-          "conf_w": 4.9,
-          "conf_l": 3.1,
-          "conf_t": 0.0,
-          "overall_w": 7.1,
-          "overall_l": 4.9,
-          "overall_t": 0.0
-        },
-        "odds": {
-          "bowl_eligible": "91.3%",
-          "win_conference": "3.2%",
+          "win_conference": "20.3%",
           "playoff": "0.0%"
         }
       },
       {
         "team": "Louisville",
         "current": {
-          "conf_w": 1,
+          "conf_w": 3,
           "conf_l": 1,
           "conf_t": 0,
-          "overall_w": 4,
+          "overall_w": 6,
           "overall_l": 1,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 4.8,
-          "conf_l": 3.2,
+          "conf_w": 5.8,
+          "conf_l": 2.2,
           "conf_t": 0.0,
-          "overall_w": 8.5,
-          "overall_l": 3.5,
+          "overall_w": 9.6,
+          "overall_l": 2.4,
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "99.1%",
-          "win_conference": "2.3%",
+          "bowl_eligible": "100.0%",
+          "win_conference": "10.5%",
+          "playoff": "0.0%"
+        }
+      },
+      {
+        "team": "Pittsburgh",
+        "current": {
+          "conf_w": 4,
+          "conf_l": 1,
+          "conf_t": 0,
+          "overall_w": 6,
+          "overall_l": 2,
+          "overall_t": 0
+        },
+        "projection": {
+          "conf_w": 5.6,
+          "conf_l": 2.4,
+          "conf_t": 0.0,
+          "overall_w": 7.8,
+          "overall_l": 4.2,
+          "overall_t": 0.0
+        },
+        "odds": {
+          "bowl_eligible": "100.0%",
+          "win_conference": "6.6%",
+          "playoff": "0.0%"
+        }
+      },
+      {
+        "team": "Duke",
+        "current": {
+          "conf_w": 3,
+          "conf_l": 1,
+          "conf_t": 0,
+          "overall_w": 4,
+          "overall_l": 3,
+          "overall_t": 0
+        },
+        "projection": {
+          "conf_w": 5.4,
+          "conf_l": 2.6,
+          "conf_t": 0.0,
+          "overall_w": 7.1,
+          "overall_l": 4.9,
+          "overall_t": 0.0
+        },
+        "odds": {
+          "bowl_eligible": "91.8%",
+          "win_conference": "4.3%",
+          "playoff": "0.0%"
+        }
+      },
+      {
+        "team": "SMU",
+        "current": {
+          "conf_w": 3,
+          "conf_l": 1,
+          "conf_t": 0,
+          "overall_w": 5,
+          "overall_l": 3,
+          "overall_t": 0
+        },
+        "projection": {
+          "conf_w": 5.3,
+          "conf_l": 2.7,
+          "conf_t": 0.0,
+          "overall_w": 7.3,
+          "overall_l": 4.7,
+          "overall_t": 0.0
+        },
+        "odds": {
+          "bowl_eligible": "97.3%",
+          "win_conference": "3.1%",
           "playoff": "0.0%"
         }
       },
@@ -511,46 +511,70 @@
         "team": "Clemson",
         "current": {
           "conf_w": 2,
-          "conf_l": 2,
+          "conf_l": 3,
           "conf_t": 0,
           "overall_w": 3,
-          "overall_l": 3,
+          "overall_l": 4,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 4.4,
-          "conf_l": 3.6,
+          "conf_w": 3.6,
+          "conf_l": 4.4,
           "conf_t": 0.0,
-          "overall_w": 7.0,
-          "overall_l": 5.0,
+          "overall_w": 6.1,
+          "overall_l": 5.9,
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "89.0%",
-          "win_conference": "0.5%",
+          "bowl_eligible": "72.2%",
+          "win_conference": "0.0%",
           "playoff": "0.0%"
         }
       },
       {
-        "team": "Florida St",
+        "team": "Wake Forest",
         "current": {
-          "conf_w": 0,
-          "conf_l": 3,
+          "conf_w": 2,
+          "conf_l": 2,
           "conf_t": 0,
-          "overall_w": 3,
-          "overall_l": 3,
+          "overall_w": 5,
+          "overall_l": 2,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 4.1,
-          "conf_l": 3.9,
+          "conf_w": 3.4,
+          "conf_l": 4.6,
           "conf_t": 0.0,
-          "overall_w": 7.6,
-          "overall_l": 4.4,
+          "overall_w": 7.3,
+          "overall_l": 4.7,
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "97.5%",
+          "bowl_eligible": "97.7%",
+          "win_conference": "0.0%",
+          "playoff": "0.0%"
+        }
+      },
+      {
+        "team": "Stanford",
+        "current": {
+          "conf_w": 2,
+          "conf_l": 3,
+          "conf_t": 0,
+          "overall_w": 3,
+          "overall_l": 5,
+          "overall_t": 0
+        },
+        "projection": {
+          "conf_w": 3.1,
+          "conf_l": 4.9,
+          "conf_t": 0.0,
+          "overall_w": 4.1,
+          "overall_l": 7.9,
+          "overall_t": 0.0
+        },
+        "odds": {
+          "bowl_eligible": "4.8%",
           "win_conference": "0.0%",
           "playoff": "0.0%"
         }
@@ -558,24 +582,72 @@
       {
         "team": "California",
         "current": {
-          "conf_w": 1,
-          "conf_l": 1,
+          "conf_w": 2,
+          "conf_l": 2,
           "conf_t": 0,
-          "overall_w": 4,
-          "overall_l": 2,
+          "overall_w": 5,
+          "overall_l": 3,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 3.2,
-          "conf_l": 4.8,
+          "conf_w": 3.0,
+          "conf_l": 5.0,
           "conf_t": 0.0,
-          "overall_w": 6.2,
-          "overall_l": 5.8,
+          "overall_w": 6.0,
+          "overall_l": 6.0,
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "71.2%",
-          "win_conference": "0.1%",
+          "bowl_eligible": "70.3%",
+          "win_conference": "0.0%",
+          "playoff": "0.0%"
+        }
+      },
+      {
+        "team": "Florida St",
+        "current": {
+          "conf_w": 0,
+          "conf_l": 4,
+          "conf_t": 0,
+          "overall_w": 3,
+          "overall_l": 4,
+          "overall_t": 0
+        },
+        "projection": {
+          "conf_w": 3.0,
+          "conf_l": 5.0,
+          "conf_t": 0.0,
+          "overall_w": 6.4,
+          "overall_l": 5.6,
+          "overall_t": 0.0
+        },
+        "odds": {
+          "bowl_eligible": "81.7%",
+          "win_conference": "0.0%",
+          "playoff": "0.0%"
+        }
+      },
+      {
+        "team": "Virginia Tech",
+        "current": {
+          "conf_w": 2,
+          "conf_l": 2,
+          "conf_t": 0,
+          "overall_w": 3,
+          "overall_l": 5,
+          "overall_t": 0
+        },
+        "projection": {
+          "conf_w": 2.5,
+          "conf_l": 5.5,
+          "conf_t": 0.0,
+          "overall_w": 3.5,
+          "overall_l": 8.5,
+          "overall_t": 0.0
+        },
+        "odds": {
+          "bowl_eligible": "1.2%",
+          "win_conference": "0.0%",
           "playoff": "0.0%"
         }
       },
@@ -583,22 +655,22 @@
         "team": "Syracuse",
         "current": {
           "conf_w": 1,
-          "conf_l": 2,
+          "conf_l": 4,
           "conf_t": 0,
           "overall_w": 3,
-          "overall_l": 3,
+          "overall_l": 5,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 3.1,
-          "conf_l": 4.9,
+          "conf_w": 2.5,
+          "conf_l": 5.5,
           "conf_t": 0.0,
-          "overall_w": 5.2,
-          "overall_l": 6.8,
+          "overall_w": 4.5,
+          "overall_l": 7.5,
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "34.9%",
+          "bowl_eligible": "3.5%",
           "win_conference": "0.0%",
           "playoff": "0.0%"
         }
@@ -607,94 +679,22 @@
         "team": "NC State",
         "current": {
           "conf_w": 1,
-          "conf_l": 2,
+          "conf_l": 3,
           "conf_t": 0,
           "overall_w": 4,
-          "overall_l": 3,
-          "overall_t": 0
-        },
-        "projection": {
-          "conf_w": 2.8,
-          "conf_l": 5.2,
-          "conf_t": 0.0,
-          "overall_w": 5.8,
-          "overall_l": 6.2,
-          "overall_t": 0.0
-        },
-        "odds": {
-          "bowl_eligible": "58.6%",
-          "win_conference": "0.0%",
-          "playoff": "0.0%"
-        }
-      },
-      {
-        "team": "Wake Forest",
-        "current": {
-          "conf_w": 1,
-          "conf_l": 2,
-          "conf_t": 0,
-          "overall_w": 4,
-          "overall_l": 2,
-          "overall_t": 0
-        },
-        "projection": {
-          "conf_w": 2.6,
-          "conf_l": 5.4,
-          "conf_t": 0.0,
-          "overall_w": 6.4,
-          "overall_l": 5.6,
-          "overall_t": 0.0
-        },
-        "odds": {
-          "bowl_eligible": "81.2%",
-          "win_conference": "0.0%",
-          "playoff": "0.0%"
-        }
-      },
-      {
-        "team": "Virginia Tech",
-        "current": {
-          "conf_w": 1,
-          "conf_l": 2,
-          "conf_t": 0,
-          "overall_w": 2,
-          "overall_l": 5,
-          "overall_t": 0
-        },
-        "projection": {
-          "conf_w": 2.1,
-          "conf_l": 5.9,
-          "conf_t": 0.0,
-          "overall_w": 3.1,
-          "overall_l": 8.9,
-          "overall_t": 0.0
-        },
-        "odds": {
-          "bowl_eligible": "0.6%",
-          "win_conference": "0.0%",
-          "playoff": "0.0%"
-        }
-      },
-      {
-        "team": "Stanford",
-        "current": {
-          "conf_w": 1,
-          "conf_l": 2,
-          "conf_t": 0,
-          "overall_w": 2,
           "overall_l": 4,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 2.1,
-          "conf_l": 5.9,
+          "conf_w": 2.5,
+          "conf_l": 5.5,
           "conf_t": 0.0,
-          "overall_w": 3.1,
-          "overall_l": 8.9,
+          "overall_w": 5.5,
+          "overall_l": 6.5,
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "0.5%",
+          "bowl_eligible": "44.7%",
           "win_conference": "0.0%",
           "playoff": "0.0%"
         }
@@ -703,22 +703,22 @@
         "team": "North Carolina",
         "current": {
           "conf_w": 0,
-          "conf_l": 1,
+          "conf_l": 3,
           "conf_t": 0,
           "overall_w": 2,
-          "overall_l": 3,
+          "overall_l": 5,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 1.8,
-          "conf_l": 6.2,
+          "conf_w": 1.5,
+          "conf_l": 6.5,
           "conf_t": 0.0,
-          "overall_w": 3.8,
-          "overall_l": 8.2,
+          "overall_w": 3.5,
+          "overall_l": 8.5,
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "9.7%",
+          "bowl_eligible": "3.7%",
           "win_conference": "0.0%",
           "playoff": "0.0%"
         }
@@ -727,22 +727,22 @@
         "team": "Boston College",
         "current": {
           "conf_w": 0,
-          "conf_l": 4,
+          "conf_l": 5,
           "conf_t": 0,
           "overall_w": 1,
-          "overall_l": 5,
+          "overall_l": 7,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 0.8,
-          "conf_l": 7.2,
+          "conf_w": 0.6,
+          "conf_l": 7.4,
           "conf_t": 0.0,
-          "overall_w": 2.3,
-          "overall_l": 9.7,
+          "overall_w": 1.6,
+          "overall_l": 10.4,
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "0.2%",
+          "bowl_eligible": "0.0%",
           "win_conference": "0.0%",
           "playoff": "0.0%"
         }
@@ -752,83 +752,107 @@
       {
         "team": "Texas Tech",
         "current": {
-          "conf_w": 3,
-          "conf_l": 0,
-          "conf_t": 0,
-          "overall_w": 6,
-          "overall_l": 0,
-          "overall_t": 0
-        },
-        "projection": {
-          "conf_w": 8.4,
-          "conf_l": 0.6,
-          "conf_t": 0.0,
-          "overall_w": 11.4,
-          "overall_l": 0.6,
-          "overall_t": 0.0
-        },
-        "odds": {
-          "bowl_eligible": "100.0%",
-          "win_conference": "63.8%",
-          "playoff": "55.8%"
-        }
-      },
-      {
-        "team": "Utah",
-        "current": {
-          "conf_w": 2,
+          "conf_w": 4,
           "conf_l": 1,
           "conf_t": 0,
-          "overall_w": 5,
+          "overall_w": 7,
           "overall_l": 1,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 6.7,
-          "conf_l": 2.3,
+          "conf_w": 7.4,
+          "conf_l": 1.6,
           "conf_t": 0.0,
-          "overall_w": 9.7,
-          "overall_l": 2.3,
+          "overall_w": 10.4,
+          "overall_l": 1.6,
           "overall_t": 0.0
         },
         "odds": {
           "bowl_eligible": "100.0%",
-          "win_conference": "18.8%",
-          "playoff": "0.0%"
-        }
-      },
-      {
-        "team": "Cincinnati",
-        "current": {
-          "conf_w": 3,
-          "conf_l": 0,
-          "conf_t": 0,
-          "overall_w": 5,
-          "overall_l": 1,
-          "overall_t": 0
-        },
-        "projection": {
-          "conf_w": 6.6,
-          "conf_l": 2.4,
-          "conf_t": 0.0,
-          "overall_w": 8.6,
-          "overall_l": 3.4,
-          "overall_t": 0.0
-        },
-        "odds": {
-          "bowl_eligible": "99.7%",
-          "win_conference": "6.4%",
+          "win_conference": "53.6%",
           "playoff": "0.0%"
         }
       },
       {
         "team": "BYU",
         "current": {
-          "conf_w": 3,
+          "conf_w": 5,
           "conf_l": 0,
           "conf_t": 0,
-          "overall_w": 6,
+          "overall_w": 8,
           "overall_l": 0,
+          "overall_t": 0
+        },
+        "projection": {
+          "conf_w": 7.3,
+          "conf_l": 1.7,
+          "conf_t": 0.0,
+          "overall_w": 10.3,
+          "overall_l": 1.7,
+          "overall_t": 0.0
+        },
+        "odds": {
+          "bowl_eligible": "100.0%",
+          "win_conference": "23.1%",
+          "playoff": "9.8%"
+        }
+      },
+      {
+        "team": "Cincinnati",
+        "current": {
+          "conf_w": 5,
+          "conf_l": 0,
+          "conf_t": 0,
+          "overall_w": 7,
+          "overall_l": 1,
+          "overall_t": 0
+        },
+        "projection": {
+          "conf_w": 6.9,
+          "conf_l": 2.1,
+          "conf_t": 0.0,
+          "overall_w": 8.9,
+          "overall_l": 3.1,
+          "overall_t": 0.0
+        },
+        "odds": {
+          "bowl_eligible": "100.0%",
+          "win_conference": "11.8%",
+          "playoff": "0.0%"
+        }
+      },
+      {
+        "team": "Utah",
+        "current": {
+          "conf_w": 3,
+          "conf_l": 2,
+          "conf_t": 0,
+          "overall_w": 6,
+          "overall_l": 2,
+          "overall_t": 0
+        },
+        "projection": {
+          "conf_w": 6.3,
+          "conf_l": 2.7,
+          "conf_t": 0.0,
+          "overall_w": 9.3,
+          "overall_l": 2.7,
+          "overall_t": 0.0
+        },
+        "odds": {
+          "bowl_eligible": "100.0%",
+          "win_conference": "6.4%",
+          "playoff": "0.0%"
+        }
+      },
+      {
+        "team": "Houston",
+        "current": {
+          "conf_w": 4,
+          "conf_l": 1,
+          "conf_t": 0,
+          "overall_w": 7,
+          "overall_l": 1,
           "overall_t": 0
         },
         "projection": {
@@ -841,90 +865,66 @@
         },
         "odds": {
           "bowl_eligible": "100.0%",
-          "win_conference": "7.5%",
-          "playoff": "2.3%"
+          "win_conference": "2.2%",
+          "playoff": "0.0%"
         }
       },
       {
         "team": "Arizona St",
         "current": {
-          "conf_w": 2,
-          "conf_l": 1,
+          "conf_w": 3,
+          "conf_l": 2,
+          "conf_t": 0,
+          "overall_w": 5,
+          "overall_l": 3,
+          "overall_t": 0
+        },
+        "projection": {
+          "conf_w": 5.4,
+          "conf_l": 3.6,
+          "conf_t": 0.0,
+          "overall_w": 7.4,
+          "overall_l": 4.6,
+          "overall_t": 0.0
+        },
+        "odds": {
+          "bowl_eligible": "97.6%",
+          "win_conference": "0.8%",
+          "playoff": "0.0%"
+        }
+      },
+      {
+        "team": "Kansas St",
+        "current": {
+          "conf_w": 3,
+          "conf_l": 2,
           "conf_t": 0,
           "overall_w": 4,
-          "overall_l": 2,
+          "overall_l": 4,
           "overall_t": 0
         },
         "projection": {
           "conf_w": 5.1,
           "conf_l": 3.9,
           "conf_t": 0.0,
-          "overall_w": 7.1,
-          "overall_l": 4.9,
+          "overall_w": 6.1,
+          "overall_l": 5.9,
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "89.5%",
+          "bowl_eligible": "80.3%",
           "win_conference": "1.0%",
           "playoff": "0.0%"
         }
       },
       {
-        "team": "Iowa St",
+        "team": "TCU",
         "current": {
-          "conf_w": 2,
+          "conf_w": 3,
           "conf_l": 2,
           "conf_t": 0,
-          "overall_w": 5,
+          "overall_w": 6,
           "overall_l": 2,
-          "overall_t": 0
-        },
-        "projection": {
-          "conf_w": 5.1,
-          "conf_l": 3.9,
-          "conf_t": 0.0,
-          "overall_w": 8.1,
-          "overall_l": 3.9,
-          "overall_t": 0.0
-        },
-        "odds": {
-          "bowl_eligible": "99.5%",
-          "win_conference": "0.6%",
-          "playoff": "0.0%"
-        }
-      },
-      {
-        "team": "Kansas",
-        "current": {
-          "conf_w": 2,
-          "conf_l": 2,
-          "conf_t": 0,
-          "overall_w": 4,
-          "overall_l": 3,
-          "overall_t": 0
-        },
-        "projection": {
-          "conf_w": 4.9,
-          "conf_l": 4.1,
-          "conf_t": 0.0,
-          "overall_w": 6.9,
-          "overall_l": 5.1,
-          "overall_t": 0.0
-        },
-        "odds": {
-          "bowl_eligible": "90.5%",
-          "win_conference": "0.3%",
-          "playoff": "0.0%"
-        }
-      },
-      {
-        "team": "Houston",
-        "current": {
-          "conf_w": 2,
-          "conf_l": 1,
-          "conf_t": 0,
-          "overall_w": 5,
-          "overall_l": 1,
           "overall_t": 0
         },
         "projection": {
@@ -936,8 +936,56 @@
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "96.8%",
-          "win_conference": "0.3%",
+          "bowl_eligible": "100.0%",
+          "win_conference": "1.1%",
+          "playoff": "0.0%"
+        }
+      },
+      {
+        "team": "Iowa St",
+        "current": {
+          "conf_w": 2,
+          "conf_l": 3,
+          "conf_t": 0,
+          "overall_w": 5,
+          "overall_l": 3,
+          "overall_t": 0
+        },
+        "projection": {
+          "conf_w": 4.6,
+          "conf_l": 4.4,
+          "conf_t": 0.0,
+          "overall_w": 7.6,
+          "overall_l": 4.4,
+          "overall_t": 0.0
+        },
+        "odds": {
+          "bowl_eligible": "99.3%",
+          "win_conference": "0.0%",
+          "playoff": "0.0%"
+        }
+      },
+      {
+        "team": "Kansas",
+        "current": {
+          "conf_w": 2,
+          "conf_l": 3,
+          "conf_t": 0,
+          "overall_w": 4,
+          "overall_l": 4,
+          "overall_t": 0
+        },
+        "projection": {
+          "conf_w": 3.9,
+          "conf_l": 5.1,
+          "conf_t": 0.0,
+          "overall_w": 5.9,
+          "overall_l": 6.1,
+          "overall_t": 0.0
+        },
+        "odds": {
+          "bowl_eligible": "67.4%",
+          "win_conference": "0.0%",
           "playoff": "0.0%"
         }
       },
@@ -945,71 +993,23 @@
         "team": "Baylor",
         "current": {
           "conf_w": 2,
-          "conf_l": 1,
+          "conf_l": 3,
           "conf_t": 0,
           "overall_w": 4,
-          "overall_l": 2,
-          "overall_t": 0
-        },
-        "projection": {
-          "conf_w": 4.7,
-          "conf_l": 4.3,
-          "conf_t": 0.0,
-          "overall_w": 6.7,
-          "overall_l": 5.3,
-          "overall_t": 0.0
-        },
-        "odds": {
-          "bowl_eligible": "81.0%",
-          "win_conference": "0.7%",
-          "playoff": "0.0%"
-        }
-      },
-      {
-        "team": "TCU",
-        "current": {
-          "conf_w": 1,
-          "conf_l": 2,
-          "conf_t": 0,
-          "overall_w": 4,
-          "overall_l": 2,
-          "overall_t": 0
-        },
-        "projection": {
-          "conf_w": 4.2,
-          "conf_l": 4.8,
-          "conf_t": 0.0,
-          "overall_w": 7.2,
-          "overall_l": 4.8,
-          "overall_t": 0.0
-        },
-        "odds": {
-          "bowl_eligible": "89.9%",
-          "win_conference": "0.4%",
-          "playoff": "0.0%"
-        }
-      },
-      {
-        "team": "Kansas St",
-        "current": {
-          "conf_w": 2,
-          "conf_l": 2,
-          "conf_t": 0,
-          "overall_w": 3,
           "overall_l": 4,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 4.2,
-          "conf_l": 4.8,
+          "conf_w": 3.7,
+          "conf_l": 5.3,
           "conf_t": 0.0,
-          "overall_w": 5.2,
-          "overall_l": 6.8,
+          "overall_w": 5.7,
+          "overall_l": 6.3,
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "34.6%",
-          "win_conference": "0.1%",
+          "bowl_eligible": "58.7%",
+          "win_conference": "0.0%",
           "playoff": "0.0%"
         }
       },
@@ -1017,46 +1017,22 @@
         "team": "Arizona",
         "current": {
           "conf_w": 1,
-          "conf_l": 2,
-          "conf_t": 0,
-          "overall_w": 4,
-          "overall_l": 2,
-          "overall_t": 0
-        },
-        "projection": {
-          "conf_w": 3.6,
-          "conf_l": 5.4,
-          "conf_t": 0.0,
-          "overall_w": 6.6,
-          "overall_l": 5.4,
-          "overall_t": 0.0
-        },
-        "odds": {
-          "bowl_eligible": "77.8%",
-          "win_conference": "0.1%",
-          "playoff": "0.0%"
-        }
-      },
-      {
-        "team": "Colorado",
-        "current": {
-          "conf_w": 1,
           "conf_l": 3,
           "conf_t": 0,
-          "overall_w": 3,
-          "overall_l": 4,
+          "overall_w": 4,
+          "overall_l": 3,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 3.0,
-          "conf_l": 6.0,
+          "conf_w": 3.3,
+          "conf_l": 5.7,
           "conf_t": 0.0,
-          "overall_w": 5.0,
-          "overall_l": 7.0,
+          "overall_w": 6.3,
+          "overall_l": 5.7,
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "32.2%",
+          "bowl_eligible": "74.4%",
           "win_conference": "0.0%",
           "playoff": "0.0%"
         }
@@ -1064,23 +1040,47 @@
       {
         "team": "UCF",
         "current": {
-          "conf_w": 0,
+          "conf_w": 1,
           "conf_l": 3,
           "conf_t": 0,
-          "overall_w": 3,
+          "overall_w": 4,
           "overall_l": 3,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 2.8,
-          "conf_l": 6.2,
+          "conf_w": 3.3,
+          "conf_l": 5.7,
           "conf_t": 0.0,
-          "overall_w": 5.8,
-          "overall_l": 6.2,
+          "overall_w": 6.3,
+          "overall_l": 5.7,
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "60.6%",
+          "bowl_eligible": "79.4%",
+          "win_conference": "0.0%",
+          "playoff": "0.0%"
+        }
+      },
+      {
+        "team": "Colorado",
+        "current": {
+          "conf_w": 1,
+          "conf_l": 4,
+          "conf_t": 0,
+          "overall_w": 3,
+          "overall_l": 5,
+          "overall_t": 0
+        },
+        "projection": {
+          "conf_w": 2.6,
+          "conf_l": 6.4,
+          "conf_t": 0.0,
+          "overall_w": 4.6,
+          "overall_l": 7.4,
+          "overall_t": 0.0
+        },
+        "odds": {
+          "bowl_eligible": "20.4%",
           "win_conference": "0.0%",
           "playoff": "0.0%"
         }
@@ -1089,22 +1089,22 @@
         "team": "West Virginia",
         "current": {
           "conf_w": 0,
-          "conf_l": 3,
+          "conf_l": 5,
           "conf_t": 0,
           "overall_w": 2,
-          "overall_l": 4,
+          "overall_l": 6,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 1.5,
-          "conf_l": 7.5,
+          "conf_w": 0.9,
+          "conf_l": 8.1,
           "conf_t": 0.0,
-          "overall_w": 3.5,
-          "overall_l": 8.5,
+          "overall_w": 2.9,
+          "overall_l": 9.1,
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "5.5%",
+          "bowl_eligible": "0.2%",
           "win_conference": "0.0%",
           "playoff": "0.0%"
         }
@@ -1113,18 +1113,18 @@
         "team": "Oklahoma St",
         "current": {
           "conf_w": 0,
-          "conf_l": 3,
+          "conf_l": 5,
           "conf_t": 0,
           "overall_w": 1,
-          "overall_l": 5,
+          "overall_l": 7,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 0.3,
-          "conf_l": 8.7,
+          "conf_w": 0.2,
+          "conf_l": 8.8,
           "conf_t": 0.0,
-          "overall_w": 1.3,
-          "overall_l": 10.7,
+          "overall_w": 1.2,
+          "overall_l": 10.8,
           "overall_t": 0.0
         },
         "odds": {
@@ -1138,34 +1138,34 @@
       {
         "team": "Indiana",
         "current": {
-          "conf_w": 3,
+          "conf_w": 5,
           "conf_l": 0,
           "conf_t": 0,
-          "overall_w": 6,
+          "overall_w": 8,
           "overall_l": 0,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 8.6,
-          "conf_l": 0.4,
+          "conf_w": 8.7,
+          "conf_l": 0.3,
           "conf_t": 0.0,
-          "overall_w": 11.6,
-          "overall_l": 0.4,
+          "overall_w": 11.7,
+          "overall_l": 0.3,
           "overall_t": 0.0
         },
         "odds": {
           "bowl_eligible": "100.0%",
-          "win_conference": "43.2%",
-          "playoff": "68.1%"
+          "win_conference": "48.0%",
+          "playoff": "73.4%"
         }
       },
       {
         "team": "Ohio St",
         "current": {
-          "conf_w": 3,
+          "conf_w": 4,
           "conf_l": 0,
           "conf_t": 0,
-          "overall_w": 6,
+          "overall_w": 7,
           "overall_l": 0,
           "overall_t": 0
         },
@@ -1179,31 +1179,55 @@
         },
         "odds": {
           "bowl_eligible": "100.0%",
-          "win_conference": "49.9%",
-          "playoff": "66.8%"
+          "win_conference": "45.0%",
+          "playoff": "68.6%"
         }
       },
       {
         "team": "Oregon",
         "current": {
-          "conf_w": 2,
+          "conf_w": 4,
           "conf_l": 1,
           "conf_t": 0,
-          "overall_w": 5,
+          "overall_w": 7,
           "overall_l": 1,
+          "overall_t": 0
+        },
+        "projection": {
+          "conf_w": 7.1,
+          "conf_l": 1.9,
+          "conf_t": 0.0,
+          "overall_w": 10.1,
+          "overall_l": 1.9,
+          "overall_t": 0.0
+        },
+        "odds": {
+          "bowl_eligible": "100.0%",
+          "win_conference": "2.2%",
+          "playoff": "0.0%"
+        }
+      },
+      {
+        "team": "Michigan",
+        "current": {
+          "conf_w": 4,
+          "conf_l": 1,
+          "conf_t": 0,
+          "overall_w": 6,
+          "overall_l": 2,
           "overall_t": 0
         },
         "projection": {
           "conf_w": 6.8,
           "conf_l": 2.2,
           "conf_t": 0.0,
-          "overall_w": 9.8,
-          "overall_l": 2.2,
+          "overall_w": 8.8,
+          "overall_l": 3.2,
           "overall_t": 0.0
         },
         "odds": {
           "bowl_eligible": "100.0%",
-          "win_conference": "2.3%",
+          "win_conference": "2.9%",
           "playoff": "0.0%"
         }
       },
@@ -1214,30 +1238,30 @@
           "conf_l": 1,
           "conf_t": 0,
           "overall_w": 5,
-          "overall_l": 1,
+          "overall_l": 2,
           "overall_t": 0
         },
         "projection": {
           "conf_w": 6.4,
           "conf_l": 2.6,
           "conf_t": 0.0,
-          "overall_w": 8.7,
-          "overall_l": 3.3,
+          "overall_w": 8.4,
+          "overall_l": 3.6,
           "overall_t": 0.0
         },
         "odds": {
           "bowl_eligible": "99.9%",
-          "win_conference": "1.6%",
+          "win_conference": "1.5%",
           "playoff": "0.0%"
         }
       },
       {
-        "team": "Michigan",
+        "team": "Iowa",
         "current": {
-          "conf_w": 2,
+          "conf_w": 4,
           "conf_l": 1,
           "conf_t": 0,
-          "overall_w": 4,
+          "overall_w": 6,
           "overall_l": 2,
           "overall_t": 0
         },
@@ -1250,43 +1274,19 @@
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "99.0%",
-          "win_conference": "2.2%",
-          "playoff": "0.0%"
-        }
-      },
-      {
-        "team": "Nebraska",
-        "current": {
-          "conf_w": 2,
-          "conf_l": 1,
-          "conf_t": 0,
-          "overall_w": 5,
-          "overall_l": 1,
-          "overall_t": 0
-        },
-        "projection": {
-          "conf_w": 5.9,
-          "conf_l": 3.1,
-          "conf_t": 0.0,
-          "overall_w": 8.9,
-          "overall_l": 3.1,
-          "overall_t": 0.0
-        },
-        "odds": {
-          "bowl_eligible": "99.7%",
-          "win_conference": "0.5%",
+          "bowl_eligible": "100.0%",
+          "win_conference": "0.2%",
           "playoff": "0.0%"
         }
       },
       {
         "team": "Washington",
         "current": {
-          "conf_w": 2,
-          "conf_l": 1,
+          "conf_w": 3,
+          "conf_l": 2,
           "conf_t": 0,
-          "overall_w": 5,
-          "overall_l": 1,
+          "overall_w": 6,
+          "overall_l": 2,
           "overall_t": 0
         },
         "projection": {
@@ -1298,8 +1298,8 @@
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "99.8%",
-          "win_conference": "0.2%",
+          "bowl_eligible": "100.0%",
+          "win_conference": "0.0%",
           "playoff": "0.0%"
         }
       },
@@ -1307,70 +1307,70 @@
         "team": "Illinois",
         "current": {
           "conf_w": 2,
-          "conf_l": 2,
+          "conf_l": 3,
           "conf_t": 0,
           "overall_w": 5,
-          "overall_l": 2,
+          "overall_l": 3,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 5.6,
-          "conf_l": 3.4,
+          "conf_w": 5.1,
+          "conf_l": 3.9,
           "conf_t": 0.0,
-          "overall_w": 8.6,
-          "overall_l": 3.4,
+          "overall_w": 8.1,
+          "overall_l": 3.9,
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "99.7%",
+          "bowl_eligible": "99.6%",
           "win_conference": "0.0%",
           "playoff": "0.0%"
         }
       },
       {
-        "team": "Iowa",
+        "team": "Nebraska",
         "current": {
-          "conf_w": 2,
-          "conf_l": 1,
+          "conf_w": 3,
+          "conf_l": 2,
           "conf_t": 0,
-          "overall_w": 4,
+          "overall_w": 6,
           "overall_l": 2,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 5.4,
-          "conf_l": 3.6,
+          "conf_w": 5.0,
+          "conf_l": 4.0,
           "conf_t": 0.0,
-          "overall_w": 7.4,
-          "overall_l": 4.6,
+          "overall_w": 8.0,
+          "overall_l": 4.0,
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "94.6%",
-          "win_conference": "0.2%",
+          "bowl_eligible": "100.0%",
+          "win_conference": "0.0%",
           "playoff": "0.0%"
         }
       },
       {
         "team": "Minnesota",
         "current": {
-          "conf_w": 2,
-          "conf_l": 1,
+          "conf_w": 3,
+          "conf_l": 2,
           "conf_t": 0,
-          "overall_w": 4,
-          "overall_l": 2,
+          "overall_w": 5,
+          "overall_l": 3,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 4.3,
-          "conf_l": 4.7,
+          "conf_w": 4.8,
+          "conf_l": 4.2,
           "conf_t": 0.0,
-          "overall_w": 6.3,
-          "overall_l": 5.7,
+          "overall_w": 6.8,
+          "overall_l": 5.2,
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "75.2%",
+          "bowl_eligible": "91.4%",
           "win_conference": "0.0%",
           "playoff": "0.0%"
         }
@@ -1378,47 +1378,23 @@
       {
         "team": "Northwestern",
         "current": {
-          "conf_w": 2,
-          "conf_l": 1,
-          "conf_t": 0,
-          "overall_w": 4,
-          "overall_l": 2,
-          "overall_t": 0
-        },
-        "projection": {
-          "conf_w": 3.8,
-          "conf_l": 5.2,
-          "conf_t": 0.0,
-          "overall_w": 5.8,
-          "overall_l": 6.2,
-          "overall_t": 0.0
-        },
-        "odds": {
-          "bowl_eligible": "57.9%",
-          "win_conference": "0.0%",
-          "playoff": "0.0%"
-        }
-      },
-      {
-        "team": "Maryland",
-        "current": {
-          "conf_w": 1,
+          "conf_w": 3,
           "conf_l": 2,
           "conf_t": 0,
-          "overall_w": 4,
-          "overall_l": 2,
+          "overall_w": 5,
+          "overall_l": 3,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 3.0,
-          "conf_l": 6.0,
+          "conf_w": 4.1,
+          "conf_l": 4.9,
           "conf_t": 0.0,
-          "overall_w": 6.0,
-          "overall_l": 6.0,
+          "overall_w": 6.1,
+          "overall_l": 5.9,
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "64.5%",
+          "bowl_eligible": "73.1%",
           "win_conference": "0.0%",
           "playoff": "0.0%"
         }
@@ -1426,19 +1402,19 @@
       {
         "team": "UCLA",
         "current": {
-          "conf_w": 2,
-          "conf_l": 1,
+          "conf_w": 3,
+          "conf_l": 2,
           "conf_t": 0,
-          "overall_w": 2,
-          "overall_l": 4,
+          "overall_w": 3,
+          "overall_l": 5,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 3.0,
-          "conf_l": 6.0,
+          "conf_w": 3.5,
+          "conf_l": 5.5,
           "conf_t": 0.0,
-          "overall_w": 3.0,
-          "overall_l": 9.0,
+          "overall_w": 3.5,
+          "overall_l": 8.5,
           "overall_t": 0.0
         },
         "odds": {
@@ -1451,22 +1427,46 @@
         "team": "Penn St",
         "current": {
           "conf_w": 0,
-          "conf_l": 3,
+          "conf_l": 4,
           "conf_t": 0,
           "overall_w": 3,
+          "overall_l": 4,
+          "overall_t": 0
+        },
+        "projection": {
+          "conf_w": 2.5,
+          "conf_l": 6.5,
+          "conf_t": 0.0,
+          "overall_w": 5.5,
+          "overall_l": 6.5,
+          "overall_t": 0.0
+        },
+        "odds": {
+          "bowl_eligible": "52.6%",
+          "win_conference": "0.0%",
+          "playoff": "0.0%"
+        }
+      },
+      {
+        "team": "Maryland",
+        "current": {
+          "conf_w": 1,
+          "conf_l": 3,
+          "conf_t": 0,
+          "overall_w": 4,
           "overall_l": 3,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 2.7,
-          "conf_l": 6.3,
+          "conf_w": 2.5,
+          "conf_l": 6.5,
           "conf_t": 0.0,
-          "overall_w": 5.7,
-          "overall_l": 6.3,
+          "overall_w": 5.5,
+          "overall_l": 6.5,
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "57.7%",
+          "bowl_eligible": "46.1%",
           "win_conference": "0.0%",
           "playoff": "0.0%"
         }
@@ -1474,11 +1474,11 @@
       {
         "team": "Rutgers",
         "current": {
-          "conf_w": 0,
-          "conf_l": 3,
+          "conf_w": 1,
+          "conf_l": 4,
           "conf_t": 0,
-          "overall_w": 3,
-          "overall_l": 3,
+          "overall_w": 4,
+          "overall_l": 4,
           "overall_t": 0
         },
         "projection": {
@@ -1490,7 +1490,7 @@
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "31.4%",
+          "bowl_eligible": "25.1%",
           "win_conference": "0.0%",
           "playoff": "0.0%"
         }
@@ -1499,22 +1499,22 @@
         "team": "Michigan St",
         "current": {
           "conf_w": 0,
-          "conf_l": 3,
+          "conf_l": 5,
           "conf_t": 0,
           "overall_w": 3,
-          "overall_l": 3,
+          "overall_l": 5,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 1.2,
-          "conf_l": 7.8,
+          "conf_w": 1.0,
+          "conf_l": 8.0,
           "conf_t": 0.0,
-          "overall_w": 4.2,
-          "overall_l": 7.8,
+          "overall_w": 4.0,
+          "overall_l": 8.0,
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "10.5%",
+          "bowl_eligible": "5.8%",
           "win_conference": "0.0%",
           "playoff": "0.0%"
         }
@@ -1523,22 +1523,22 @@
         "team": "Wisconsin",
         "current": {
           "conf_w": 0,
-          "conf_l": 3,
+          "conf_l": 5,
           "conf_t": 0,
           "overall_w": 2,
-          "overall_l": 4,
+          "overall_l": 6,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 0.8,
-          "conf_l": 8.2,
+          "conf_w": 0.9,
+          "conf_l": 8.1,
           "conf_t": 0.0,
-          "overall_w": 2.8,
-          "overall_l": 9.2,
+          "overall_w": 2.9,
+          "overall_l": 9.1,
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "0.4%",
+          "bowl_eligible": "0.1%",
           "win_conference": "0.0%",
           "playoff": "0.0%"
         }
@@ -1547,28 +1547,52 @@
         "team": "Purdue",
         "current": {
           "conf_w": 0,
-          "conf_l": 3,
+          "conf_l": 5,
           "conf_t": 0,
           "overall_w": 2,
-          "overall_l": 4,
+          "overall_l": 6,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 0.8,
-          "conf_l": 8.2,
+          "conf_w": 0.1,
+          "conf_l": 8.9,
           "conf_t": 0.0,
-          "overall_w": 2.8,
-          "overall_l": 9.2,
+          "overall_w": 2.1,
+          "overall_l": 9.9,
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "0.3%",
+          "bowl_eligible": "0.0%",
           "win_conference": "0.0%",
           "playoff": "0.0%"
         }
       }
     ],
     "Conference USA": [
+      {
+        "team": "Kennesaw St",
+        "current": {
+          "conf_w": 3,
+          "conf_l": 0,
+          "conf_t": 0,
+          "overall_w": 5,
+          "overall_l": 2,
+          "overall_t": 0
+        },
+        "projection": {
+          "conf_w": 6.1,
+          "conf_l": 1.9,
+          "conf_t": 0.0,
+          "overall_w": 8.1,
+          "overall_l": 3.9,
+          "overall_t": 0.0
+        },
+        "odds": {
+          "bowl_eligible": "98.8%",
+          "win_conference": "32.3%",
+          "playoff": "0.0%"
+        }
+      },
       {
         "team": "Jacksonville St",
         "current": {
@@ -1588,8 +1612,32 @@
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "89.4%",
-          "win_conference": "27.5%",
+          "bowl_eligible": "89.1%",
+          "win_conference": "29.8%",
+          "playoff": "0.0%"
+        }
+      },
+      {
+        "team": "W Kentucky",
+        "current": {
+          "conf_w": 4,
+          "conf_l": 1,
+          "conf_t": 0,
+          "overall_w": 6,
+          "overall_l": 2,
+          "overall_t": 0
+        },
+        "projection": {
+          "conf_w": 6.0,
+          "conf_l": 2.0,
+          "conf_t": 0.0,
+          "overall_w": 8.0,
+          "overall_l": 4.0,
+          "overall_t": 0.0
+        },
+        "odds": {
+          "bowl_eligible": "100.0%",
+          "win_conference": "26.0%",
           "playoff": "0.0%"
         }
       },
@@ -1597,71 +1645,23 @@
         "team": "Louisiana Tech",
         "current": {
           "conf_w": 2,
-          "conf_l": 1,
+          "conf_l": 2,
           "conf_t": 0,
           "overall_w": 4,
-          "overall_l": 2,
+          "overall_l": 3,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 5.6,
-          "conf_l": 2.4,
+          "conf_w": 4.8,
+          "conf_l": 3.2,
           "conf_t": 0.0,
-          "overall_w": 8.0,
-          "overall_l": 4.0,
+          "overall_w": 7.1,
+          "overall_l": 4.9,
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "97.6%",
-          "win_conference": "25.0%",
-          "playoff": "0.0%"
-        }
-      },
-      {
-        "team": "Kennesaw St",
-        "current": {
-          "conf_w": 2,
-          "conf_l": 0,
-          "conf_t": 0,
-          "overall_w": 4,
-          "overall_l": 2,
-          "overall_t": 0
-        },
-        "projection": {
-          "conf_w": 5.4,
-          "conf_l": 2.6,
-          "conf_t": 0.0,
-          "overall_w": 7.4,
-          "overall_l": 4.6,
-          "overall_t": 0.0
-        },
-        "odds": {
-          "bowl_eligible": "91.8%",
-          "win_conference": "18.5%",
-          "playoff": "0.0%"
-        }
-      },
-      {
-        "team": "W Kentucky",
-        "current": {
-          "conf_w": 3,
-          "conf_l": 1,
-          "conf_t": 0,
-          "overall_w": 5,
-          "overall_l": 2,
-          "overall_t": 0
-        },
-        "projection": {
-          "conf_w": 5.3,
-          "conf_l": 2.7,
-          "conf_t": 0.0,
-          "overall_w": 7.3,
-          "overall_l": 4.7,
-          "overall_t": 0.0
-        },
-        "odds": {
-          "bowl_eligible": "97.3%",
-          "win_conference": "12.2%",
+          "bowl_eligible": "93.3%",
+          "win_conference": "3.0%",
           "playoff": "0.0%"
         }
       },
@@ -1676,26 +1676,50 @@
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 4.8,
-          "conf_l": 3.2,
+          "conf_w": 4.7,
+          "conf_l": 3.3,
           "conf_t": 0.0,
-          "overall_w": 5.8,
-          "overall_l": 6.2,
+          "overall_w": 5.7,
+          "overall_l": 6.3,
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "61.3%",
-          "win_conference": "10.1%",
+          "bowl_eligible": "58.6%",
+          "win_conference": "7.5%",
           "playoff": "0.0%"
         }
       },
       {
-        "team": "Florida Intl",
+        "team": "Delaware",
         "current": {
-          "conf_w": 1,
+          "conf_w": 2,
+          "conf_l": 2,
+          "conf_t": 0,
+          "overall_w": 4,
+          "overall_l": 3,
+          "overall_t": 0
+        },
+        "projection": {
+          "conf_w": 4.2,
+          "conf_l": 3.8,
+          "conf_t": 0.0,
+          "overall_w": 6.3,
+          "overall_l": 5.7,
+          "overall_t": 0.0
+        },
+        "odds": {
+          "bowl_eligible": "0.0%",
+          "win_conference": "0.0%",
+          "playoff": "0.0%"
+        }
+      },
+      {
+        "team": "Missouri St",
+        "current": {
+          "conf_w": 2,
           "conf_l": 1,
           "conf_t": 0,
-          "overall_w": 3,
+          "overall_w": 4,
           "overall_l": 3,
           "overall_t": 0
         },
@@ -1708,80 +1732,32 @@
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "66.0%",
-          "win_conference": "5.7%",
-          "playoff": "0.0%"
-        }
-      },
-      {
-        "team": "Delaware",
-        "current": {
-          "conf_w": 1,
-          "conf_l": 2,
-          "conf_t": 0,
-          "overall_w": 3,
-          "overall_l": 3,
-          "overall_t": 0
-        },
-        "projection": {
-          "conf_w": 4.1,
-          "conf_l": 3.9,
-          "conf_t": 0.0,
-          "overall_w": 6.2,
-          "overall_l": 5.8,
-          "overall_t": 0.0
-        },
-        "odds": {
           "bowl_eligible": "0.0%",
           "win_conference": "0.0%",
           "playoff": "0.0%"
         }
       },
       {
-        "team": "Missouri St",
-        "current": {
-          "conf_w": 1,
-          "conf_l": 1,
-          "conf_t": 0,
-          "overall_w": 3,
-          "overall_l": 3,
-          "overall_t": 0
-        },
-        "projection": {
-          "conf_w": 3.4,
-          "conf_l": 4.6,
-          "conf_t": 0.0,
-          "overall_w": 5.4,
-          "overall_l": 6.6,
-          "overall_t": 0.0
-        },
-        "odds": {
-          "bowl_eligible": "0.0%",
-          "win_conference": "0.0%",
-          "playoff": "0.0%"
-        }
-      },
-      {
-        "team": "New Mexico St",
+        "team": "Florida Intl",
         "current": {
           "conf_w": 1,
           "conf_l": 2,
           "conf_t": 0,
           "overall_w": 3,
-          "overall_l": 3,
+          "overall_l": 4,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 3.2,
-          "conf_l": 4.8,
+          "conf_w": 3.3,
+          "conf_l": 4.7,
           "conf_t": 0.0,
-          "overall_w": 5.2,
-          "overall_l": 6.8,
+          "overall_w": 5.3,
+          "overall_l": 6.7,
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "40.9%",
-          "win_conference": "0.4%",
+          "bowl_eligible": "44.1%",
+          "win_conference": "0.9%",
           "playoff": "0.0%"
         }
       },
@@ -1796,16 +1772,40 @@
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 3.1,
-          "conf_l": 4.9,
+          "conf_w": 3.0,
+          "conf_l": 5.0,
           "conf_t": 0.0,
-          "overall_w": 4.1,
-          "overall_l": 7.9,
+          "overall_w": 4.0,
+          "overall_l": 8.0,
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "13.0%",
-          "win_conference": "0.6%",
+          "bowl_eligible": "10.5%",
+          "win_conference": "0.5%",
+          "playoff": "0.0%"
+        }
+      },
+      {
+        "team": "New Mexico St",
+        "current": {
+          "conf_w": 1,
+          "conf_l": 3,
+          "conf_t": 0,
+          "overall_w": 3,
+          "overall_l": 4,
+          "overall_t": 0
+        },
+        "projection": {
+          "conf_w": 2.5,
+          "conf_l": 5.5,
+          "conf_t": 0.0,
+          "overall_w": 4.5,
+          "overall_l": 7.5,
+          "overall_t": 0.0
+        },
+        "odds": {
+          "bowl_eligible": "17.0%",
+          "win_conference": "0.0%",
           "playoff": "0.0%"
         }
       },
@@ -1813,10 +1813,10 @@
         "team": "Middle Tenn",
         "current": {
           "conf_w": 0,
-          "conf_l": 2,
+          "conf_l": 3,
           "conf_t": 0,
           "overall_w": 1,
-          "overall_l": 5,
+          "overall_l": 6,
           "overall_t": 0
         },
         "projection": {
@@ -1828,8 +1828,8 @@
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "2.4%",
-          "win_conference": "0.1%",
+          "bowl_eligible": "1.4%",
+          "win_conference": "0.0%",
           "playoff": "0.0%"
         }
       },
@@ -1865,7 +1865,7 @@
           "conf_w": 0,
           "conf_l": 0,
           "conf_t": 0,
-          "overall_w": 4,
+          "overall_w": 5,
           "overall_l": 2,
           "overall_t": 0
         },
@@ -1873,8 +1873,8 @@
           "conf_w": 0.0,
           "conf_l": 0.0,
           "conf_t": 0.0,
-          "overall_w": 9.5,
-          "overall_l": 2.5,
+          "overall_w": 9.7,
+          "overall_l": 2.3,
           "overall_t": 0.0
         },
         "odds": {
@@ -1889,20 +1889,20 @@
           "conf_w": 0,
           "conf_l": 0,
           "conf_t": 0,
-          "overall_w": 4,
-          "overall_l": 2,
+          "overall_w": 5,
+          "overall_l": 3,
           "overall_t": 0
         },
         "projection": {
           "conf_w": 0.0,
           "conf_l": 0.0,
           "conf_t": 0.0,
-          "overall_w": 8.0,
-          "overall_l": 4.0,
+          "overall_w": 7.6,
+          "overall_l": 4.4,
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "98.2%",
+          "bowl_eligible": "98.8%",
           "win_conference": "--",
           "playoff": "0.0%"
         }
@@ -1910,26 +1910,146 @@
     ],
     "Mid-American": [
       {
-        "team": "W Michigan",
+        "team": "Miami OH",
         "current": {
-          "conf_w": 3,
+          "conf_w": 4,
           "conf_l": 0,
           "conf_t": 0,
-          "overall_w": 4,
+          "overall_w": 5,
           "overall_l": 3,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 6.0,
-          "conf_l": 2.0,
+          "conf_w": 6.1,
+          "conf_l": 1.9,
           "conf_t": 0.0,
-          "overall_w": 7.0,
-          "overall_l": 5.0,
+          "overall_w": 7.1,
+          "overall_l": 4.9,
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "90.4%",
-          "win_conference": "22.7%",
+          "bowl_eligible": "96.9%",
+          "win_conference": "23.1%",
+          "playoff": "0.0%"
+        }
+      },
+      {
+        "team": "Ohio",
+        "current": {
+          "conf_w": 3,
+          "conf_l": 1,
+          "conf_t": 0,
+          "overall_w": 5,
+          "overall_l": 3,
+          "overall_t": 0
+        },
+        "projection": {
+          "conf_w": 5.9,
+          "conf_l": 2.1,
+          "conf_t": 0.0,
+          "overall_w": 7.9,
+          "overall_l": 4.1,
+          "overall_t": 0.0
+        },
+        "odds": {
+          "bowl_eligible": "99.8%",
+          "win_conference": "30.7%",
+          "playoff": "0.0%"
+        }
+      },
+      {
+        "team": "W Michigan",
+        "current": {
+          "conf_w": 3,
+          "conf_l": 1,
+          "conf_t": 0,
+          "overall_w": 4,
+          "overall_l": 4,
+          "overall_t": 0
+        },
+        "projection": {
+          "conf_w": 5.5,
+          "conf_l": 2.5,
+          "conf_t": 0.0,
+          "overall_w": 6.5,
+          "overall_l": 5.5,
+          "overall_t": 0.0
+        },
+        "odds": {
+          "bowl_eligible": "83.0%",
+          "win_conference": "16.0%",
+          "playoff": "0.0%"
+        }
+      },
+      {
+        "team": "Toledo",
+        "current": {
+          "conf_w": 2,
+          "conf_l": 2,
+          "conf_t": 0,
+          "overall_w": 4,
+          "overall_l": 4,
+          "overall_t": 0
+        },
+        "projection": {
+          "conf_w": 5.3,
+          "conf_l": 2.7,
+          "conf_t": 0.0,
+          "overall_w": 7.3,
+          "overall_l": 4.7,
+          "overall_t": 0.0
+        },
+        "odds": {
+          "bowl_eligible": "98.3%",
+          "win_conference": "20.1%",
+          "playoff": "0.0%"
+        }
+      },
+      {
+        "team": "C Michigan",
+        "current": {
+          "conf_w": 3,
+          "conf_l": 1,
+          "conf_t": 0,
+          "overall_w": 5,
+          "overall_l": 3,
+          "overall_t": 0
+        },
+        "projection": {
+          "conf_w": 4.9,
+          "conf_l": 3.1,
+          "conf_t": 0.0,
+          "overall_w": 6.9,
+          "overall_l": 5.1,
+          "overall_t": 0.0
+        },
+        "odds": {
+          "bowl_eligible": "93.4%",
+          "win_conference": "5.2%",
+          "playoff": "0.0%"
+        }
+      },
+      {
+        "team": "Buffalo",
+        "current": {
+          "conf_w": 3,
+          "conf_l": 1,
+          "conf_t": 0,
+          "overall_w": 4,
+          "overall_l": 4,
+          "overall_t": 0
+        },
+        "projection": {
+          "conf_w": 4.5,
+          "conf_l": 3.5,
+          "conf_t": 0.0,
+          "overall_w": 5.5,
+          "overall_l": 6.5,
+          "overall_t": 0.0
+        },
+        "odds": {
+          "bowl_eligible": "49.3%",
+          "win_conference": "4.8%",
           "playoff": "0.0%"
         }
       },
@@ -1937,166 +2057,22 @@
         "team": "Bowling Green",
         "current": {
           "conf_w": 1,
-          "conf_l": 1,
+          "conf_l": 3,
           "conf_t": 0,
           "overall_w": 3,
-          "overall_l": 3,
+          "overall_l": 5,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 5.7,
-          "conf_l": 2.3,
+          "conf_w": 3.8,
+          "conf_l": 4.2,
           "conf_t": 0.0,
-          "overall_w": 7.7,
-          "overall_l": 4.3,
+          "overall_w": 5.8,
+          "overall_l": 6.2,
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "96.3%",
-          "win_conference": "17.5%",
-          "playoff": "0.0%"
-        }
-      },
-      {
-        "team": "Buffalo",
-        "current": {
-          "conf_w": 2,
-          "conf_l": 0,
-          "conf_t": 0,
-          "overall_w": 3,
-          "overall_l": 3,
-          "overall_t": 0
-        },
-        "projection": {
-          "conf_w": 5.6,
-          "conf_l": 2.4,
-          "conf_t": 0.0,
-          "overall_w": 6.6,
-          "overall_l": 5.4,
-          "overall_t": 0.0
-        },
-        "odds": {
-          "bowl_eligible": "81.7%",
-          "win_conference": "13.6%",
-          "playoff": "0.0%"
-        }
-      },
-      {
-        "team": "Toledo",
-        "current": {
-          "conf_w": 1,
-          "conf_l": 2,
-          "conf_t": 0,
-          "overall_w": 3,
-          "overall_l": 3,
-          "overall_t": 0
-        },
-        "projection": {
-          "conf_w": 5.4,
-          "conf_l": 2.6,
-          "conf_t": 0.0,
-          "overall_w": 8.1,
-          "overall_l": 3.9,
-          "overall_t": 0.0
-        },
-        "odds": {
-          "bowl_eligible": "99.4%",
-          "win_conference": "9.2%",
-          "playoff": "0.0%"
-        }
-      },
-      {
-        "team": "Ohio",
-        "current": {
-          "conf_w": 1,
-          "conf_l": 1,
-          "conf_t": 0,
-          "overall_w": 3,
-          "overall_l": 3,
-          "overall_t": 0
-        },
-        "projection": {
-          "conf_w": 5.4,
-          "conf_l": 2.6,
-          "conf_t": 0.0,
-          "overall_w": 7.4,
-          "overall_l": 4.6,
-          "overall_t": 0.0
-        },
-        "odds": {
-          "bowl_eligible": "95.0%",
-          "win_conference": "23.8%",
-          "playoff": "0.0%"
-        }
-      },
-      {
-        "team": "Miami OH",
-        "current": {
-          "conf_w": 2,
-          "conf_l": 0,
-          "conf_t": 0,
-          "overall_w": 3,
-          "overall_l": 3,
-          "overall_t": 0
-        },
-        "projection": {
-          "conf_w": 5.3,
-          "conf_l": 2.7,
-          "conf_t": 0.0,
-          "overall_w": 6.3,
-          "overall_l": 5.7,
-          "overall_t": 0.0
-        },
-        "odds": {
-          "bowl_eligible": "75.5%",
-          "win_conference": "11.8%",
-          "playoff": "0.0%"
-        }
-      },
-      {
-        "team": "C Michigan",
-        "current": {
-          "conf_w": 1,
-          "conf_l": 1,
-          "conf_t": 0,
-          "overall_w": 3,
-          "overall_l": 3,
-          "overall_t": 0
-        },
-        "projection": {
-          "conf_w": 3.6,
-          "conf_l": 4.4,
-          "conf_t": 0.0,
-          "overall_w": 5.6,
-          "overall_l": 6.4,
-          "overall_t": 0.0
-        },
-        "odds": {
-          "bowl_eligible": "50.2%",
-          "win_conference": "1.1%",
-          "playoff": "0.0%"
-        }
-      },
-      {
-        "team": "Ball St",
-        "current": {
-          "conf_w": 1,
-          "conf_l": 1,
-          "conf_t": 0,
-          "overall_w": 2,
-          "overall_l": 4,
-          "overall_t": 0
-        },
-        "projection": {
-          "conf_w": 3.1,
-          "conf_l": 4.9,
-          "conf_t": 0.0,
-          "overall_w": 4.1,
-          "overall_l": 7.9,
-          "overall_t": 0.0
-        },
-        "odds": {
-          "bowl_eligible": "10.8%",
+          "bowl_eligible": "64.8%",
           "win_conference": "0.1%",
           "playoff": "0.0%"
         }
@@ -2104,19 +2080,19 @@
       {
         "team": "Akron",
         "current": {
-          "conf_w": 1,
-          "conf_l": 2,
+          "conf_w": 2,
+          "conf_l": 3,
           "conf_t": 0,
-          "overall_w": 2,
-          "overall_l": 5,
+          "overall_w": 3,
+          "overall_l": 6,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 3.0,
-          "conf_l": 5.0,
+          "conf_w": 3.6,
+          "conf_l": 4.4,
           "conf_t": 0.0,
-          "overall_w": 4.0,
-          "overall_l": 8.0,
+          "overall_w": 4.6,
+          "overall_l": 7.4,
           "overall_t": 0.0
         },
         "odds": {
@@ -2126,49 +2102,73 @@
         }
       },
       {
-        "team": "N Illinois",
+        "team": "Kent St",
         "current": {
-          "conf_w": 0,
+          "conf_w": 2,
           "conf_l": 2,
           "conf_t": 0,
-          "overall_w": 1,
+          "overall_w": 3,
           "overall_l": 5,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 2.8,
-          "conf_l": 5.2,
+          "conf_w": 3.3,
+          "conf_l": 4.7,
           "conf_t": 0.0,
-          "overall_w": 3.8,
-          "overall_l": 8.2,
+          "overall_w": 4.3,
+          "overall_l": 7.7,
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "5.3%",
+          "bowl_eligible": "11.4%",
           "win_conference": "0.1%",
           "playoff": "0.0%"
         }
       },
       {
-        "team": "Kent St",
+        "team": "Ball St",
         "current": {
-          "conf_w": 1,
-          "conf_l": 1,
+          "conf_w": 2,
+          "conf_l": 2,
           "conf_t": 0,
-          "overall_w": 2,
-          "overall_l": 4,
+          "overall_w": 3,
+          "overall_l": 5,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 2.7,
-          "conf_l": 5.3,
+          "conf_w": 3.3,
+          "conf_l": 4.7,
           "conf_t": 0.0,
-          "overall_w": 3.7,
-          "overall_l": 8.3,
+          "overall_w": 4.3,
+          "overall_l": 7.7,
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "7.3%",
+          "bowl_eligible": "5.9%",
+          "win_conference": "0.0%",
+          "playoff": "0.0%"
+        }
+      },
+      {
+        "team": "N Illinois",
+        "current": {
+          "conf_w": 1,
+          "conf_l": 3,
+          "conf_t": 0,
+          "overall_w": 2,
+          "overall_l": 6,
+          "overall_t": 0
+        },
+        "projection": {
+          "conf_w": 2.9,
+          "conf_l": 5.1,
+          "conf_t": 0.0,
+          "overall_w": 3.9,
+          "overall_l": 8.1,
+          "overall_t": 0.0
+        },
+        "odds": {
+          "bowl_eligible": "2.3%",
           "win_conference": "0.0%",
           "playoff": "0.0%"
         }
@@ -2177,23 +2177,23 @@
         "team": "E Michigan",
         "current": {
           "conf_w": 1,
-          "conf_l": 2,
+          "conf_l": 4,
           "conf_t": 0,
           "overall_w": 2,
-          "overall_l": 5,
+          "overall_l": 7,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 2.5,
-          "conf_l": 5.5,
+          "conf_w": 2.2,
+          "conf_l": 5.8,
           "conf_t": 0.0,
-          "overall_w": 3.5,
-          "overall_l": 8.5,
+          "overall_w": 3.2,
+          "overall_l": 8.8,
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "3.8%",
-          "win_conference": "0.1%",
+          "bowl_eligible": "0.0%",
+          "win_conference": "0.0%",
           "playoff": "0.0%"
         }
       },
@@ -2201,18 +2201,18 @@
         "team": "UMass",
         "current": {
           "conf_w": 0,
-          "conf_l": 2,
+          "conf_l": 4,
           "conf_t": 0,
           "overall_w": 0,
-          "overall_l": 6,
+          "overall_l": 8,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 0.8,
-          "conf_l": 7.2,
+          "conf_w": 0.6,
+          "conf_l": 7.4,
           "conf_t": 0.0,
-          "overall_w": 0.8,
-          "overall_l": 11.2,
+          "overall_w": 0.6,
+          "overall_l": 11.4,
           "overall_t": 0.0
         },
         "odds": {
@@ -2226,24 +2226,48 @@
       {
         "team": "Boise St",
         "current": {
-          "conf_w": 2,
+          "conf_w": 4,
           "conf_l": 0,
           "conf_t": 0,
-          "overall_w": 4,
+          "overall_w": 6,
           "overall_l": 2,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 6.9,
-          "conf_l": 1.1,
+          "conf_w": 7.3,
+          "conf_l": 0.7,
           "conf_t": 0.0,
-          "overall_w": 8.9,
-          "overall_l": 3.1,
+          "overall_w": 9.3,
+          "overall_l": 2.7,
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "99.8%",
-          "win_conference": "60.3%",
+          "bowl_eligible": "100.0%",
+          "win_conference": "69.1%",
+          "playoff": "0.0%"
+        }
+      },
+      {
+        "team": "San Diego St",
+        "current": {
+          "conf_w": 3,
+          "conf_l": 0,
+          "conf_t": 0,
+          "overall_w": 6,
+          "overall_l": 1,
+          "overall_t": 0
+        },
+        "projection": {
+          "conf_w": 6.3,
+          "conf_l": 1.7,
+          "conf_t": 0.0,
+          "overall_w": 9.3,
+          "overall_l": 2.7,
+          "overall_t": 0.0
+        },
+        "odds": {
+          "bowl_eligible": "100.0%",
+          "win_conference": "21.4%",
           "playoff": "0.0%"
         }
       },
@@ -2251,106 +2275,58 @@
         "team": "UNLV",
         "current": {
           "conf_w": 2,
-          "conf_l": 0,
+          "conf_l": 1,
           "conf_t": 0,
           "overall_w": 6,
-          "overall_l": 0,
-          "overall_t": 0
-        },
-        "projection": {
-          "conf_w": 5.7,
-          "conf_l": 2.3,
-          "conf_t": 0.0,
-          "overall_w": 9.7,
-          "overall_l": 2.3,
-          "overall_t": 0.0
-        },
-        "odds": {
-          "bowl_eligible": "100.0%",
-          "win_conference": "13.1%",
-          "playoff": "5.2%"
-        }
-      },
-      {
-        "team": "San Diego St",
-        "current": {
-          "conf_w": 2,
-          "conf_l": 0,
-          "conf_t": 0,
-          "overall_w": 5,
           "overall_l": 1,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 5.7,
-          "conf_l": 2.3,
+          "conf_w": 5.5,
+          "conf_l": 2.5,
           "conf_t": 0.0,
-          "overall_w": 8.7,
-          "overall_l": 3.3,
+          "overall_w": 9.5,
+          "overall_l": 2.5,
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "99.4%",
-          "win_conference": "16.6%",
-          "playoff": "0.0%"
-        }
-      },
-      {
-        "team": "Fresno St",
-        "current": {
-          "conf_w": 2,
-          "conf_l": 1,
-          "conf_t": 0,
-          "overall_w": 5,
-          "overall_l": 2,
-          "overall_t": 0
-        },
-        "projection": {
-          "conf_w": 4.4,
-          "conf_l": 3.6,
-          "conf_t": 0.0,
-          "overall_w": 7.4,
-          "overall_l": 4.6,
-          "overall_t": 0.0
-        },
-        "odds": {
-          "bowl_eligible": "95.6%",
-          "win_conference": "3.3%",
+          "bowl_eligible": "100.0%",
+          "win_conference": "5.1%",
           "playoff": "0.0%"
         }
       },
       {
         "team": "Hawai'i",
         "current": {
-          "conf_w": 2,
+          "conf_w": 3,
           "conf_l": 1,
           "conf_t": 0,
-          "overall_w": 5,
+          "overall_w": 6,
           "overall_l": 2,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 4.2,
-          "conf_l": 3.8,
+          "conf_w": 4.7,
+          "conf_l": 3.3,
           "conf_t": 0.0,
-          "overall_w": 7.2,
-          "overall_l": 4.8,
+          "overall_w": 7.7,
+          "overall_l": 4.3,
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "92.5%",
-          "win_conference": "1.5%",
+          "bowl_eligible": "100.0%",
+          "win_conference": "2.2%",
           "playoff": "0.0%"
         }
       },
       {
-        "team": "Utah St",
+        "team": "Wyoming",
         "current": {
-          "conf_w": 1,
-          "conf_l": 1,
+          "conf_w": 2,
+          "conf_l": 2,
           "conf_t": 0,
-          "overall_w": 3,
-          "overall_l": 3,
+          "overall_w": 4,
+          "overall_l": 4,
           "overall_t": 0
         },
         "projection": {
@@ -2362,8 +2338,80 @@
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "63.1%",
-          "win_conference": "2.1%",
+          "bowl_eligible": "65.4%",
+          "win_conference": "0.4%",
+          "playoff": "0.0%"
+        }
+      },
+      {
+        "team": "New Mexico",
+        "current": {
+          "conf_w": 2,
+          "conf_l": 2,
+          "conf_t": 0,
+          "overall_w": 5,
+          "overall_l": 3,
+          "overall_t": 0
+        },
+        "projection": {
+          "conf_w": 3.9,
+          "conf_l": 4.1,
+          "conf_t": 0.0,
+          "overall_w": 6.9,
+          "overall_l": 5.1,
+          "overall_t": 0.0
+        },
+        "odds": {
+          "bowl_eligible": "91.9%",
+          "win_conference": "0.7%",
+          "playoff": "0.0%"
+        }
+      },
+      {
+        "team": "Utah St",
+        "current": {
+          "conf_w": 2,
+          "conf_l": 2,
+          "conf_t": 0,
+          "overall_w": 4,
+          "overall_l": 4,
+          "overall_t": 0
+        },
+        "projection": {
+          "conf_w": 3.7,
+          "conf_l": 4.3,
+          "conf_t": 0.0,
+          "overall_w": 5.7,
+          "overall_l": 6.3,
+          "overall_t": 0.0
+        },
+        "odds": {
+          "bowl_eligible": "58.0%",
+          "win_conference": "0.5%",
+          "playoff": "0.0%"
+        }
+      },
+      {
+        "team": "Fresno St",
+        "current": {
+          "conf_w": 2,
+          "conf_l": 2,
+          "conf_t": 0,
+          "overall_w": 5,
+          "overall_l": 3,
+          "overall_t": 0
+        },
+        "projection": {
+          "conf_w": 3.7,
+          "conf_l": 4.3,
+          "conf_t": 0.0,
+          "overall_w": 6.7,
+          "overall_l": 5.3,
+          "overall_t": 0.0
+        },
+        "odds": {
+          "bowl_eligible": "88.9%",
+          "win_conference": "0.4%",
           "playoff": "0.0%"
         }
       },
@@ -2371,47 +2419,47 @@
         "team": "San Jose St",
         "current": {
           "conf_w": 1,
-          "conf_l": 1,
+          "conf_l": 2,
           "conf_t": 0,
           "overall_w": 2,
-          "overall_l": 4,
+          "overall_l": 5,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 3.8,
-          "conf_l": 4.2,
+          "conf_w": 3.5,
+          "conf_l": 4.5,
           "conf_t": 0.0,
-          "overall_w": 4.8,
-          "overall_l": 7.2,
+          "overall_w": 4.5,
+          "overall_l": 7.5,
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "29.0%",
-          "win_conference": "1.0%",
+          "bowl_eligible": "19.2%",
+          "win_conference": "0.3%",
           "playoff": "0.0%"
         }
       },
       {
-        "team": "Wyoming",
+        "team": "Air Force",
         "current": {
           "conf_w": 1,
-          "conf_l": 1,
+          "conf_l": 4,
           "conf_t": 0,
-          "overall_w": 3,
-          "overall_l": 3,
+          "overall_w": 2,
+          "overall_l": 5,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 3.6,
-          "conf_l": 4.4,
+          "conf_w": 2.5,
+          "conf_l": 5.5,
           "conf_t": 0.0,
-          "overall_w": 5.6,
-          "overall_l": 6.4,
+          "overall_w": 4.3,
+          "overall_l": 7.7,
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "51.5%",
-          "win_conference": "0.5%",
+          "bowl_eligible": "16.6%",
+          "win_conference": "0.0%",
           "playoff": "0.0%"
         }
       },
@@ -2419,70 +2467,22 @@
         "team": "Colorado St",
         "current": {
           "conf_w": 1,
-          "conf_l": 1,
+          "conf_l": 3,
           "conf_t": 0,
           "overall_w": 2,
-          "overall_l": 4,
+          "overall_l": 6,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 3.6,
-          "conf_l": 4.4,
+          "conf_w": 2.2,
+          "conf_l": 5.8,
           "conf_t": 0.0,
-          "overall_w": 4.6,
-          "overall_l": 7.4,
+          "overall_w": 3.2,
+          "overall_l": 8.8,
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "24.8%",
-          "win_conference": "1.1%",
-          "playoff": "0.0%"
-        }
-      },
-      {
-        "team": "New Mexico",
-        "current": {
-          "conf_w": 0,
-          "conf_l": 2,
-          "conf_t": 0,
-          "overall_w": 3,
-          "overall_l": 3,
-          "overall_t": 0
-        },
-        "projection": {
-          "conf_w": 3.2,
-          "conf_l": 4.8,
-          "conf_t": 0.0,
-          "overall_w": 6.2,
-          "overall_l": 5.8,
-          "overall_t": 0.0
-        },
-        "odds": {
-          "bowl_eligible": "70.6%",
-          "win_conference": "0.6%",
-          "playoff": "0.0%"
-        }
-      },
-      {
-        "team": "Air Force",
-        "current": {
-          "conf_w": 0,
-          "conf_l": 4,
-          "conf_t": 0,
-          "overall_w": 1,
-          "overall_l": 5,
-          "overall_t": 0
-        },
-        "projection": {
-          "conf_w": 2.1,
-          "conf_l": 5.9,
-          "conf_t": 0.0,
-          "overall_w": 3.9,
-          "overall_l": 8.1,
-          "overall_t": 0.0
-        },
-        "odds": {
-          "bowl_eligible": "11.9%",
+          "bowl_eligible": "0.5%",
           "win_conference": "0.0%",
           "playoff": "0.0%"
         }
@@ -2491,10 +2491,10 @@
         "team": "Nevada",
         "current": {
           "conf_w": 0,
-          "conf_l": 2,
+          "conf_l": 4,
           "conf_t": 0,
           "overall_w": 1,
-          "overall_l": 5,
+          "overall_l": 7,
           "overall_t": 0
         },
         "projection": {
@@ -2506,7 +2506,7 @@
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "0.1%",
+          "bowl_eligible": "0.0%",
           "win_conference": "0.0%",
           "playoff": "0.0%"
         }
@@ -2519,20 +2519,20 @@
           "conf_w": 0,
           "conf_l": 0,
           "conf_t": 0,
-          "overall_w": 3,
-          "overall_l": 3,
+          "overall_w": 4,
+          "overall_l": 4,
           "overall_t": 0
         },
         "projection": {
           "conf_w": 0.0,
           "conf_l": 0.0,
           "conf_t": 0.0,
-          "overall_w": 5.4,
-          "overall_l": 6.6,
+          "overall_w": 6.3,
+          "overall_l": 5.7,
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "44.6%",
+          "bowl_eligible": "79.7%",
           "win_conference": "--",
           "playoff": "0.0%"
         }
@@ -2543,7 +2543,7 @@
           "conf_w": 0,
           "conf_l": 0,
           "conf_t": 0,
-          "overall_w": 0,
+          "overall_w": 1,
           "overall_l": 7,
           "overall_t": 0
         },
@@ -2551,8 +2551,8 @@
           "conf_w": 0.0,
           "conf_l": 0.0,
           "conf_t": 0.0,
-          "overall_w": 3.2,
-          "overall_l": 8.8,
+          "overall_w": 3.1,
+          "overall_l": 8.9,
           "overall_t": 0.0
         },
         "odds": {
@@ -2566,40 +2566,88 @@
       {
         "team": "Alabama",
         "current": {
-          "conf_w": 3,
+          "conf_w": 5,
           "conf_l": 0,
           "conf_t": 0,
-          "overall_w": 5,
+          "overall_w": 7,
           "overall_l": 1,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 6.9,
-          "conf_l": 1.1,
+          "conf_w": 7.3,
+          "conf_l": 0.7,
           "conf_t": 0.0,
-          "overall_w": 9.9,
-          "overall_l": 2.1,
+          "overall_w": 10.3,
+          "overall_l": 1.7,
           "overall_t": 0.0
         },
         "odds": {
           "bowl_eligible": "100.0%",
-          "win_conference": "46.1%",
+          "win_conference": "51.0%",
           "playoff": "0.0%"
         }
       },
       {
         "team": "Texas A&M",
         "current": {
-          "conf_w": 3,
+          "conf_w": 5,
           "conf_l": 0,
           "conf_t": 0,
-          "overall_w": 6,
+          "overall_w": 8,
           "overall_l": 0,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 6.0,
-          "conf_l": 2.0,
+          "conf_w": 6.9,
+          "conf_l": 1.1,
+          "conf_t": 0.0,
+          "overall_w": 10.9,
+          "overall_l": 1.1,
+          "overall_t": 0.0
+        },
+        "odds": {
+          "bowl_eligible": "100.0%",
+          "win_conference": "22.4%",
+          "playoff": "26.7%"
+        }
+      },
+      {
+        "team": "Mississippi",
+        "current": {
+          "conf_w": 4,
+          "conf_l": 1,
+          "conf_t": 0,
+          "overall_w": 7,
+          "overall_l": 1,
+          "overall_t": 0
+        },
+        "projection": {
+          "conf_w": 6.2,
+          "conf_l": 1.8,
+          "conf_t": 0.0,
+          "overall_w": 10.2,
+          "overall_l": 1.8,
+          "overall_t": 0.0
+        },
+        "odds": {
+          "bowl_eligible": "100.0%",
+          "win_conference": "5.5%",
+          "playoff": "0.0%"
+        }
+      },
+      {
+        "team": "Georgia",
+        "current": {
+          "conf_w": 4,
+          "conf_l": 1,
+          "conf_t": 0,
+          "overall_w": 6,
+          "overall_l": 1,
+          "overall_t": 0
+        },
+        "projection": {
+          "conf_w": 6.2,
+          "conf_l": 1.8,
           "conf_t": 0.0,
           "overall_w": 10.0,
           "overall_l": 2.0,
@@ -2607,66 +2655,332 @@
         },
         "odds": {
           "bowl_eligible": "100.0%",
-          "win_conference": "14.5%",
-          "playoff": "9.7%"
-        }
-      },
-      {
-        "team": "Georgia",
-        "current": {
-          "conf_w": 3,
-          "conf_l": 1,
-          "conf_t": 0,
-          "overall_w": 5,
-          "overall_l": 1,
-          "overall_t": 0
-        },
-        "projection": {
-          "conf_w": 5.8,
-          "conf_l": 2.2,
-          "conf_t": 0.0,
-          "overall_w": 9.6,
-          "overall_l": 2.4,
-          "overall_t": 0.0
-        },
-        "odds": {
-          "bowl_eligible": "100.0%",
-          "win_conference": "13.3%",
+          "win_conference": "14.1%",
           "playoff": "0.0%"
-        }
-      },
-      {
-        "team": "Mississippi",
-        "current": {
-          "conf_w": 3,
-          "conf_l": 0,
-          "conf_t": 0,
-          "overall_w": 6,
-          "overall_l": 0,
-          "overall_t": 0
-        },
-        "projection": {
-          "conf_w": 5.8,
-          "conf_l": 2.2,
-          "conf_t": 0.0,
-          "overall_w": 9.8,
-          "overall_l": 2.2,
-          "overall_t": 0.0
-        },
-        "odds": {
-          "bowl_eligible": "100.0%",
-          "win_conference": "8.2%",
-          "playoff": "6.3%"
         }
       },
       {
         "team": "Texas",
         "current": {
-          "conf_w": 1,
+          "conf_w": 3,
           "conf_l": 1,
           "conf_t": 0,
-          "overall_w": 4,
+          "overall_w": 6,
           "overall_l": 2,
+          "overall_t": 0
+        },
+        "projection": {
+          "conf_w": 5.4,
+          "conf_l": 2.6,
+          "conf_t": 0.0,
+          "overall_w": 8.4,
+          "overall_l": 3.6,
+          "overall_t": 0.0
+        },
+        "odds": {
+          "bowl_eligible": "100.0%",
+          "win_conference": "5.4%",
+          "playoff": "0.0%"
+        }
+      },
+      {
+        "team": "Vanderbilt",
+        "current": {
+          "conf_w": 3,
+          "conf_l": 1,
+          "conf_t": 0,
+          "overall_w": 7,
+          "overall_l": 1,
+          "overall_t": 0
+        },
+        "projection": {
+          "conf_w": 5.2,
+          "conf_l": 2.8,
+          "conf_t": 0.0,
+          "overall_w": 9.2,
+          "overall_l": 2.8,
+          "overall_t": 0.0
+        },
+        "odds": {
+          "bowl_eligible": "100.0%",
+          "win_conference": "1.2%",
+          "playoff": "0.0%"
+        }
+      },
+      {
+        "team": "Tennessee",
+        "current": {
+          "conf_w": 3,
+          "conf_l": 2,
+          "conf_t": 0,
+          "overall_w": 6,
+          "overall_l": 2,
+          "overall_t": 0
+        },
+        "projection": {
+          "conf_w": 4.7,
+          "conf_l": 3.3,
+          "conf_t": 0.0,
+          "overall_w": 8.7,
+          "overall_l": 3.3,
+          "overall_t": 0.0
+        },
+        "odds": {
+          "bowl_eligible": "100.0%",
+          "win_conference": "0.0%",
+          "playoff": "0.0%"
+        }
+      },
+      {
+        "team": "Missouri",
+        "current": {
+          "conf_w": 2,
+          "conf_l": 2,
+          "conf_t": 0,
+          "overall_w": 6,
+          "overall_l": 2,
+          "overall_t": 0
+        },
+        "projection": {
+          "conf_w": 4.1,
+          "conf_l": 3.9,
+          "conf_t": 0.0,
+          "overall_w": 8.1,
+          "overall_l": 3.9,
+          "overall_t": 0.0
+        },
+        "odds": {
+          "bowl_eligible": "100.0%",
+          "win_conference": "0.1%",
+          "playoff": "0.0%"
+        }
+      },
+      {
+        "team": "Oklahoma",
+        "current": {
+          "conf_w": 2,
+          "conf_l": 2,
+          "conf_t": 0,
+          "overall_w": 6,
+          "overall_l": 2,
+          "overall_t": 0
+        },
+        "projection": {
+          "conf_w": 4.0,
+          "conf_l": 4.0,
+          "conf_t": 0.0,
+          "overall_w": 8.0,
+          "overall_l": 4.0,
+          "overall_t": 0.0
+        },
+        "odds": {
+          "bowl_eligible": "100.0%",
+          "win_conference": "0.1%",
+          "playoff": "0.0%"
+        }
+      },
+      {
+        "team": "Florida",
+        "current": {
+          "conf_w": 2,
+          "conf_l": 2,
+          "conf_t": 0,
+          "overall_w": 3,
+          "overall_l": 4,
+          "overall_t": 0
+        },
+        "projection": {
+          "conf_w": 3.8,
+          "conf_l": 4.2,
+          "conf_t": 0.0,
+          "overall_w": 5.3,
+          "overall_l": 6.7,
+          "overall_t": 0.0
+        },
+        "odds": {
+          "bowl_eligible": "44.0%",
+          "win_conference": "0.1%",
+          "playoff": "0.0%"
+        }
+      },
+      {
+        "team": "LSU",
+        "current": {
+          "conf_w": 2,
+          "conf_l": 3,
+          "conf_t": 0,
+          "overall_w": 5,
+          "overall_l": 3,
+          "overall_t": 0
+        },
+        "projection": {
+          "conf_w": 3.3,
+          "conf_l": 4.7,
+          "conf_t": 0.0,
+          "overall_w": 7.2,
+          "overall_l": 4.8,
+          "overall_t": 0.0
+        },
+        "odds": {
+          "bowl_eligible": "99.5%",
+          "win_conference": "0.0%",
+          "playoff": "0.0%"
+        }
+      },
+      {
+        "team": "Auburn",
+        "current": {
+          "conf_w": 1,
+          "conf_l": 4,
+          "conf_t": 0,
+          "overall_w": 4,
+          "overall_l": 4,
+          "overall_t": 0
+        },
+        "projection": {
+          "conf_w": 2.5,
+          "conf_l": 5.5,
+          "conf_t": 0.0,
+          "overall_w": 6.5,
+          "overall_l": 5.5,
+          "overall_t": 0.0
+        },
+        "odds": {
+          "bowl_eligible": "91.1%",
+          "win_conference": "0.0%",
+          "playoff": "0.0%"
+        }
+      },
+      {
+        "team": "Arkansas",
+        "current": {
+          "conf_w": 0,
+          "conf_l": 4,
+          "conf_t": 0,
+          "overall_w": 2,
+          "overall_l": 6,
+          "overall_t": 0
+        },
+        "projection": {
+          "conf_w": 1.4,
+          "conf_l": 6.6,
+          "conf_t": 0.0,
+          "overall_w": 3.4,
+          "overall_l": 8.6,
+          "overall_t": 0.0
+        },
+        "odds": {
+          "bowl_eligible": "1.8%",
+          "win_conference": "0.0%",
+          "playoff": "0.0%"
+        }
+      },
+      {
+        "team": "South Carolina",
+        "current": {
+          "conf_w": 1,
+          "conf_l": 5,
+          "conf_t": 0,
+          "overall_w": 3,
+          "overall_l": 5,
+          "overall_t": 0
+        },
+        "projection": {
+          "conf_w": 1.3,
+          "conf_l": 6.7,
+          "conf_t": 0.0,
+          "overall_w": 4.8,
+          "overall_l": 7.2,
+          "overall_t": 0.0
+        },
+        "odds": {
+          "bowl_eligible": "16.6%",
+          "win_conference": "0.0%",
+          "playoff": "0.0%"
+        }
+      },
+      {
+        "team": "Mississippi St",
+        "current": {
+          "conf_w": 0,
+          "conf_l": 4,
+          "conf_t": 0,
+          "overall_w": 4,
+          "overall_l": 4,
+          "overall_t": 0
+        },
+        "projection": {
+          "conf_w": 1.2,
+          "conf_l": 6.8,
+          "conf_t": 0.0,
+          "overall_w": 5.2,
+          "overall_l": 6.8,
+          "overall_t": 0.0
+        },
+        "odds": {
+          "bowl_eligible": "34.4%",
+          "win_conference": "0.0%",
+          "playoff": "0.0%"
+        }
+      },
+      {
+        "team": "Kentucky",
+        "current": {
+          "conf_w": 0,
+          "conf_l": 5,
+          "conf_t": 0,
+          "overall_w": 2,
+          "overall_l": 5,
+          "overall_t": 0
+        },
+        "projection": {
+          "conf_w": 0.6,
+          "conf_l": 7.4,
+          "conf_t": 0.0,
+          "overall_w": 3.8,
+          "overall_l": 8.2,
+          "overall_t": 0.0
+        },
+        "odds": {
+          "bowl_eligible": "3.8%",
+          "win_conference": "0.0%",
+          "playoff": "0.0%"
+        }
+      }
+    ],
+    "Sun Belt": [
+      {
+        "team": "J Madison",
+        "current": {
+          "conf_w": 4,
+          "conf_l": 0,
+          "conf_t": 0,
+          "overall_w": 6,
+          "overall_l": 1,
+          "overall_t": 0
+        },
+        "projection": {
+          "conf_w": 7.2,
+          "conf_l": 0.8,
+          "conf_t": 0.0,
+          "overall_w": 9.9,
+          "overall_l": 2.1,
+          "overall_t": 0.0
+        },
+        "odds": {
+          "bowl_eligible": "100.0%",
+          "win_conference": "61.6%",
+          "playoff": "0.0%"
+        }
+      },
+      {
+        "team": "Old Dominion",
+        "current": {
+          "conf_w": 2,
+          "conf_l": 2,
+          "conf_t": 0,
+          "overall_w": 5,
+          "overall_l": 3,
           "overall_t": 0
         },
         "projection": {
@@ -2678,370 +2992,56 @@
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "98.3%",
-          "win_conference": "8.5%",
-          "playoff": "0.0%"
-        }
-      },
-      {
-        "team": "LSU",
-        "current": {
-          "conf_w": 2,
-          "conf_l": 1,
-          "conf_t": 0,
-          "overall_w": 5,
-          "overall_l": 1,
-          "overall_t": 0
-        },
-        "projection": {
-          "conf_w": 4.5,
-          "conf_l": 3.5,
-          "conf_t": 0.0,
-          "overall_w": 8.5,
-          "overall_l": 3.5,
-          "overall_t": 0.0
-        },
-        "odds": {
           "bowl_eligible": "99.9%",
-          "win_conference": "2.9%",
-          "playoff": "0.0%"
-        }
-      },
-      {
-        "team": "Tennessee",
-        "current": {
-          "conf_w": 2,
-          "conf_l": 1,
-          "conf_t": 0,
-          "overall_w": 5,
-          "overall_l": 1,
-          "overall_t": 0
-        },
-        "projection": {
-          "conf_w": 4.5,
-          "conf_l": 3.5,
-          "conf_t": 0.0,
-          "overall_w": 8.5,
-          "overall_l": 3.5,
-          "overall_t": 0.0
-        },
-        "odds": {
-          "bowl_eligible": "100.0%",
-          "win_conference": "1.5%",
-          "playoff": "0.0%"
-        }
-      },
-      {
-        "team": "Vanderbilt",
-        "current": {
-          "conf_w": 1,
-          "conf_l": 1,
-          "conf_t": 0,
-          "overall_w": 5,
-          "overall_l": 1,
-          "overall_t": 0
-        },
-        "projection": {
-          "conf_w": 4.2,
-          "conf_l": 3.8,
-          "conf_t": 0.0,
-          "overall_w": 8.2,
-          "overall_l": 3.8,
-          "overall_t": 0.0
-        },
-        "odds": {
-          "bowl_eligible": "98.7%",
-          "win_conference": "1.2%",
-          "playoff": "0.0%"
-        }
-      },
-      {
-        "team": "Oklahoma",
-        "current": {
-          "conf_w": 1,
-          "conf_l": 1,
-          "conf_t": 0,
-          "overall_w": 5,
-          "overall_l": 1,
-          "overall_t": 0
-        },
-        "projection": {
-          "conf_w": 4.1,
-          "conf_l": 3.9,
-          "conf_t": 0.0,
-          "overall_w": 8.1,
-          "overall_l": 3.9,
-          "overall_t": 0.0
-        },
-        "odds": {
-          "bowl_eligible": "97.8%",
-          "win_conference": "2.1%",
-          "playoff": "0.0%"
-        }
-      },
-      {
-        "team": "Missouri",
-        "current": {
-          "conf_w": 1,
-          "conf_l": 1,
-          "conf_t": 0,
-          "overall_w": 5,
-          "overall_l": 1,
-          "overall_t": 0
-        },
-        "projection": {
-          "conf_w": 4.1,
-          "conf_l": 3.9,
-          "conf_t": 0.0,
-          "overall_w": 8.1,
-          "overall_l": 3.9,
-          "overall_t": 0.0
-        },
-        "odds": {
-          "bowl_eligible": "97.9%",
-          "win_conference": "1.2%",
-          "playoff": "0.0%"
-        }
-      },
-      {
-        "team": "Florida",
-        "current": {
-          "conf_w": 1,
-          "conf_l": 2,
-          "conf_t": 0,
-          "overall_w": 2,
-          "overall_l": 4,
-          "overall_t": 0
-        },
-        "projection": {
-          "conf_w": 3.7,
-          "conf_l": 4.3,
-          "conf_t": 0.0,
-          "overall_w": 5.2,
-          "overall_l": 6.8,
-          "overall_t": 0.0
-        },
-        "odds": {
-          "bowl_eligible": "42.1%",
-          "win_conference": "0.5%",
-          "playoff": "0.0%"
-        }
-      },
-      {
-        "team": "Auburn",
-        "current": {
-          "conf_w": 0,
-          "conf_l": 3,
-          "conf_t": 0,
-          "overall_w": 3,
-          "overall_l": 3,
-          "overall_t": 0
-        },
-        "projection": {
-          "conf_w": 2.6,
-          "conf_l": 5.4,
-          "conf_t": 0.0,
-          "overall_w": 6.6,
-          "overall_l": 5.4,
-          "overall_t": 0.0
-        },
-        "odds": {
-          "bowl_eligible": "82.3%",
-          "win_conference": "0.0%",
-          "playoff": "0.0%"
-        }
-      },
-      {
-        "team": "Arkansas",
-        "current": {
-          "conf_w": 0,
-          "conf_l": 2,
-          "conf_t": 0,
-          "overall_w": 2,
-          "overall_l": 4,
-          "overall_t": 0
-        },
-        "projection": {
-          "conf_w": 2.1,
-          "conf_l": 5.9,
-          "conf_t": 0.0,
-          "overall_w": 4.1,
-          "overall_l": 7.9,
-          "overall_t": 0.0
-        },
-        "odds": {
-          "bowl_eligible": "12.5%",
-          "win_conference": "0.0%",
-          "playoff": "0.0%"
-        }
-      },
-      {
-        "team": "South Carolina",
-        "current": {
-          "conf_w": 1,
-          "conf_l": 3,
-          "conf_t": 0,
-          "overall_w": 3,
-          "overall_l": 3,
-          "overall_t": 0
-        },
-        "projection": {
-          "conf_w": 1.9,
-          "conf_l": 6.1,
-          "conf_t": 0.0,
-          "overall_w": 5.4,
-          "overall_l": 6.6,
-          "overall_t": 0.0
-        },
-        "odds": {
-          "bowl_eligible": "41.4%",
-          "win_conference": "0.0%",
-          "playoff": "0.0%"
-        }
-      },
-      {
-        "team": "Mississippi St",
-        "current": {
-          "conf_w": 0,
-          "conf_l": 2,
-          "conf_t": 0,
-          "overall_w": 4,
-          "overall_l": 2,
-          "overall_t": 0
-        },
-        "projection": {
-          "conf_w": 1.6,
-          "conf_l": 6.4,
-          "conf_t": 0.0,
-          "overall_w": 5.6,
-          "overall_l": 6.4,
-          "overall_t": 0.0
-        },
-        "odds": {
-          "bowl_eligible": "47.6%",
-          "win_conference": "0.0%",
-          "playoff": "0.0%"
-        }
-      },
-      {
-        "team": "Kentucky",
-        "current": {
-          "conf_w": 0,
-          "conf_l": 3,
-          "conf_t": 0,
-          "overall_w": 2,
-          "overall_l": 3,
-          "overall_t": 0
-        },
-        "projection": {
-          "conf_w": 1.0,
-          "conf_l": 7.0,
-          "conf_t": 0.0,
-          "overall_w": 4.2,
-          "overall_l": 7.8,
-          "overall_t": 0.0
-        },
-        "odds": {
-          "bowl_eligible": "13.2%",
-          "win_conference": "0.0%",
-          "playoff": "0.0%"
-        }
-      }
-    ],
-    "Sun Belt": [
-      {
-        "team": "J Madison",
-        "current": {
-          "conf_w": 3,
-          "conf_l": 0,
-          "conf_t": 0,
-          "overall_w": 5,
-          "overall_l": 1,
-          "overall_t": 0
-        },
-        "projection": {
-          "conf_w": 6.4,
-          "conf_l": 1.6,
-          "conf_t": 0.0,
-          "overall_w": 9.2,
-          "overall_l": 2.8,
-          "overall_t": 0.0
-        },
-        "odds": {
-          "bowl_eligible": "99.8%",
-          "win_conference": "35.4%",
-          "playoff": "0.0%"
-        }
-      },
-      {
-        "team": "Old Dominion",
-        "current": {
-          "conf_w": 1,
-          "conf_l": 1,
-          "conf_t": 0,
-          "overall_w": 4,
-          "overall_l": 2,
-          "overall_t": 0
-        },
-        "projection": {
-          "conf_w": 5.9,
-          "conf_l": 2.1,
-          "conf_t": 0.0,
-          "overall_w": 8.9,
-          "overall_l": 3.1,
-          "overall_t": 0.0
-        },
-        "odds": {
-          "bowl_eligible": "99.8%",
-          "win_conference": "26.6%",
+          "win_conference": "0.4%",
           "playoff": "0.0%"
         }
       },
       {
         "team": "Marshall",
         "current": {
-          "conf_w": 1,
+          "conf_w": 2,
           "conf_l": 1,
           "conf_t": 0,
-          "overall_w": 3,
+          "overall_w": 4,
           "overall_l": 3,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 4.7,
-          "conf_l": 3.3,
+          "conf_w": 5.1,
+          "conf_l": 2.9,
           "conf_t": 0.0,
-          "overall_w": 6.7,
-          "overall_l": 5.3,
+          "overall_w": 7.1,
+          "overall_l": 4.9,
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "81.5%",
-          "win_conference": "7.1%",
+          "bowl_eligible": "91.8%",
+          "win_conference": "8.2%",
           "playoff": "0.0%"
         }
       },
       {
         "team": "Coastal Car",
         "current": {
-          "conf_w": 2,
+          "conf_w": 3,
           "conf_l": 1,
           "conf_t": 0,
-          "overall_w": 3,
+          "overall_w": 4,
           "overall_l": 3,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 3.8,
-          "conf_l": 4.2,
+          "conf_w": 4.5,
+          "conf_l": 3.5,
           "conf_t": 0.0,
-          "overall_w": 4.8,
-          "overall_l": 7.2,
+          "overall_w": 5.5,
+          "overall_l": 6.5,
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "26.9%",
-          "win_conference": "0.5%",
+          "bowl_eligible": "48.6%",
+          "win_conference": "0.9%",
           "playoff": "0.0%"
         }
       },
@@ -3049,47 +3049,47 @@
         "team": "App State",
         "current": {
           "conf_w": 1,
-          "conf_l": 1,
+          "conf_l": 3,
           "conf_t": 0,
           "overall_w": 4,
-          "overall_l": 2,
+          "overall_l": 4,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 3.5,
-          "conf_l": 4.5,
+          "conf_w": 2.7,
+          "conf_l": 5.3,
           "conf_t": 0.0,
-          "overall_w": 6.5,
-          "overall_l": 5.5,
+          "overall_w": 5.7,
+          "overall_l": 6.3,
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "80.3%",
-          "win_conference": "1.0%",
+          "bowl_eligible": "56.8%",
+          "win_conference": "0.0%",
           "playoff": "0.0%"
         }
       },
       {
         "team": "Georgia So",
         "current": {
-          "conf_w": 0,
-          "conf_l": 2,
+          "conf_w": 1,
+          "conf_l": 3,
           "conf_t": 0,
-          "overall_w": 2,
-          "overall_l": 4,
+          "overall_w": 3,
+          "overall_l": 5,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 2.8,
-          "conf_l": 5.2,
+          "conf_w": 2.6,
+          "conf_l": 5.4,
           "conf_t": 0.0,
-          "overall_w": 4.8,
-          "overall_l": 7.2,
+          "overall_w": 4.6,
+          "overall_l": 7.4,
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "28.6%",
-          "win_conference": "0.2%",
+          "bowl_eligible": "19.3%",
+          "win_conference": "0.0%",
           "playoff": "0.0%"
         }
       },
@@ -3097,22 +3097,22 @@
         "team": "Georgia St",
         "current": {
           "conf_w": 0,
-          "conf_l": 2,
+          "conf_l": 4,
           "conf_t": 0,
           "overall_w": 1,
-          "overall_l": 5,
+          "overall_l": 7,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 1.2,
-          "conf_l": 6.8,
+          "conf_w": 0.6,
+          "conf_l": 7.4,
           "conf_t": 0.0,
-          "overall_w": 2.2,
-          "overall_l": 9.8,
+          "overall_w": 1.6,
+          "overall_l": 10.4,
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "0.3%",
+          "bowl_eligible": "0.0%",
           "win_conference": "0.0%",
           "playoff": "0.0%"
         }
@@ -3120,96 +3120,72 @@
       {
         "team": "Troy",
         "current": {
-          "conf_w": 2,
+          "conf_w": 4,
           "conf_l": 0,
           "conf_t": 0,
-          "overall_w": 4,
+          "overall_w": 6,
           "overall_l": 2,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 5.8,
-          "conf_l": 2.2,
+          "conf_w": 6.4,
+          "conf_l": 1.6,
           "conf_t": 0.0,
-          "overall_w": 7.8,
-          "overall_l": 4.2,
+          "overall_w": 8.4,
+          "overall_l": 3.6,
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "97.1%",
-          "win_conference": "15.8%",
+          "bowl_eligible": "100.0%",
+          "win_conference": "14.7%",
           "playoff": "0.0%"
         }
       },
       {
         "team": "Southern Miss",
         "current": {
-          "conf_w": 2,
+          "conf_w": 4,
           "conf_l": 0,
           "conf_t": 0,
-          "overall_w": 4,
+          "overall_w": 6,
           "overall_l": 2,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 5.3,
-          "conf_l": 2.7,
+          "conf_w": 6.2,
+          "conf_l": 1.8,
           "conf_t": 0.0,
-          "overall_w": 7.3,
-          "overall_l": 4.7,
+          "overall_w": 8.2,
+          "overall_l": 3.8,
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "91.3%",
-          "win_conference": "8.8%",
+          "bowl_eligible": "100.0%",
+          "win_conference": "12.9%",
           "playoff": "0.0%"
         }
       },
       {
         "team": "Arkansas St",
         "current": {
-          "conf_w": 2,
+          "conf_w": 3,
           "conf_l": 1,
           "conf_t": 0,
-          "overall_w": 3,
+          "overall_w": 4,
           "overall_l": 4,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 4.1,
-          "conf_l": 3.9,
+          "conf_w": 4.6,
+          "conf_l": 3.4,
           "conf_t": 0.0,
-          "overall_w": 5.1,
-          "overall_l": 6.9,
+          "overall_w": 5.6,
+          "overall_l": 6.4,
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "36.3%",
-          "win_conference": "1.7%",
-          "playoff": "0.0%"
-        }
-      },
-      {
-        "team": "Louisiana",
-        "current": {
-          "conf_w": 1,
-          "conf_l": 1,
-          "conf_t": 0,
-          "overall_w": 2,
-          "overall_l": 4,
-          "overall_t": 0
-        },
-        "projection": {
-          "conf_w": 3.8,
-          "conf_l": 4.2,
-          "conf_t": 0.0,
-          "overall_w": 4.8,
-          "overall_l": 7.2,
-          "overall_t": 0.0
-        },
-        "odds": {
-          "bowl_eligible": "30.1%",
-          "win_conference": "1.9%",
+          "bowl_eligible": "51.6%",
+          "win_conference": "1.4%",
           "playoff": "0.0%"
         }
       },
@@ -3217,46 +3193,70 @@
         "team": "Texas St",
         "current": {
           "conf_w": 0,
-          "conf_l": 2,
+          "conf_l": 3,
           "conf_t": 0,
           "overall_w": 3,
-          "overall_l": 3,
+          "overall_l": 4,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 3.7,
-          "conf_l": 4.3,
+          "conf_w": 3.1,
+          "conf_l": 4.9,
           "conf_t": 0.0,
-          "overall_w": 6.7,
-          "overall_l": 5.3,
+          "overall_w": 6.1,
+          "overall_l": 5.9,
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "82.2%",
-          "win_conference": "0.9%",
+          "bowl_eligible": "70.5%",
+          "win_conference": "0.0%",
           "playoff": "0.0%"
         }
       },
       {
         "team": "S Alabama",
         "current": {
-          "conf_w": 0,
+          "conf_w": 1,
           "conf_l": 3,
           "conf_t": 0,
-          "overall_w": 1,
+          "overall_w": 2,
           "overall_l": 6,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 2.7,
-          "conf_l": 5.3,
+          "conf_w": 3.0,
+          "conf_l": 5.0,
           "conf_t": 0.0,
-          "overall_w": 3.7,
-          "overall_l": 8.3,
+          "overall_w": 4.0,
+          "overall_l": 8.0,
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "4.9%",
+          "bowl_eligible": "6.8%",
+          "win_conference": "0.0%",
+          "playoff": "0.0%"
+        }
+      },
+      {
+        "team": "Louisiana",
+        "current": {
+          "conf_w": 1,
+          "conf_l": 3,
+          "conf_t": 0,
+          "overall_w": 2,
+          "overall_l": 6,
+          "overall_t": 0
+        },
+        "projection": {
+          "conf_w": 3.0,
+          "conf_l": 5.0,
+          "conf_t": 0.0,
+          "overall_w": 4.0,
+          "overall_l": 8.0,
+          "overall_t": 0.0
+        },
+        "odds": {
+          "bowl_eligible": "6.2%",
           "win_conference": "0.0%",
           "playoff": "0.0%"
         }
@@ -3265,23 +3265,23 @@
         "team": "UL Monroe",
         "current": {
           "conf_w": 1,
-          "conf_l": 1,
+          "conf_l": 3,
           "conf_t": 0,
           "overall_w": 3,
-          "overall_l": 3,
+          "overall_l": 5,
           "overall_t": 0
         },
         "projection": {
-          "conf_w": 2.3,
-          "conf_l": 5.7,
+          "conf_w": 1.7,
+          "conf_l": 6.3,
           "conf_t": 0.0,
-          "overall_w": 4.3,
-          "overall_l": 7.7,
+          "overall_w": 3.7,
+          "overall_l": 8.3,
           "overall_t": 0.0
         },
         "odds": {
-          "bowl_eligible": "13.9%",
-          "win_conference": "0.2%",
+          "bowl_eligible": "2.6%",
+          "win_conference": "0.0%",
           "playoff": "0.0%"
         }
       }
@@ -3289,6 +3289,6 @@
   },
   "metadata": {
     "source": "https://www.teamrankings.com/ncf/projections/standings/",
-    "timestamp": "2025-10-16T16:09:30.737689"
+    "timestamp": "2025-10-28T07:00:02.701202"
   }
 }

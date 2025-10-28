@@ -116,7 +116,7 @@ class ClaudeMCPClient {
       ];
 
       const response = await this.client.messages.create({
-        model: 'claude-3-5-sonnet-20241022',
+        model: 'claude-sonnet-4-5-20250929',
         max_tokens: 2048,
         tools: this.tools.map(tool => ({
           name: tool.name,
@@ -170,7 +170,7 @@ class ClaudeMCPClient {
 
           // Send all tool results back to Claude with history
           const followUpResponse = await this.client.messages.create({
-            model: 'claude-3-5-sonnet-20241022',
+            model: 'claude-sonnet-4-5-20250929',
             max_tokens: 2048,
             tools: this.tools.map(tool => ({
               name: tool.name,
