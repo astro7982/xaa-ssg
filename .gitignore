@@ -12,3 +12,6 @@ node_modules/
 .next/
 dist/
 .DS_Store
+
+# Ignore internal documentation (not for public repo)
+Internal Docs/

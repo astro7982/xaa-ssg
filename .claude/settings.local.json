@@ -46,7 +46,9 @@
       "Bash(echo:*)",
       "Bash(sudo pfctl:*)",
       "Bash(git init:*)",
-      "Bash(git checkout:*)"
+      "Bash(git checkout:*)",
+      "Bash(pandoc:*)",
+      "Bash(grep:*)"
     ],
     "deny": [],
     "ask": []

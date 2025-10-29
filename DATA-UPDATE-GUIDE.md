@@ -1,6 +1,6 @@
 # NCAA Stats Data Update Guide
 
-This guide explains how to update the NCAA statistics data on your Ubuntu server.
+This guide explains how to update the NCAA statistics data on your server.
 
 ## 📋 Quick Start - Simple Method (Recommended)
 
@@ -12,24 +12,25 @@ From your **local machine**, upload the new files directly to the server:
 
 ```bash
 # Replace the data files on the server (run from your local machine)
-scp NCAAFProjections.json betadmin@192.168.86.171:~/xaa-ssg/data/
-scp NCAAFStandingsCurrent.json betadmin@192.168.86.171:~/xaa-ssg/data/
-scp NCAAFTeamRankings.json betadmin@192.168.86.171:~/xaa-ssg/data/
-scp tr_ncaaf_team_game_logs.json betadmin@192.168.86.171:~/xaa-ssg/data/
+# Replace YOUR_USERNAME and YOUR_SERVER_IP with your actual server credentials
+scp NCAAFProjections.json YOUR_USERNAME@YOUR_SERVER_IP:~/xaa-ssg/data/
+scp NCAAFStandingsCurrent.json YOUR_USERNAME@YOUR_SERVER_IP:~/xaa-ssg/data/
+scp NCAAFTeamRankings.json YOUR_USERNAME@YOUR_SERVER_IP:~/xaa-ssg/data/
+scp tr_ncaaf_team_game_logs.json YOUR_USERNAME@YOUR_SERVER_IP:~/xaa-ssg/data/
 ```
 
 ### Step 2: Restart the Service
 
-On the **Ubuntu server**, restart the NCAA Agent to load the new data:
+On your **server**, restart the NCAA Agent to load the new data:
 
 ```bash
-# Load nvm
+# Load nvm (adjust Node version as needed)
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 nvm use --delete-prefix v24.10.0 --silent
 
 # Restart the NCAA Agent
-/home/betadmin/.npm-global/bin/pm2 restart ncaa-agent
+pm2 restart ncaa-agent
 ```
 
 ### Step 3: Verify
@@ -37,8 +38,8 @@ nvm use --delete-prefix v24.10.0 --silent
 Check that the service restarted successfully:
 
 ```bash
-/home/betadmin/.npm-global/bin/pm2 status
-/home/betadmin/.npm-global/bin/pm2 logs ncaa-agent --lines 20
+pm2 status
+pm2 logs ncaa-agent --lines 20
 ```
 
 That's it! Your new data is now live. 🎉
@@ -60,7 +61,7 @@ To restore from a backup:
 
 ```bash
 cp data-backups/backup_YYYYMMDD_HHMMSS/*.json data/
-/home/betadmin/.npm-global/bin/pm2 restart ncaa-agent
+pm2 restart ncaa-agent
 ```
 
 ## 📁 Required Files
@@ -102,22 +103,22 @@ ls -lh ~/xaa-ssg/data/
 ls -lt ~/xaa-ssg/data/
 
 # Restart the service
-/home/betadmin/.npm-global/bin/pm2 restart ncaa-agent
+pm2 restart ncaa-agent
 
 # Check logs for errors
-/home/betadmin/.npm-global/bin/pm2 logs ncaa-agent --lines 50
+pm2 logs ncaa-agent --lines 50
 ```
 
 ### SCP upload fails
 ```bash
 # Verify server is reachable
-ping 192.168.86.171
+ping YOUR_SERVER_IP
 
 # Test SSH connection
-ssh betadmin@192.168.86.171
+ssh YOUR_USERNAME@YOUR_SERVER_IP
 
 # Make sure data directory exists
-ssh betadmin@192.168.86.171 "ls -la ~/xaa-ssg/data/"
+ssh YOUR_USERNAME@YOUR_SERVER_IP "ls -la ~/xaa-ssg/data/"
 ```
 
 ## 📅 Weekly Update Routine
@@ -134,7 +135,7 @@ Since NCAA data updates weekly, set a calendar reminder:
 
 1. **Create backups before major updates** - Especially at the start of the season
 2. **Validate JSON files locally** - Use `jq` to check for syntax errors before uploading
-3. **Test after updating** - Visit http://sportsstatsgather.com:3000 and try a few queries
+3. **Test after updating** - Visit your application URL and try a few queries
 4. **Monitor the logs** - Check for any errors after restarting the service
 5. **Update during low traffic** - Early morning or late evening recommended
 
@@ -142,17 +143,17 @@ Since NCAA data updates weekly, set a calendar reminder:
 
 **Check service status:**
 ```bash
-/home/betadmin/.npm-global/bin/pm2 status
+pm2 status
 ```
 
 **View logs:**
 ```bash
-/home/betadmin/.npm-global/bin/pm2 logs ncaa-agent
+pm2 logs ncaa-agent
 ```
 
 **Restart service:**
 ```bash
-/home/betadmin/.npm-global/bin/pm2 restart ncaa-agent
+pm2 restart ncaa-agent
 ```
 
 **View current data files:**
