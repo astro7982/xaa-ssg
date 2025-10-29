@@ -20,12 +20,12 @@ In standard OAuth token exchange, you have:
 
 ```
 ┌─────────────────────────────────────────────────┐
-│         Single Authorization Server              │
-│                                                  │
-│  ┌─────────┐    ┌─────────┐    ┌─────────┐    │
-│  │  Gmail  │    │  Drive  │    │Calendar │    │
-│  └─────────┘    └─────────┘    └─────────┘    │
-│                                                  │
+│         Single Authorization Server             │
+│                                                 │
+│  ┌─────────┐    ┌─────────┐    ┌─────────┐      │
+│  │  Gmail  │    │  Drive  │    │Calendar │      │
+│  └─────────┘    └─────────┘    └─────────┘      │ 
+│                                                 │
 │  All apps trust the SAME auth server            │
 └─────────────────────────────────────────────────┘
 ```
@@ -45,10 +45,10 @@ But in enterprise scenarios, you often have:
 │   Auth Server #1     │          │   Auth Server #2     │
 │   (Customer's Okta)  │    ???   │   (Your SaaS App)    │
 │                      │          │                      │
-│  ┌────────────────┐  │          │  ┌────────────────┐ │
-│  │ Requesting App │  │          │  │ Resource App   │ │
-│  │ (Chat Bot)     │  │          │  │ (Stats Server) │ │
-│  └────────────────┘  │          │  └────────────────┘ │
+│  ┌────────────────┐  │          │  ┌────────────────┐  │
+│  │ Requesting App │  │          │  │ Resource App   │  │
+│  │ (Chat Bot)     │  │          │  │ (Stats Server) │  │
+│  └────────────────┘  │          │  └────────────────┘  │
 └──────────────────────┘          └──────────────────────┘
    Trust Domain 1                     Trust Domain 2
 ```
@@ -112,14 +112,14 @@ Step 2: Token Exchange #1 (Get ID-JAG)
 Step 3: Token Exchange #2 (Get Access Token)
            │
            ▼
-┌──────────────────────┐
-│   Auth Server #2     │
-│   (Your Auth Server) │
-│                      │
-│  1. Validates ID-JAG │
-│  2. Verifies signature│
-│  3. Issues token     │
-└──────────┬───────────┘
+┌────────────────────────┐
+│   Auth Server #2       │
+│   (Your Auth Server)   │
+│                        │
+│  1. Validates ID-JAG   │
+│  2. Verifies signature │
+│  3. Issues token       │
+└──────────┬─────────────┘
            │
            ▼
     [Access Token]

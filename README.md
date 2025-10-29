@@ -285,29 +285,29 @@ This NCAA Stats AI demo demonstrates **real XAA in action:**
 │  └──────────────────────────────────────────────────────────────────┘  │
 └────┬──────────────────────┬────────────────────┬───────────────────────┘
      │                      │                    │
-     │ ① OAuth Login        │ ② Token Exchange   │ ④ MCP Queries
+     │ ① OAuth Login       │ ② Token Exchange   │ ④ MCP Queries
      │                      │                    │
      ▼                      ▼                    ▼
 ┌─────────────┐    ┌──────────────────┐    ┌──────────────────────┐
 │   Okta IdP  │    │  Todo0 Auth      │    │  NCAA MCP Server     │
 │             │    │  Server          │    │  (Node.js)           │
 │ • Agent0    │    │                  │    │                      │
-│ • Todo0     │    │  Port: 5001      │    │  ┌────────────────┐ │
-│ • Managed   │◀──▶│                  │    │  │ NCAA Tools:    │ │
-│  Connections│    │  ③ JWT Bearer   │    │  │ • get_standings│ │
-│             │    │     Grant        │    │  │ • get_rankings │ │
-│ • Issues    │    │                  │    │  │ • get_games    │ │
-│   ID Tokens │    │  Issues Access   │    │  │ • get_stats    │ │
-│ • Issues    │    │  Tokens for MCP  │    │  └────────────────┘ │
+│ • Todo0     │    │  Port: 5001      │    │  ┌────────────────┐  │
+│ • Managed   │◀──▶│                  │    │  │ NCAA Tools:    │  │
+│  Connections│    │  ③ JWT Bearer   │    │  │ • get_standings│  │
+│             │    │     Grant        │    │  │ • get_rankings │  │
+│ • Issues    │    │                  │    │  │ • get_games    │  │
+│   ID Tokens │    │  Issues Access   │    │  │ • get_stats    │  │
+│ • Issues    │    │  Tokens for MCP  │    │  └────────────────┘  │
 │   ID-JAG    │    │                  │    │                      │
-└─────────────┘    └──────────────────┘    │  ┌────────────────┐ │
-                                            │  │ Data Sources:  │ │
-                                            │  │ • game_logs    │ │
-                                            │  │ • standings    │ │
-                                            │  │ • rankings     │ │
-                                            │  │ • projections  │ │
-                                            │  └────────────────┘ │
-                                            └──────────────────────┘
+└─────────────┘    └──────────────────┘    │  ┌────────────────┐  │
+                                           │  │ Data Sources:  │  │
+                                           │  │ • game_logs    │  │
+                                           │  │ • standings    │  │
+                                           │  │ • rankings     │  │
+                                           │  │ • projections  │  │
+                                           │  └────────────────┘  │
+                                           └──────────────────────┘
 ```
 
 ### XAA Token Flow (The 7 Steps)
@@ -425,9 +425,9 @@ This NCAA Stats AI demo demonstrates **real XAA in action:**
                │ ⑨ NCAA Data Response
                ▼
 ┌─────────────────────────────────────────────────────────────┐
-│  NCAA Agent                                                  │
+│  NCAA Agent                                                 │
 │  ┌────────────────────────────────────────────────┐         │
-│  │ Send data to Claude AI for natural language   │         │
+│  │ Send data to Claude AI for natural language    │         │
 │  │ response generation                            │         │
 │  └────────────────────────────────────────────────┘         │
 └───────────────────┬─────────────────────────────────────────┘
