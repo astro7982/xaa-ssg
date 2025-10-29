@@ -5,6 +5,7 @@ import { useSession } from 'next-auth/react'
 import { useRouter } from 'next/navigation'
 import ChatInterface from '@/components/ChatInterface'
 import XAAFlowVisualizer from '@/components/XAAFlowVisualizer'
+import { initializeXAAFlow, storeIDJag, storeAccessToken } from '@/lib/xaa-token-store'
 
 interface Message {
   id: string
@@ -132,6 +133,17 @@ export default function Home() {
           accessToken: xaaData.accessToken,
           cachedAt: Date.now()
         })
+
+        // Store tokens for XAA Inspector
+        if (xaaData.idToken && xaaData.userInfo) {
+          initializeXAAFlow(xaaData.idToken, xaaData.userInfo)
+        }
+        if (xaaData.idJag) {
+          storeIDJag(xaaData.idJag)
+        }
+        if (xaaData.accessToken) {
+          storeAccessToken(xaaData.accessToken)
+        }
       }
 
       // Step 4: ID-JAG received

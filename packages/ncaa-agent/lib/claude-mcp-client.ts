@@ -55,7 +55,7 @@ class ClaudeMCPClient {
 
       this.tools = toolsResponse.tools.map(tool => ({
         name: tool.name,
-        description: tool.description,
+        description: tool.description || '',
         input_schema: tool.inputSchema,
       }));
 
@@ -80,7 +80,7 @@ class ClaudeMCPClient {
       });
 
       // Extract text content
-      if (result.content && result.content.length > 0) {
+      if (result.content && Array.isArray(result.content) && result.content.length > 0) {
         const textContent = result.content.find((c: any) => c.type === 'text');
         if (textContent) {
           return JSON.parse(textContent.text);

@@ -12,6 +12,7 @@
 This application demonstrates **real enterprise Cross-App Access** with:
 
 - ✅ **Complete XAA Token Exchange** - Full 7-step OAuth flow with Okta
+- ✅ **XAA Flow Inspector** - NEW! Technical deep-dive showing actual tokens, JWT assertions, and two authorization servers
 - ✅ **Security Visualization** - Real-time XAA flow monitor
 - ✅ **Token Security Demo** - Intentionally exposes insecure caching (perfect for security sales!)
 - ✅ **AI-Powered Chat** - Natural language NCAA stats queries
@@ -711,6 +712,27 @@ Open: **http://localhost:3000**
    - "Show me top 10 teams"
    - "What are Penn State's playoff odds?"
 
+### XAA Flow Inspector (NEW!)
+
+After completing a query, click the **🔍 View XAA Flow** button to see:
+
+**What It Shows:**
+- 📊 **Architecture Diagram** - Two authorization servers with trust relationship
+- ⭐ **JWT Assertion (ID-JAG)** - The "hero" token that replaces user consent
+- 🔐 **Decoded Tokens** - Full JWT header, payload, and signature breakdown
+- ⏱️ **Timing Data** - How fast each token exchange happens
+- 📝 **Step-by-Step Flow** - Complete 7-step token exchange with explanations
+- 💡 **Why No Consent** - Clear explanation of enterprise trust
+
+**Perfect For:**
+- Technical deep-dives with engineering teams
+- Showing the actual JWT assertion in action
+- Explaining two authorization servers concept
+- Demonstrating cryptographic validation
+
+**Pro Tip:** Use this to answer "Why isn't simple token exchange enough?"
+Read [XAA-vs-Token-Exchange.md](XAA-vs-Token-Exchange.md) for talking points!
+
 ### Security Demo
 
 After first query:
@@ -1169,6 +1191,6 @@ lsof -ti:5001 | xargs kill -9
 
 ---
 
-**Built with ❤️ to demonstrate Okta Cross-App Access**
+**Built with ❤️ to demonstrate Cross-App Access**
 
-Made by [Your Name] | [sportsstatsgather.com](http://sportsstatsgather.com:3000)
+📖 **New to XAA?** Read [XAA-vs-Token-Exchange.md](XAA-vs-Token-Exchange.md) for a deep dive on why simple token exchange isn't enough!

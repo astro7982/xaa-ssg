@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { getServerSession } from 'next-auth'
-import { authOptions } from '../../auth/[...nextauth]/route'
+import { authOptions } from '@/lib/auth-options'
 import { performXAAFlow } from '@/lib/xaa-client'
 
 /**
@@ -104,7 +104,13 @@ export async function POST(request: NextRequest) {
       success: true,
       accessToken: result.accessToken,
       idJag: result.idJag,
+      idToken: session.idToken, // Include for XAA Inspector
       expiresIn: result.expiresIn,
+      userInfo: {
+        sub: session.user?.id,
+        email: session.user?.email,
+        name: session.user?.name,
+      },
     })
 
   } catch (error) {

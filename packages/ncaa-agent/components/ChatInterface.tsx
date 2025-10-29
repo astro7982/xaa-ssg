@@ -3,6 +3,9 @@
 import { useState, useEffect, useRef } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { signOut, useSession } from 'next-auth/react'
+import Link from 'next/link'
+import ReactMarkdown from 'react-markdown'
+import { hasXAAData } from '@/lib/xaa-token-store'
 
 interface Message {
   id: string
@@ -22,6 +25,18 @@ export default function ChatInterface({ onSendMessage, messages, isLoading = fal
   const messagesContainerRef = useRef<HTMLDivElement>(null)
   const messagesEndRef = useRef<HTMLDivElement>(null)
   const { data: session } = useSession()
+  const [showInspectorLink, setShowInspectorLink] = useState(false)
+
+  // Check if XAA data is available for the inspector
+  useEffect(() => {
+    const checkData = () => {
+      setShowInspectorLink(hasXAAData())
+    }
+    checkData()
+    // Check periodically in case data gets added
+    const interval = setInterval(checkData, 2000)
+    return () => clearInterval(interval)
+  }, [])
 
   // Auto-scroll to bottom when messages change
   useEffect(() => {
@@ -73,14 +88,28 @@ export default function ChatInterface({ onSendMessage, messages, isLoading = fal
               </p>
             </div>
           </div>
-          <button
-            onClick={handleSignOut}
-            className="px-4 py-2 bg-red-600/20 hover:bg-red-600/30 text-red-400 hover:text-red-300
-              text-sm rounded-md border border-red-600/40 hover:border-red-600/60
-              transition-all font-scoreboard"
-          >
-            Sign Out
-          </button>
+          <div className="flex items-center gap-2">
+            {showInspectorLink && (
+              <Link
+                href="/xaa-inspector"
+                className="px-4 py-2 bg-scoreboard-orange/20 hover:bg-scoreboard-orange/30
+                  text-orange-400 hover:text-orange-300
+                  text-sm rounded-md border border-scoreboard-orange/40 hover:border-scoreboard-orange/60
+                  transition-all font-scoreboard flex items-center gap-1"
+              >
+                <span>🔍</span>
+                <span>View XAA Flow</span>
+              </Link>
+            )}
+            <button
+              onClick={handleSignOut}
+              className="px-4 py-2 bg-red-600/20 hover:bg-red-600/30 text-red-400 hover:text-red-300
+                text-sm rounded-md border border-red-600/40 hover:border-red-600/60
+                transition-all font-scoreboard"
+            >
+              Sign Out
+            </button>
+          </div>
         </div>
       </div>
 
@@ -137,7 +166,20 @@ export default function ChatInterface({ onSendMessage, messages, isLoading = fal
                     <span className="text-green-400">● Connected via XAA</span>
                   </div>
                 )}
-                <div className="whitespace-pre-wrap">{message.content}</div>
+                <div className="prose prose-invert prose-sm max-w-none">
+                  <ReactMarkdown
+                    components={{
+                      p: ({ children }) => <p className="mb-2">{children}</p>,
+                      strong: ({ children }) => <strong className="font-bold text-white">{children}</strong>,
+                      em: ({ children }) => <em className="italic">{children}</em>,
+                      ul: ({ children }) => <ul className="list-disc ml-4 mb-2">{children}</ul>,
+                      ol: ({ children }) => <ol className="list-decimal ml-4 mb-2">{children}</ol>,
+                      li: ({ children }) => <li className="mb-1">{children}</li>,
+                    }}
+                  >
+                    {message.content}
+                  </ReactMarkdown>
+                </div>
                 <div className="text-xs text-gray-400 mt-1">
                   {new Date(message.timestamp).toLocaleTimeString()}
                 </div>
