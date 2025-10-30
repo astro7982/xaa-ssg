@@ -1,4 +1,4 @@
-# Why XAA Token Exchange? Understanding Cross-App Access
+# When Do You Need Cross-App Access Instead of Standard Token Exchange?
 
 ## The Question Everyone Asks
 
