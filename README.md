@@ -192,7 +192,7 @@ This NCAA Stats AI demo demonstrates **real XAA in action:**
 
 ```
 ┌─────────────────────────────────────┐  ┌──────────────────────────────┐
-│  Demo Mode: ⚠️  Traditional OAuth  │  │  🏈 NCAA STATS AI            │
+│  Demo Mode: ⚠️  Traditional OAuth   │  │  🏈 NCAA STATS AI            │
 │              ✅ Cross App Access    │  │                              │
 ├─────────────────────────────────────┤  │  Ask about NCAA teams,       │
 │  📊 TRADITIONAL OAUTH OVERHEAD      │  │  standings, rankings...      │
@@ -1197,5 +1197,3 @@ sudo journalctl -u todo0-auth -f
 **Built with ❤️ to demonstrate Cross-App Access**
 
 📖 **New to XAA?** Read [XAA-vs-Token-Exchange.md](XAA-vs-Token-Exchange.md) for a deep dive on why simple token exchange isn't enough!
-
-🎥 **Watch the demo:** See the interactive comparison between Traditional OAuth and Cross App Access in action!
