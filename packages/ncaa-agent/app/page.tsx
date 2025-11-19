@@ -21,7 +21,7 @@ interface Message {
 export default function Home() {
   const { data: session, status } = useSession()
   const router = useRouter()
-  const { mode } = useDemoMode()
+  const { mode, setOnModeChange } = useDemoMode()
   const [messages, setMessages] = useState<Message[]>([])
   const [isLoading, setIsLoading] = useState(false)
   const [xaaStep, setXaaStep] = useState(0)
@@ -49,6 +49,21 @@ export default function Home() {
       setIsXAAActive(true)
     }
   }, [status, session])
+
+  // Register callback to clear chat when mode changes
+  useEffect(() => {
+    setOnModeChange(() => {
+      // Clear messages
+      setMessages([])
+      // Clear cached tokens
+      setCachedTokens(null)
+      // Reset XAA flow
+      setXaaStep(1)
+      setIsXAAActive(true)
+      // Clear any pending messages
+      setPendingMessage(null)
+    })
+  }, [setOnModeChange])
 
   // Show loading while checking authentication
   if (status === 'loading') {
@@ -137,7 +152,9 @@ export default function Home() {
         setMessages(prev => [...prev, {
           id: Date.now().toString(),
           role: 'system',
-          content: '🔐 Performing Cross-App Access token exchange with Okta...',
+          content: mode === 'xaa'
+            ? '🔐 Performing Cross-App Access...'
+            : '🔑 Requesting OAuth access token...',
           timestamp: Date.now()
         }])
 
@@ -183,7 +200,9 @@ export default function Home() {
       setMessages(prev => [...prev, {
         id: Date.now().toString(),
         role: 'system',
-        content: '✅ Enterprise access approved - connecting to NCAA Stats Server...',
+        content: mode === 'xaa'
+          ? '✅ Enterprise access approved - connecting to NCAA Stats Server...'
+          : '✅ OAuth token received - connecting to NCAA Stats Server...',
         timestamp: Date.now()
       }])
       await delay(400)

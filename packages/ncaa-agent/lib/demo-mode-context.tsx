@@ -18,17 +18,20 @@ interface DemoModeContextType {
   addTimeWasted: (seconds: number) => void
   incrementClicks: () => void
   resetMetrics: () => void
+  onModeChange?: () => void
+  setOnModeChange: (callback: () => void) => void
 }
 
 const DemoModeContext = createContext<DemoModeContextType | undefined>(undefined)
 
 export function DemoModeProvider({ children }: { children: ReactNode }) {
-  const [mode, setMode] = useState<DemoMode>('xaa')
+  const [mode, setMode] = useState<DemoMode>('traditional')
   const [metrics, setMetrics] = useState<SessionMetrics>({
     consentScreens: 0,
     timeWasted: 0,
     clicksRequired: 0
   })
+  const [onModeChange, setOnModeChange] = useState<(() => void) | undefined>(undefined)
 
   const incrementConsentScreens = () => {
     setMetrics(prev => ({
@@ -62,6 +65,14 @@ export function DemoModeProvider({ children }: { children: ReactNode }) {
   const handleSetMode = (newMode: DemoMode) => {
     setMode(newMode)
     resetMetrics()
+    // Call the callback to reset chat messages
+    if (onModeChange) {
+      onModeChange()
+    }
+  }
+
+  const handleSetOnModeChange = (callback: () => void) => {
+    setOnModeChange(() => callback)
   }
 
   return (
@@ -73,7 +84,9 @@ export function DemoModeProvider({ children }: { children: ReactNode }) {
         incrementConsentScreens,
         addTimeWasted,
         incrementClicks,
-        resetMetrics
+        resetMetrics,
+        onModeChange,
+        setOnModeChange: handleSetOnModeChange
       }}
     >
       {children}
