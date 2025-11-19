@@ -5,6 +5,10 @@ import { useSession } from 'next-auth/react'
 import { useRouter } from 'next/navigation'
 import ChatInterface from '@/components/ChatInterface'
 import XAAFlowVisualizer from '@/components/XAAFlowVisualizer'
+import ConsentSimulator from '@/components/ConsentSimulator'
+import SessionMetrics from '@/components/SessionMetrics'
+import DemoModeToggle from '@/components/DemoModeToggle'
+import { useDemoMode } from '@/lib/demo-mode-context'
 import { initializeXAAFlow, storeIDJag, storeAccessToken } from '@/lib/xaa-token-store'
 
 interface Message {
@@ -17,10 +21,13 @@ interface Message {
 export default function Home() {
   const { data: session, status } = useSession()
   const router = useRouter()
+  const { mode } = useDemoMode()
   const [messages, setMessages] = useState<Message[]>([])
   const [isLoading, setIsLoading] = useState(false)
   const [xaaStep, setXaaStep] = useState(0)
   const [isXAAActive, setIsXAAActive] = useState(false)
+  const [showConsentSimulator, setShowConsentSimulator] = useState(false)
+  const [pendingMessage, setPendingMessage] = useState<string | null>(null)
   const [cachedTokens, setCachedTokens] = useState<{
     idToken?: string
     idJag?: string
@@ -69,6 +76,27 @@ export default function Home() {
       timestamp: Date.now()
     }
     setMessages(prev => [...prev, userMessage])
+
+    // In Traditional OAuth mode, show consent screens first
+    if (mode === 'traditional') {
+      setPendingMessage(content)
+      setShowConsentSimulator(true)
+      return
+    }
+
+    // XAA mode: proceed directly
+    await executeQuery(content)
+  }
+
+  const handleConsentComplete = async () => {
+    setShowConsentSimulator(false)
+    if (pendingMessage) {
+      await executeQuery(pendingMessage)
+      setPendingMessage(null)
+    }
+  }
+
+  const executeQuery = async (content: string) => {
     setIsLoading(true)
     setIsXAAActive(true)
 
@@ -220,18 +248,33 @@ export default function Home() {
 
   return (
     <main className="h-screen overflow-hidden p-6">
-      <div className="max-w-7xl mx-auto h-full">
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 h-full">
-          {/* XAA Flow Visualizer - Left Side */}
+      {/* Consent Simulator Overlay (Traditional OAuth mode only) */}
+      {showConsentSimulator && (
+        <ConsentSimulator onComplete={handleConsentComplete} />
+      )}
+
+      <div className="max-w-7xl mx-auto h-full flex flex-col gap-4">
+        {/* Demo Mode Toggle - Top */}
+        <div className="flex-shrink-0">
+          <DemoModeToggle />
+        </div>
+
+        {/* Main Content */}
+        <div className="flex-1 grid grid-cols-1 lg:grid-cols-3 gap-6 overflow-hidden">
+          {/* Left Side: Conditional based on mode */}
           <div className="lg:col-span-1 h-full overflow-hidden">
-            <XAAFlowVisualizer
-              currentStep={xaaStep}
-              isActive={isXAAActive}
-              cachedTokens={cachedTokens}
-            />
+            {mode === 'xaa' ? (
+              <XAAFlowVisualizer
+                currentStep={xaaStep}
+                isActive={isXAAActive}
+                cachedTokens={cachedTokens}
+              />
+            ) : (
+              <SessionMetrics />
+            )}
           </div>
 
-          {/* Chat Interface - Right Side */}
+          {/* Right Side: Chat Interface */}
           <div className="lg:col-span-2 h-full overflow-hidden">
             <ChatInterface
               messages={messages}

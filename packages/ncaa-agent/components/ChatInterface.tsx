@@ -6,6 +6,7 @@ import { signOut, useSession } from 'next-auth/react'
 import Link from 'next/link'
 import ReactMarkdown from 'react-markdown'
 import { hasXAAData } from '@/lib/xaa-token-store'
+import { useDemoMode } from '@/lib/demo-mode-context'
 
 interface Message {
   id: string
@@ -25,6 +26,7 @@ export default function ChatInterface({ onSendMessage, messages, isLoading = fal
   const messagesContainerRef = useRef<HTMLDivElement>(null)
   const messagesEndRef = useRef<HTMLDivElement>(null)
   const { data: session } = useSession()
+  const { mode } = useDemoMode()
   const [showInspectorLink, setShowInspectorLink] = useState(false)
 
   // Check if XAA data is available for the inspector
@@ -84,27 +86,35 @@ export default function ChatInterface({ onSendMessage, messages, isLoading = fal
                 NCAA Stats AI
               </h1>
               <p className="text-xs text-gray-400 font-scoreboard">
-                Secured with Cross-App Access
+                {mode === 'xaa'
+                  ? 'Secured with Cross-App Access'
+                  : 'Traditional OAuth (Multiple Consent Screens)'}
               </p>
             </div>
           </div>
           <div className="flex items-center gap-2">
-            {showInspectorLink && (
-              <Link
-                href="/xaa-inspector"
-                className="px-4 py-2 bg-scoreboard-orange/20 hover:bg-scoreboard-orange/30
-                  text-orange-400 hover:text-orange-300
-                  text-sm rounded-md border border-scoreboard-orange/40 hover:border-scoreboard-orange/60
-                  transition-all font-scoreboard flex items-center gap-1"
-              >
-                <span>🔍</span>
-                <span>View XAA Flow</span>
-              </Link>
-            )}
+            {/* Unified Flow Button - changes based on mode */}
+            <button
+              onClick={() => {
+                if (mode === 'xaa') {
+                  window.location.href = '/xaa-inspector'
+                } else {
+                  window.location.href = '/traditional-oauth-inspector'
+                }
+              }}
+              className={`px-4 py-2 text-sm rounded-md border transition-all font-scoreboard flex items-center gap-1 ${
+                mode === 'xaa'
+                  ? 'bg-green-600/20 hover:bg-green-600/30 text-green-400 hover:text-green-300 border-green-600/40 hover:border-green-600/60'
+                  : 'bg-orange-600/20 hover:bg-orange-600/30 text-orange-400 hover:text-orange-300 border-orange-600/40 hover:border-orange-600/60'
+              }`}
+            >
+              <span>🔍</span>
+              <span>{mode === 'xaa' ? 'View Cross App Access Flow' : 'View Traditional OAuth Flow'}</span>
+            </button>
             <button
               onClick={handleSignOut}
-              className="px-4 py-2 bg-red-600/20 hover:bg-red-600/30 text-red-400 hover:text-red-300
-                text-sm rounded-md border border-red-600/40 hover:border-red-600/60
+              className="px-4 py-2 bg-gray-600/20 hover:bg-gray-600/30 text-gray-400 hover:text-gray-300
+                text-sm rounded-md border border-gray-600/40 hover:border-gray-600/60
                 transition-all font-scoreboard"
             >
               Sign Out

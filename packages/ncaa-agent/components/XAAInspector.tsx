@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
-import XAADiagram from './XAADiagram'
+import EnhancedXAADiagram from './EnhancedXAADiagram'
 import { getXAATokenData, hasXAAData, getFlowTiming, type XAATokenData } from '@/lib/xaa-token-store'
 
 /**
@@ -130,7 +130,7 @@ export default function XAAInspector() {
         )}
 
         {/* Architecture Diagram */}
-        <XAADiagram />
+        <EnhancedXAADiagram />
 
         {/* Why No User Consent Required */}
         <div className="bg-green-900/30 rounded-lg border-2 border-green-500 p-6">

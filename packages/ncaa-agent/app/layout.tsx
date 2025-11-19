@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import './globals.css'
 import SessionProvider from '@/components/SessionProvider'
+import { DemoModeProvider } from '@/lib/demo-mode-context'
 
 export const metadata: Metadata = {
   title: 'NCAA Stats AI - Cross-App Access Demo',
@@ -16,7 +17,9 @@ export default function RootLayout({
     <html lang="en">
       <body className="antialiased">
         <SessionProvider>
-          {children}
+          <DemoModeProvider>
+            {children}
+          </DemoModeProvider>
         </SessionProvider>
       </body>
     </html>
