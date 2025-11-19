@@ -378,7 +378,3 @@ After a successful demo:
 ---
 
 **Remember:** The NCAA chatbot is just a stand-in. The real power is showing how **any requesting app** can securely access **any resource app** without OAuth consent screens, token sprawl, or losing IdP visibility.
-
-The demo makes it tangible. Your explanation makes it applicable to their business.
-
-**Now go wow some customers! 🚀**
