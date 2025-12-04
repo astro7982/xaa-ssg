@@ -19,6 +19,7 @@ declare module 'next-auth/jwt' {
     accessToken?: string
     idToken?: string
     refreshToken?: string
+    expiresAt?: number // Unix timestamp when access token expires
   }
 }
 
@@ -57,13 +58,69 @@ export const authOptions: NextAuthOptions = {
         token.accessToken = account.access_token
         token.idToken = account.id_token
         token.refreshToken = account.refresh_token
+        // Store when the token expires (account.expires_at is in seconds)
+        token.expiresAt = account.expires_at
       }
+
+      // Check if token is expired (with 5 minute buffer)
+      const now = Math.floor(Date.now() / 1000)
+      const expiresAt = token.expiresAt as number
+      const shouldRefresh = expiresAt && now >= expiresAt - 300
+
+      // If token is expired and we have a refresh token, refresh it
+      if (shouldRefresh && token.refreshToken) {
+        try {
+          console.log('🔄 Refreshing expired token...')
+          const tokenUrl = process.env.OKTA_ISSUER?.includes('localhost')
+            ? `${process.env.OKTA_ISSUER}/token`
+            : process.env.OKTA_ISSUER?.includes('/oauth2/')
+            ? `${process.env.OKTA_ISSUER}/v1/token`
+            : `${process.env.OKTA_ISSUER}/oauth2/v1/token`
+
+          const response = await fetch(tokenUrl, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+            body: new URLSearchParams({
+              grant_type: 'refresh_token',
+              refresh_token: token.refreshToken as string,
+              client_id: process.env.OKTA_CLIENT_ID!,
+              client_secret: process.env.OKTA_CLIENT_SECRET!,
+            }),
+          })
+
+          if (response.ok) {
+            const refreshedTokens = await response.json()
+            console.log('✅ Token refreshed successfully')
+            token.accessToken = refreshedTokens.access_token
+            token.idToken = refreshedTokens.id_token
+            token.expiresAt = Math.floor(Date.now() / 1000) + refreshedTokens.expires_in
+            // Update refresh token if a new one was issued
+            if (refreshedTokens.refresh_token) {
+              token.refreshToken = refreshedTokens.refresh_token
+            }
+          } else {
+            console.error('❌ Token refresh failed:', await response.text())
+            // Token refresh failed - user needs to sign in again
+            return { ...token, error: 'RefreshTokenError' }
+          }
+        } catch (error) {
+          console.error('❌ Token refresh error:', error)
+          return { ...token, error: 'RefreshTokenError' }
+        }
+      }
+
       return token
     },
     async session({ session, token }) {
       // Pass tokens to client session
       session.accessToken = token.accessToken as string
       session.idToken = token.idToken as string
+
+      // If there's a refresh error, the user needs to sign in again
+      if (token.error) {
+        console.log('⚠️ Session has refresh error - user needs to re-authenticate')
+      }
+
       return session
     },
   },

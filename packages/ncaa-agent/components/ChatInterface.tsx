@@ -80,11 +80,14 @@ export default function ChatInterface({ onSendMessage, messages, isLoading = fal
       <div className="bg-scoreboard px-6 py-4 border-b-4 border-scoreboard-orange">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="text-3xl">🏈</div>
+            <div className="text-3xl">🤖</div>
             <div>
               <h1 className="text-2xl font-athletic text-white uppercase tracking-wide">
-                NCAA Stats AI
+                🏈 NCAA Stats AI Chatbot
               </h1>
+              <p className="text-xs text-blue-300 font-scoreboard font-semibold">
+                (Requesting Application)
+              </p>
               <p className="text-xs text-gray-400 font-scoreboard">
                 {mode === 'xaa'
                   ? 'Secured with Cross-App Access'

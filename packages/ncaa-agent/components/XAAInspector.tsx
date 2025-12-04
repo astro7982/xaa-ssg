@@ -132,22 +132,85 @@ export default function XAAInspector() {
         {/* Architecture Diagram */}
         <EnhancedXAADiagram />
 
-        {/* Why No User Consent Required */}
+        {/* Why No User Consent Required - ENHANCED */}
         <div className="bg-green-900/30 rounded-lg border-2 border-green-500 p-6">
-          <h2 className="text-lg font-athletic text-green-400 uppercase tracking-wide mb-3 flex items-center gap-2">
+          <h2 className="text-lg font-athletic text-green-400 uppercase tracking-wide mb-4 flex items-center gap-2">
             <span>💡</span> Why No User Consent Required
           </h2>
-          <div className="space-y-2 text-sm text-green-200">
-            <p>
-              <strong>Traditional OAuth:</strong> User sees consent screen → "Do you allow App A to access App B?"
-            </p>
-            <p>
-              <strong>Cross-App Access (XAA):</strong> JWT Assertion replaces user consent through enterprise trust
-            </p>
-            <p className="text-green-300 font-bold">
-              The JWT Assertion (ID-JAG) is cryptographically signed by the IdP, proving the user's identity and authorization.
-              The resource app trusts the IdP's signature, eliminating the need for user interaction.
-            </p>
+
+          <div className="space-y-4 text-sm">
+            {/* Traditional OAuth - Personal Data Scenario */}
+            <div className="bg-red-900/30 border border-red-500/40 rounded-lg p-4">
+              <div className="text-red-200 font-bold mb-2 flex items-center gap-2">
+                <span>❌</span>
+                <span>Traditional OAuth (Personal Data Scenario)</span>
+              </div>
+              <ul className="space-y-2 text-red-100 text-xs">
+                <li className="flex items-start gap-2">
+                  <span className="text-red-400">•</span>
+                  <span><strong className="text-white">User owns the data</strong> (e.g., your Google Photos)</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-red-400">•</span>
+                  <span>User must grant permission: "Allow App X to access your photos?"</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-red-400">•</span>
+                  <span>Makes sense for personal data</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-red-400">•</span>
+                  <span className="text-red-200 font-semibold">Problem: Doesn't work for enterprise/proprietary data!</span>
+                </li>
+              </ul>
+            </div>
+
+            {/* Cross-App Access - Enterprise Data Scenario */}
+            <div className="bg-green-900/30 border border-green-500/40 rounded-lg p-4">
+              <div className="text-green-200 font-bold mb-2 flex items-center gap-2">
+                <span>✅</span>
+                <span>Cross-App Access (Enterprise Data Scenario)</span>
+              </div>
+              <ul className="space-y-2 text-green-100 text-xs">
+                <li className="flex items-start gap-2">
+                  <span className="text-green-400">•</span>
+                  <span><strong className="text-white">Company owns the data</strong> (NCAA stats are enterprise assets)</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-green-400">•</span>
+                  <span>IT pre-configures: "NCAA Chatbot is allowed to access Stats Server"</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-green-400">•</span>
+                  <span>User is <strong className="text-white">authenticated</strong> (proven identity), not <strong className="text-white">consenting</strong> (granting permission)</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-green-400">•</span>
+                  <span>The JWT Assertion (ID-JAG) is <strong className="text-white">cryptographically signed by Okta</strong></span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-green-400">•</span>
+                  <span>Stats Server trusts Okta's signature = <strong className="text-green-200">Enterprise-level trust</strong></span>
+                </li>
+              </ul>
+            </div>
+
+            {/* Key Difference Callout */}
+            <div className="bg-gradient-to-r from-amber-900/40 to-amber-800/40 border-2 border-amber-500/60 rounded-lg p-4">
+              <div className="text-amber-200 font-bold mb-2 text-center">🎯 Key Difference</div>
+              <div className="space-y-1 text-xs text-amber-100">
+                <div className="flex items-center justify-center gap-3">
+                  <span className="text-red-300 font-semibold">Personal Data</span>
+                  <span className="text-amber-400">→</span>
+                  <span className="text-white">User consent required</span>
+                </div>
+                <div className="flex items-center justify-center gap-3">
+                  <span className="text-green-300 font-semibold">Enterprise Data</span>
+                  <span className="text-amber-400">→</span>
+                  <span className="text-white">IT policy enforced by IdP</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 

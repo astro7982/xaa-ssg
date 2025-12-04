@@ -8,7 +8,9 @@ import XAAFlowVisualizer from '@/components/XAAFlowVisualizer'
 import ConsentSimulator from '@/components/ConsentSimulator'
 import SessionMetrics from '@/components/SessionMetrics'
 import DemoModeToggle from '@/components/DemoModeToggle'
+import SessionTimeoutWarning from '@/components/SessionTimeoutWarning'
 import { useDemoMode } from '@/lib/demo-mode-context'
+import { useSessionTimeout } from '@/lib/use-session-timeout'
 import { initializeXAAFlow, storeIDJag, storeAccessToken } from '@/lib/xaa-token-store'
 
 interface Message {
@@ -34,6 +36,12 @@ export default function Home() {
     accessToken?: string
     cachedAt?: number
   } | null>(null)
+
+  // Session timeout - auto sign out after 30 minutes of inactivity
+  const { showWarning, dismissWarning, remainingMinutes } = useSessionTimeout({
+    timeoutMinutes: 30,
+    warningMinutes: 2,
+  })
 
   // Redirect to sign-in if not authenticated
   useEffect(() => {
@@ -109,6 +117,18 @@ export default function Home() {
       await executeQuery(pendingMessage)
       setPendingMessage(null)
     }
+  }
+
+  const handleConsentCancel = () => {
+    setShowConsentSimulator(false)
+    setPendingMessage(null)
+    // Add a system message showing the authorization was cancelled
+    setMessages(prev => [...prev, {
+      id: Date.now().toString(),
+      role: 'system',
+      content: '❌ Authorization cancelled by user. Query was not executed.',
+      timestamp: Date.now()
+    }])
   }
 
   const executeQuery = async (content: string) => {
@@ -267,9 +287,19 @@ export default function Home() {
 
   return (
     <main className="h-screen overflow-hidden p-6">
+      {/* Session Timeout Warning */}
+      <SessionTimeoutWarning
+        show={showWarning}
+        remainingMinutes={remainingMinutes}
+        onDismiss={dismissWarning}
+      />
+
       {/* Consent Simulator Overlay (Traditional OAuth mode only) */}
       {showConsentSimulator && (
-        <ConsentSimulator onComplete={handleConsentComplete} />
+        <ConsentSimulator
+          onComplete={handleConsentComplete}
+          onCancel={handleConsentCancel}
+        />
       )}
 
       <div className="max-w-7xl mx-auto h-full flex flex-col gap-4">

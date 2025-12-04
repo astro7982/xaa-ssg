@@ -103,12 +103,22 @@ Okta validates:
     ↓
 Okta issues ID-JAG (JWT Assertion) - cryptographically signed
     ↓
-Chatbot → Salesforce: "Here's my ID-JAG from Okta"
+Chatbot → Custom Authorization Server: "Here's my ID-JAG from Okta"
     ↓
-Salesforce validates ID-JAG signature → Issues access token
+Custom Authorization Server validates:
+  ✓ ID-JAG signature (came from trusted Okta IdP)
+  ✓ ID-JAG claims (user identity, permissions)
+  ✓ Authorization policies
+    ↓
+Custom Authorization Server issues Access Token
+    ↓
+Chatbot → Salesforce API (via MCP): Sends access token with request
+    ↓
+Salesforce API validates access token → Returns data
     ↓
 ✅ ZERO CONSENT SCREENS
 ✅ Full IdP visibility
+✅ Custom Authorization Server protects ALL API access
 ✅ Centralized token management
 ✅ Works for background AI agents
 ```
@@ -124,6 +134,60 @@ Salesforce validates ID-JAG signature → Issues access token
 | **Scales Infinitely** | 50 integrations = 0 consent screens (not 50!) |
 | **MFA Enforcement** | Okta validates authentication context for every request |
 | **Complete Audit Trail** | All cross-app access logged in Okta |
+
+### 🔐 What Protects the MCP Server?
+
+**Critical Security Layer:** A Custom Authorization Server ALWAYS sits between the chatbot and the MCP server in BOTH Traditional OAuth and XAA modes.
+
+#### The Architecture (Both Modes):
+
+```
+Chatbot → Custom Authorization Server → MCP Server (Protected Resource)
+             (Token Gatekeeper)
+```
+
+#### What the Custom Authorization Server Does:
+
+| Function | Why It Matters |
+|----------|----------------|
+| **Validates Tokens** | Ensures only authorized requests reach the MCP server |
+| **Issues Access Tokens** | Controls WHO can access WHAT data |
+| **Enforces Policies** | Applies business rules (time-based access, data scoping, etc.) |
+| **Protects APIs** | MCP server requires valid token for ALL requests - no token, no data |
+| **Logs Access** | Complete audit trail of who accessed what, when |
+
+#### The Key Difference Between Modes:
+
+**Traditional OAuth:**
+- Custom Authorization Server issues tokens **AFTER user clicks "Allow" on consent screen**
+- Token issued based on **user consent**
+- Every integration = new consent screen
+
+**Cross-App Access (XAA):**
+- Custom Authorization Server issues tokens **AFTER validating ID-JAG from Okta**
+- Token issued based on **enterprise trust** (cryptographically signed ID-JAG)
+- Zero consent screens - IT pre-configured the trust relationship
+
+**What Stays the Same:**
+- Custom Authorization Server ALWAYS protects the MCP server
+- MCP server ALWAYS requires access token
+- Access tokens ALWAYS come from Custom Authorization Server
+
+#### Why This Matters:
+
+**Without Custom Authorization Server:** Direct API access = security nightmare
+- No centralized control over who accesses what
+- No audit trail
+- Can't revoke access globally
+- Can't enforce enterprise policies
+
+**With Custom Authorization Server:** Centralized security control
+- ✅ Single point of policy enforcement
+- ✅ Complete audit trail
+- ✅ Global token revocation
+- ✅ Enterprise-wide access management
+
+**Bottom Line:** The Custom Authorization Server is the SECURITY GATEKEEPER. It exists in both Traditional OAuth and XAA - the only difference is HOW it authorizes token issuance (user consent vs. ID-JAG validation).
 
 ## 🎭 Demo Flow (5 Minutes)
 

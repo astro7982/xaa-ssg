@@ -68,6 +68,74 @@ export default function TraditionalOAuthInspector() {
           </button>
         </div>
 
+        {/* Architecture Section */}
+        <div className="bg-gradient-to-br from-blue-900/40 via-blue-800/40 to-blue-900/40 rounded-lg border-4 border-blue-500 p-6">
+          <div className="flex items-center gap-2 mb-4">
+            <span className="text-2xl">📐</span>
+            <h2 className="text-xl font-bold text-blue-200 uppercase tracking-wide">Architecture</h2>
+          </div>
+
+          <div className="flex flex-col items-center space-y-3 max-w-xl mx-auto">
+            {/* NCAA Chatbot */}
+            <div className="bg-blue-600/30 border-2 border-blue-400 rounded-lg p-4 w-full">
+              <div className="text-center">
+                <div className="text-4xl mb-2">🤖</div>
+                <div className="text-lg font-bold text-blue-200 mb-1">NCAA Stats AI Chatbot</div>
+                <div className="text-sm text-blue-300 font-semibold">(Requesting Application)</div>
+                <div className="text-xs text-gray-400 mt-2">Needs access to proprietary stats data</div>
+              </div>
+            </div>
+
+            {/* Arrow + User Consent */}
+            <div className="flex flex-col items-center">
+              <div className="text-blue-300 text-3xl">↓</div>
+              <div className="text-xs text-red-300 font-bold bg-red-900/50 px-3 py-1 rounded-full border-2 border-red-500/60">
+                ❌ OAuth Flow (Manual Consent Screen Required)
+              </div>
+              <div className="text-blue-300 text-3xl">↓</div>
+            </div>
+
+            {/* Custom Authorization Server */}
+            <div className="bg-purple-600/30 border-2 border-purple-400 rounded-lg p-4 w-full">
+              <div className="text-center">
+                <div className="text-4xl mb-2">🔑</div>
+                <div className="text-lg font-bold text-purple-200 mb-1">Custom Authorization Server</div>
+                <div className="text-sm text-purple-300 font-semibold">(Protects Resource Application)</div>
+                <div className="text-xs text-gray-400 mt-2">Issues access token after user consent</div>
+              </div>
+            </div>
+
+            {/* Arrow + MCP Protocol */}
+            <div className="flex flex-col items-center">
+              <div className="text-blue-300 text-3xl">↓</div>
+              <div className="text-xs text-blue-200 font-semibold bg-blue-900/50 px-3 py-1 rounded-full border border-blue-500/40">
+                Model Context Protocol (MCP) with access token
+              </div>
+              <div className="text-blue-300 text-3xl">↓</div>
+            </div>
+
+            {/* Stats Server */}
+            <div className="bg-orange-600/30 border-2 border-orange-400 rounded-lg p-4 w-full">
+              <div className="text-center">
+                <div className="text-4xl mb-2">📊</div>
+                <div className="text-lg font-bold text-orange-200 mb-1">Proprietary Stats Server</div>
+                <div className="text-sm text-orange-300 font-semibold">(Protected Resource - MCP Protocol)</div>
+                <div className="text-xs text-gray-400 mt-2">Validates access token, returns data</div>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-4 p-3 bg-amber-900/30 border border-amber-500/40 rounded-md">
+            <p className="text-xs text-amber-200 flex items-start gap-2">
+              <span>💡</span>
+              <span>
+                <strong>Key Point:</strong> The stats data is <strong>owned by the enterprise</strong>, not individual users.
+                IT should control access centrally via IdP, but Traditional OAuth bypasses this control with direct consent screens.
+              </span>
+            </p>
+          </div>
+        </div>
+
         {/* User Impact Metrics */}
         <div className="grid grid-cols-3 gap-4">
           <div className="bg-red-900/30 border-2 border-red-500/40 rounded-lg p-4 text-center">

@@ -17,6 +17,37 @@ export default function SessionMetrics() {
       animate={{ opacity: 1, y: 0 }}
       className="bg-red-900/30 border-2 border-red-500/40 rounded-lg p-4 h-full overflow-y-auto"
     >
+      {/* Architecture Diagram */}
+      <div className="bg-blue-900/30 border-2 border-blue-500/40 rounded-lg p-4 mb-3">
+        <div className="text-xs font-bold text-blue-200 mb-3 uppercase tracking-wide">
+          📐 Architecture
+        </div>
+        <div className="space-y-2">
+          <div className="bg-blue-600/30 border border-blue-400/40 rounded-md p-2">
+            <div className="text-xs font-semibold text-blue-300">🤖 NCAA Stats AI Chatbot</div>
+            <div className="text-xs text-blue-200">(Requesting Application)</div>
+          </div>
+
+          <div className="flex items-center justify-center">
+            <div className="text-red-300 text-xs font-bold">↓ OAuth Flow (Consent Required) ↓</div>
+          </div>
+
+          <div className="bg-purple-600/30 border border-purple-400/40 rounded-md p-2">
+            <div className="text-xs font-semibold text-purple-300">🔑 Custom Authorization Server</div>
+            <div className="text-xs text-purple-200">(Protects Resource Application)</div>
+          </div>
+
+          <div className="flex items-center justify-center">
+            <div className="text-gray-400 text-xs">↓ MCP Protocol ↓</div>
+          </div>
+
+          <div className="bg-orange-600/30 border border-orange-400/40 rounded-md p-2">
+            <div className="text-xs font-semibold text-orange-300">📊 Proprietary Stats Server</div>
+            <div className="text-xs text-orange-200">(Protected Resource)</div>
+          </div>
+        </div>
+      </div>
+
       <div className="flex items-center gap-2 mb-3">
         <span className="text-xl">⚠️</span>
         <h3 className="text-sm font-bold text-red-200 uppercase tracking-wide">

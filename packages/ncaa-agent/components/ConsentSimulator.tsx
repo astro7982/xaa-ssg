@@ -27,9 +27,10 @@ const CONSENT_SCREENS: ConsentScreen[] = [
 
 interface Props {
   onComplete: () => void
+  onCancel: () => void
 }
 
-export default function ConsentSimulator({ onComplete }: Props) {
+export default function ConsentSimulator({ onComplete, onCancel }: Props) {
   const [currentScreen, setCurrentScreen] = useState(0)
   const [isProcessing, setIsProcessing] = useState(false)
   const [hasTrackedInitial, setHasTrackedInitial] = useState(false)
@@ -72,11 +73,8 @@ export default function ConsentSimulator({ onComplete }: Props) {
 
   const handleCancel = () => {
     incrementClicks()
-    // In a real scenario, this would cancel the flow
-    // For demo purposes, we'll just allow it anyway after a moment
-    setTimeout(() => {
-      onComplete()
-    }, 500)
+    // Cancel the authorization - don't execute the query
+    onCancel()
   }
 
   const screen = CONSENT_SCREENS[currentScreen]
@@ -92,24 +90,49 @@ export default function ConsentSimulator({ onComplete }: Props) {
           className="bg-white rounded-lg shadow-2xl max-w-md w-full mx-4"
         >
           {/* Header */}
-          <div className="bg-gradient-to-r from-blue-600 to-blue-700 px-6 py-4 rounded-t-lg">
+          <div className="bg-gradient-to-r from-orange-600 to-red-600 px-6 py-4 rounded-t-lg">
             <div className="flex items-center gap-3">
-              <div className="text-4xl">{screen.icon}</div>
+              <div className="text-3xl">🏢</div>
               <div>
-                <h2 className="text-xl font-bold text-white">{screen.appName}</h2>
-                <p className="text-blue-100 text-sm">Authorization Required</p>
+                <h2 className="text-lg font-bold text-white">ENTERPRISE DATA ACCESS REQUEST</h2>
+                <p className="text-orange-100 text-xs">Traditional OAuth Authorization</p>
               </div>
             </div>
           </div>
 
           {/* Body */}
           <div className="p-6">
-            {/* App wants access message */}
-            <div className="mb-4 p-3 bg-yellow-50 border border-yellow-200 rounded-md">
-              <p className="text-sm text-yellow-800 flex items-start gap-2">
-                <span className="text-lg">⚠️</span>
+            {/* Architecture Flow */}
+            <div className="mb-4 p-4 bg-blue-50 border-2 border-blue-300 rounded-md">
+              <div className="text-center space-y-3">
+                <div className="flex flex-col items-center">
+                  <div className="bg-blue-600 text-white px-4 py-2 rounded-lg font-semibold text-sm">
+                    🤖 NCAA Stats AI Chatbot
+                  </div>
+                  <div className="text-xs text-blue-600 font-medium mt-1">(Requesting Application)</div>
+                </div>
+
+                <div className="text-blue-600 text-2xl">↓</div>
+                <div className="text-xs text-gray-600 font-medium">wants to access</div>
+                <div className="text-blue-600 text-2xl">↓</div>
+
+                <div className="flex flex-col items-center">
+                  <div className="bg-orange-600 text-white px-4 py-2 rounded-lg font-semibold text-sm flex items-center gap-2">
+                    {screen.icon} {screen.appName}
+                  </div>
+                  <div className="text-xs text-orange-600 font-medium mt-1">(Resource Application)</div>
+                  <div className="text-xs text-gray-500 mt-1 font-medium">Enterprise-Managed Proprietary Data</div>
+                </div>
+              </div>
+            </div>
+
+            {/* Enterprise Data Warning + IT Visibility Combined */}
+            <div className="mb-4 p-3 bg-amber-50 border-2 border-amber-400 rounded-md">
+              <p className="text-xs text-amber-900 flex items-start gap-2">
+                <span className="text-base">🏢</span>
                 <span>
-                  <strong>{screen.appName}</strong> wants to access your data
+                  <strong>This is COMPANY-OWNED data</strong> (not personal user data).
+                  IT should manage this centrally, but <strong>has NO VISIBILITY</strong> with Traditional OAuth.
                 </span>
               </p>
             </div>
@@ -117,38 +140,16 @@ export default function ConsentSimulator({ onComplete }: Props) {
             {/* Permissions list */}
             <div className="mb-4">
               <p className="text-sm font-semibold text-gray-700 mb-2">
-                This application will be able to:
+                The chatbot will access:
               </p>
-              <ul className="space-y-2">
+              <ul className="space-y-1">
                 {screen.permissions.map((permission, idx) => (
-                  <li key={idx} className="flex items-start gap-2 text-sm text-gray-600">
+                  <li key={idx} className="flex items-start gap-2 text-xs text-gray-600">
                     <span className="text-green-600 mt-0.5">✓</span>
                     <span>{permission}</span>
                   </li>
                 ))}
               </ul>
-            </div>
-
-            {/* Warning about no IdP visibility */}
-            <div className="mb-4 p-3 bg-red-50 border border-red-200 rounded-md">
-              <p className="text-xs text-red-700 flex items-start gap-2">
-                <span>🔓</span>
-                <span>
-                  Your IT admin has <strong>no visibility</strong> into this authorization.
-                  Tokens will be stored directly in the application.
-                </span>
-              </p>
-            </div>
-
-            {/* Agent Automation Warning */}
-            <div className="mb-4 p-3 bg-purple-50 border border-purple-200 rounded-md">
-              <p className="text-xs text-purple-800 flex items-start gap-2">
-                <span>🤖</span>
-                <span>
-                  <strong>Imagine this with an AI agent:</strong> Every API integration requires manual consent.
-                  For automated workflows making hundreds of calls, this becomes impossible.
-                </span>
-              </p>
             </div>
 
             {/* Buttons */}

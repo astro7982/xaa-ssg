@@ -245,7 +245,7 @@ This NCAA Stats AI demo demonstrates **real XAA in action:**
 │  ┌──────────────────────────────────────────────────────────────────┐  │
 │  │  MCP Client (Model Context Protocol)                             │  │
 │  │  • Spawns MCP Server as subprocess                               │  │
-│  │  • JSON-RPC communication                                        │  │
+│  │  • JSON-RPC communication with OAuth access tokens              │  │
 │  └──────────────────────────────────────────────────────────────────┘  │
 │  ┌──────────────────────────────────────────────────────────────────┐  │
 │  │  Claude AI Integration                                           │  │
@@ -255,21 +255,29 @@ This NCAA Stats AI demo demonstrates **real XAA in action:**
 └────┬──────────────────────┬────────────────────┬───────────────────────┘
      │                      │                    │
      │ ① OAuth Login       │ ② Token Exchange   │ ④ MCP Queries
+     │                      │                    │   (with access token)
      │                      │                    │
      ▼                      ▼                    ▼
 ┌─────────────┐    ┌──────────────────┐    ┌──────────────────────┐
-│   Okta IdP  │    │  Todo0 Auth      │    │  NCAA MCP Server     │
-│             │    │  Server          │    │  (Node.js)           │
+│   Okta IdP  │    │  Custom Auth     │    │  NCAA MCP Server     │
+│             │    │  Server (Todo0)  │    │  (Node.js)           │
 │ • Agent0    │    │                  │    │                      │
 │ • Todo0     │    │  Port: 5001      │    │  ┌────────────────┐  │
-│ • Managed   │◀──▶│                  │    │  │ NCAA Tools:    │  │
-│  Connections│    │  ③ JWT Bearer   │    │  │ • get_standings│  │
-│             │    │     Grant        │    │  │ • get_rankings │  │
-│ • Issues    │    │                  │    │  │ • get_games    │  │
-│   ID Tokens │    │  Issues Access   │    │  │ • get_stats    │  │
-│ • Issues    │    │  Tokens for MCP  │    │  └────────────────┘  │
-│   ID-JAG    │    │                  │    │                      │
-└─────────────┘    └──────────────────┘    │  ┌────────────────┐  │
+│ • Managed   │◀──▶│                  │    │  │ 🔒 PROTECTED   │  │
+│  Connections│    │  ③ JWT Bearer   │───▶│  │ Validates      │  │
+│             │    │     Grant        │    │  │ Access Tokens  │  │
+│ • Issues    │    │                  │    │  └────────────────┘  │
+│   ID Tokens │    │  Issues Access   │    │                      │
+│ • Issues    │    │  Tokens that     │    │  ┌────────────────┐  │
+│   ID-JAG    │    │  protect MCP     │    │  │ NCAA Tools:    │  │
+└─────────────┘    └──────────────────┘    │  │ • get_standings│  │
+                    ↑                      │  │ • get_rankings │  │
+                    │                      │  │ • get_games    │  │
+              🔐 SECURITY GATEKEEPER       │  │ • get_stats    │  │
+              • Validates ID-JAG (XAA)     │  └────────────────┘  │
+              • Issues after consent       │                      │
+                (Traditional OAuth)        │  ┌────────────────┐  │
+              • Protects ALL MCP access    │  │ Data Sources:  │  │
                                            │  │ Data Sources:  │  │
                                            │  │ • game_logs    │  │
                                            │  │ • standings    │  │
@@ -278,6 +286,50 @@ This NCAA Stats AI demo demonstrates **real XAA in action:**
                                            │  └────────────────┘  │
                                            └──────────────────────┘
 ```
+
+### 🔐 Security Architecture: What Protects the MCP Server?
+
+**Critical Component:** The **Custom Authorization Server** (Todo0) acts as a security gatekeeper between the chatbot and MCP server.
+
+#### The Protection Layer:
+
+```
+NCAA Chatbot → Custom Authorization Server → MCP Server
+                 (Token Gatekeeper)          (Protected Resource)
+```
+
+**The Custom Authorization Server:**
+- ✅ **Validates ALL Requests** - MCP server requires valid access token for every query
+- ✅ **Issues Access Tokens** - Controls who can access what data
+- ✅ **Enforces Policies** - Applies enterprise security rules
+- ✅ **Logs Access** - Complete audit trail of all MCP queries
+- ✅ **Protects in BOTH Modes** - Present in Traditional OAuth AND XAA
+
+**Key Difference Between Modes:**
+
+| | Traditional OAuth | Cross-App Access (XAA) |
+|---|---|---|
+| **Token Issuance** | After user consent | After ID-JAG validation |
+| **User Interaction** | Required (consent screen) | None (enterprise trust) |
+| **Authorization Basis** | User clicks "Allow" | Cryptographic ID-JAG from Okta |
+| **Custom Auth Server Role** | Issues token after consent | Issues token after ID-JAG validation |
+| **MCP Protection** | ✅ Always required | ✅ Always required |
+
+**Why This Matters:**
+
+Without Custom Authorization Server:
+- ❌ No centralized control over data access
+- ❌ No audit trail
+- ❌ Can't revoke access globally
+- ❌ Can't enforce enterprise policies
+
+With Custom Authorization Server:
+- ✅ Single point of policy enforcement
+- ✅ Complete audit trail
+- ✅ Global token revocation
+- ✅ Enterprise-wide access management
+
+**Bottom Line:** The Custom Authorization Server ALWAYS protects the MCP server in both Traditional OAuth and XAA modes. The only difference is HOW it authorizes access - user consent vs. enterprise trust (ID-JAG validation).
 
 ### XAA Token Flow (The 7 Steps)
 

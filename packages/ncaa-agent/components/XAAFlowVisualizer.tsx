@@ -1,60 +1,6 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { useState, useEffect } from 'react'
-
-export type XAAStep = {
-  id: string
-  label: string
-  description: string
-  status: 'pending' | 'in_progress' | 'completed' | 'error'
-  timestamp?: number
-}
-
-const XAA_STEPS: XAAStep[] = [
-  {
-    id: 'user_login',
-    label: '1. User Login',
-    description: 'Authenticating with Okta IdP...',
-    status: 'pending'
-  },
-  {
-    id: 'id_token',
-    label: '2. ID Token',
-    description: 'Received identity token',
-    status: 'pending'
-  },
-  {
-    id: 'token_exchange',
-    label: '3. Token Exchange',
-    description: 'Requesting cross-app access...',
-    status: 'pending'
-  },
-  {
-    id: 'id_jag',
-    label: '4. ID-JAG',
-    description: 'Enterprise approved connection',
-    status: 'pending'
-  },
-  {
-    id: 'access_request',
-    label: '5. Access Token',
-    description: 'Getting NCAA data access...',
-    status: 'pending'
-  },
-  {
-    id: 'mcp_query',
-    label: '6. MCP Query',
-    description: 'Fetching NCAA stats...',
-    status: 'pending'
-  },
-  {
-    id: 'data_returned',
-    label: '7. Data',
-    description: 'Query complete!',
-    status: 'pending'
-  }
-]
 
 interface Props {
   currentStep?: number
@@ -68,138 +14,127 @@ interface Props {
 }
 
 export default function XAAFlowVisualizer({ currentStep = 0, isActive = false, cachedTokens }: Props) {
-  const [steps, setSteps] = useState<XAAStep[]>(XAA_STEPS)
-  const [showTokens, setShowTokens] = useState(false)
-
-  useEffect(() => {
-    if (isActive && currentStep > 0) {
-      setSteps(prev =>
-        prev.map((step, index) => ({
-          ...step,
-          status: index < currentStep ? 'completed' : index === currentStep ? 'in_progress' : 'pending',
-          timestamp: index < currentStep ? Date.now() : undefined
-        }))
-      )
-    } else {
-      setSteps(XAA_STEPS)
-    }
-  }, [currentStep, isActive])
-
-  const tokenAge = cachedTokens?.cachedAt ? Math.floor((Date.now() - cachedTokens.cachedAt) / 1000) : 0
-
   return (
-    <div className="bg-scoreboard rounded-lg p-6 scoreboard-glow border border-scoreboard-orange/20 h-full overflow-y-auto">
-      <div className="flex items-center gap-2 mb-6">
-        <div className="w-3 h-3 rounded-full bg-scoreboard-orange animate-pulse" />
-        <h2 className="text-xl font-athletic text-white uppercase tracking-wider">
-          🔐 XAA Flow Monitor
+    <div className="bg-green-900/20 border-2 border-green-500/40 rounded-lg p-3 h-full overflow-y-auto">
+      {/* Header */}
+      <div className="flex items-center gap-2 mb-2">
+        <span className="text-xl">✅</span>
+        <h2 className="text-sm font-bold text-green-200 uppercase tracking-wide">
+          Cross-App Access Benefits
         </h2>
       </div>
 
-      <div className="space-y-3">
-        {steps.map((step, index) => (
-          <motion.div
-            key={step.id}
-            initial={{ opacity: 0, x: -20 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ delay: index * 0.1 }}
-            className={`
-              p-4 rounded-md border-l-4 transition-all duration-300
-              ${step.status === 'completed' ? 'border-green-500 bg-green-500/10' : ''}
-              ${step.status === 'in_progress' ? 'border-scoreboard-orange bg-scoreboard-orange/10 token-pulse' : ''}
-              ${step.status === 'pending' ? 'border-gray-600 bg-gray-800/30' : ''}
-              ${step.status === 'error' ? 'border-red-500 bg-red-500/10' : ''}
-            `}
-          >
-            <div className="flex items-start justify-between">
-              <div className="flex-1">
-                <div className="flex items-center gap-2">
-                  <span className={`
-                    text-sm font-scoreboard
-                    ${step.status === 'completed' ? 'text-green-400' : ''}
-                    ${step.status === 'in_progress' ? 'text-scoreboard-orange' : ''}
-                    ${step.status === 'pending' ? 'text-gray-500' : ''}
-                  `}>
-                    {step.label}
-                  </span>
-                  {step.status === 'in_progress' && (
-                    <motion.div
-                      animate={{ rotate: 360 }}
-                      transition={{ duration: 1, repeat: Infinity, ease: 'linear' }}
-                      className="w-4 h-4 border-2 border-scoreboard-orange border-t-transparent rounded-full"
-                    />
-                  )}
-                  {step.status === 'completed' && (
-                    <span className="text-green-400">✓</span>
-                  )}
-                </div>
-                <p className="text-xs text-gray-400 mt-1">{step.description}</p>
-              </div>
-            </div>
-          </motion.div>
-        ))}
-      </div>
+      {/* Architecture Section */}
+      <div className="bg-blue-900/30 border border-blue-500/40 rounded-lg p-2 mb-2">
+        <div className="text-xs font-bold text-blue-200 mb-2 uppercase tracking-wide">
+          📐 Architecture
+        </div>
+        <div className="space-y-2">
+          <div className="bg-blue-600/30 border border-blue-400/40 rounded-md p-2">
+            <div className="text-xs font-semibold text-blue-300">🤖 NCAA Stats AI Chatbot</div>
+            <div className="text-xs text-blue-200">(Requesting Application - Agent0)</div>
+          </div>
 
-      {/* Security Warning Section */}
-      {cachedTokens && (
-        <div className="mt-6 pt-6 border-t border-red-500/30">
-          <div className="bg-red-500/10 border border-red-500/30 rounded-lg p-4">
-            <div className="flex items-start gap-2 mb-2">
-              <span className="text-red-400 text-lg">⚠️</span>
-              <div className="flex-1">
-                <h3 className="text-red-400 font-bold text-sm">SECURITY RISK</h3>
-                <p className="text-red-300/80 text-xs mt-1">
-                  Token stored in browser memory - UNPROTECTED
-                </p>
-              </div>
-            </div>
-            <div className="mt-3 space-y-1 text-xs text-gray-400">
-              <div className="flex items-center gap-2">
-                <span className="w-2 h-2 rounded-full bg-red-500" />
-                <span>Exposed for {tokenAge}s</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <span className="w-2 h-2 rounded-full bg-red-500" />
-                <span>Vulnerable to XSS attacks</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <span className="w-2 h-2 rounded-full bg-red-500" />
-                <span>No encryption or vault</span>
-              </div>
-            </div>
+          <div className="flex items-center justify-center">
+            <div className="text-gray-400 text-xs">↓ requests ID-JAG from ↓</div>
+          </div>
 
-            <button
-              onClick={() => setShowTokens(!showTokens)}
-              className="mt-3 w-full px-3 py-2 bg-red-500/20 hover:bg-red-500/30 text-red-300 hover:text-red-200
-                text-xs rounded border border-red-500/40 hover:border-red-500/60 transition-all"
-            >
-              {showTokens ? '🔒 Hide Tokens' : '👁️ View Exposed Tokens'}
-            </button>
+          <div className="bg-okta-blue/30 border-2 border-okta-blue rounded-md p-2">
+            <div className="text-xs font-bold text-white">🔐 Okta Identity Provider</div>
+            <div className="text-xs text-gray-300">Issues cryptographically signed ID-JAG</div>
+          </div>
 
-            {showTokens && cachedTokens && (
-              <div className="mt-4 space-y-3">
-                {cachedTokens.accessToken && (
-                  <div className="bg-black/30 rounded p-3">
-                    <div className="flex items-center gap-2 mb-2">
-                      <span className="text-xs text-red-400 font-bold">ACCESS TOKEN</span>
-                      <span className="text-xs text-red-300">⚠️ UNPROTECTED</span>
-                    </div>
-                    <div className="text-xs text-gray-300 font-mono break-all">
-                      {cachedTokens.accessToken.substring(0, 50)}...
-                    </div>
-                  </div>
-                )}
-              </div>
-            )}
+          <div className="flex items-center justify-center">
+            <div className="text-gray-400 text-xs">↓ exchanges ID-JAG ↓</div>
+          </div>
+
+          <div className="bg-purple-600/30 border border-purple-400/40 rounded-md p-2">
+            <div className="text-xs font-semibold text-purple-300">🔑 Custom Authorization Server</div>
+            <div className="text-xs text-purple-200">(Protects Resource Application)</div>
+          </div>
+
+          <div className="flex items-center justify-center">
+            <div className="text-gray-400 text-xs">↓ via MCP Protocol ↓</div>
+          </div>
+
+          <div className="bg-orange-600/30 border border-orange-400/40 rounded-md p-2">
+            <div className="text-xs font-semibold text-orange-300">📊 NCAA Stats MCP Server</div>
+            <div className="text-xs text-orange-200">(Protected Resource)</div>
           </div>
         </div>
-      )}
+      </div>
+
+      {/* Why No Consent Screens */}
+      <div className="bg-purple-900/20 border border-purple-500/30 rounded-md p-2 mb-2">
+        <div className="flex items-start gap-2">
+          <span className="text-sm">💡</span>
+          <div>
+            <h3 className="text-xs font-bold text-purple-200 mb-1">Why No Consent Screens?</h3>
+            <p className="text-xs text-purple-200/90">
+              IT pre-configures trusted connections in Okta. The IdP validates enterprise policies
+              and issues signed ID-JAGs—no user intervention needed.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* Key Benefits */}
+      <div className="bg-green-900/20 border border-green-500/30 rounded-md p-2 mb-2">
+        <div className="text-xs font-bold text-green-200 mb-2">🎯 Key Benefits</div>
+        <div className="space-y-1.5">
+          <div className="flex items-start gap-2 text-xs text-green-200/90">
+            <span className="text-green-400">✓</span>
+            <span><strong>Zero User Friction:</strong> No consent screens</span>
+          </div>
+          <div className="flex items-start gap-2 text-xs text-green-200/90">
+            <span className="text-green-400">✓</span>
+            <span><strong>Full IdP Visibility:</strong> All access via Okta</span>
+          </div>
+          <div className="flex items-start gap-2 text-xs text-green-200/90">
+            <span className="text-green-400">✓</span>
+            <span><strong>Centralized Control:</strong> IT manages everything</span>
+          </div>
+          <div className="flex items-start gap-2 text-xs text-green-200/90">
+            <span className="text-green-400">✓</span>
+            <span><strong>AI Agent Ready:</strong> Works in background</span>
+          </div>
+          <div className="flex items-start gap-2 text-xs text-green-200/90">
+            <span className="text-green-400">✓</span>
+            <span><strong>Scales Infinitely:</strong> 50 apps = 0 popups</span>
+          </div>
+        </div>
+      </div>
+
+      {/* The Difference */}
+      <div className="bg-gray-900/40 border border-gray-500/30 rounded-md p-2">
+        <div className="text-xs font-bold text-gray-200 mb-1.5">⚖️ The Difference</div>
+        <div className="grid grid-cols-2 gap-2 text-xs">
+          <div>
+            <div className="font-semibold text-red-300 mb-1">Traditional OAuth</div>
+            <div className="space-y-0.5 text-red-200/80">
+              <div>❌ Manual consent screens</div>
+              <div>❌ No IdP visibility</div>
+              <div>❌ Token sprawl</div>
+              <div>❌ Breaks for AI agents</div>
+            </div>
+          </div>
+          <div>
+            <div className="font-semibold text-green-300 mb-1">Cross-App Access</div>
+            <div className="space-y-0.5 text-green-200/80">
+              <div>✅ Zero consent screens</div>
+              <div>✅ Full IdP control</div>
+              <div>✅ Centralized tokens</div>
+              <div>✅ Perfect for AI agents</div>
+            </div>
+          </div>
+        </div>
+      </div>
 
       {isActive && (
-        <div className="mt-4 pt-4 border-t border-gray-700">
-          <div className="flex items-center gap-2 text-xs text-gray-400">
-            <div className="w-2 h-2 rounded-full bg-okta-blue animate-pulse" />
-            <span>Secured by Okta Cross-App Access (XAA)</span>
+        <div className="mt-2 pt-2 border-t border-green-500/30">
+          <div className="flex items-center gap-2 text-xs text-green-300">
+            <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
+            <span>Active - Secured by Okta Cross-App Access</span>
           </div>
         </div>
       )}
