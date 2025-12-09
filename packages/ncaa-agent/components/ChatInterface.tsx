@@ -176,7 +176,9 @@ export default function ChatInterface({ onSendMessage, messages, isLoading = fal
                 {message.role === 'assistant' && (
                   <div className="flex items-center gap-2 mb-2 text-xs text-gray-400">
                     <span>🤖 AI Assistant</span>
-                    <span className="text-green-400">● Connected via XAA</span>
+                    <span className={mode === 'xaa' ? 'text-green-400' : 'text-orange-400'}>
+                      ● {mode === 'xaa' ? 'Connected via XAA' : 'Connected via Traditional OAuth'}
+                    </span>
                   </div>
                 )}
                 <div className="prose prose-invert prose-sm max-w-none">
